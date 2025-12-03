@@ -7,3 +7,9 @@ About this site
 ```{r}
 1 + 1
 ```
+
+
+```{r}
+runif(10)
+```
+
