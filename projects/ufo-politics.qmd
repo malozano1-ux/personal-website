@@ -2,7 +2,7 @@
 title: "UFO Sightings and Political Alignment in the U.S."
 subtitle: "What UFO sightings really mean"
 date: 2025-12-04
-categories: [Statistics, Data Science, Politics, Hypothesis Testing]
+categories: [Statistics, Politics, Hypothesis Testing]
 description: "Work in progress – exploring how state political alignment relates to UFO sighting frequency and narrative characteristics."
 image: "../images/projects/ufo.jpeg"
 ---
