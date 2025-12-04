@@ -1,11 +1,38 @@
 ---
 title: "Manuela Lozano"
+about:
+  template: trestles
+  image: profile_pic.jpg
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/malozano1-ux
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/manuela-lozano-395670299/
+    - icon: envelope
+      text: Email
+      href: "mailto:malozano1@g.ucla.edu"
+toc: false      
 ---
+  <div class="hero-text">
+  Hi, I'm Manuela 👋
 
-This is a Quarto website.
+  I am a Statistics & Data Science and Economics student at UCLA with a strong interest in data analytics, machine learning, and applied AI. I enjoy building end-to-end solutions that connect statistical modeling with real-world decision making.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+  What I work on
 
-```{r}
-1 + 1
-```
+  - Predictive models in **R** and **Python**
+  - Data visualization and dashboards with **SQL**, **Tableau**, and **Quarto**
+  - Projects in **CTR prediction**, **health analytics**, and **customer behavior**
+  - AI tools to improve how people interact with data and products
+
+  [Learn more about me →](about.qmd)
+  
+  [Take a look at some of my projects →](projects.qmd)
+  
+  [Learn about my experience →](cv.qmd)
+  
+  [How to contact me →](contact.qmd)
+  </div>
+</div>

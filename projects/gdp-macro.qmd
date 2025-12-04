@@ -1,0 +1,26 @@
+---
+title: "Macroeconomic Drivers of U.S. Nominal GDP"
+subtitle: "Multi-variable regression on 2004–2024 monthly data"
+date: 2025-03-13
+categories: [Economics, Time Series, Finance]
+description: "Regression relating nominal GDP to unemployment, inflation, interest rates, and money supply."
+image: "../images/projects/gdp.png"
+---
+
+This project fits multiple regression models linking nominal GDP to unemployment, inflation,
+the federal funds rate, money supply, and consumer confidence.
+
+We focus on:
+
+- Multicollinearity diagnostics (VIF)
+- AIC-based model selection
+- Residual and specification checks
+
+<iframe src="../gdp.pdf" width="100%" height="700px" style="border:none;">
+Your browser does not support embedded PDFs.  
+Please use the link above to download the file.
+</iframe>
+
+[Read full report (PDF)](../gdp.pdf)
+
+[← Back to Projects](../projects.html){.btn .btn-outline-primary}

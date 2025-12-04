@@ -1,0 +1,18 @@
+---
+title: "Projects"
+listing:
+  contents: projects
+  type: grid            # <-- GRID cards
+  sort: "date desc"     # default order
+  grid-columns: 3
+  grid-item-border: true
+  fields: [image, title, description, categories, date]
+  sort-ui: [date, title]              # shows “Order By” dropdown
+  filter-ui: [title, description, categories]  # search box
+  categories: true
+---
+
+Here are some of my academic and personal projects in statistics, econometrics, and data science.
+Click any project to read more or open the full report.
+
+[Learn about my experience →](cv.qmd)

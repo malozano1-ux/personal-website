@@ -1,0 +1,23 @@
+---
+title: "Alcohol, Music, Gender, and Oxytocin"
+subtitle: "A 3×2×2 factorial experiment on hormone response"
+date: 2025-06-15
+categories: [Statistics, Experimental Design]
+description: "Three-way ANOVA studying how alcohol type, music genre, and gender affect blood oxytocin levels."
+image: "../images/projects/acohol-oxytocin.jpeg"
+---
+
+This project uses a **3×2×2 factorial design** to test the effects of alcohol type, music genre,
+and gender on blood oxytocin levels. We fit a three-way ANOVA and check all model assumptions.
+
+- Gender explains ~99% of the variance in oxytocin response.
+- Alcohol type and music genre show no meaningful main or interaction effects.
+
+<iframe src="../alcohol_oxcytocin.pdf" width="100%" height="700px" style="border:none;">
+Your browser does not support embedded PDFs.  
+Please use the link above to download the file.
+</iframe>
+
+[Read full report (PDF)](../alcohol_oxcytocin.pdf)
+
+[← Back to Projects](../projects.html){.btn .btn-outline-primary}

@@ -1,0 +1,28 @@
+---
+title: "Panel Analysis of U.S. Cigarette Consumption"
+subtitle: "Fixed vs random effects using state-level panel data"
+date: 2025-06-05
+categories: [Econometrics, Panel Data]
+description: "Panel-data regression on 46 U.S. states from 1963–1992 to estimate price elasticity of cigarette demand."
+image: "../images/projects/cigarette.jpeg"
+---
+
+Using the **Cigar** dataset, this project models per-capita cigarette sales across 46 states from 1963–1992.
+
+We compare:
+
+- Pooled OLS
+- Fixed effects
+- Random effects
+
+The Hausman test and F-tests support the **fixed effects model**, which we use to estimate price
+elasticity and discuss taxation policy implications.
+
+<iframe src="../cigarette.pdf" width="100%" height="700px" style="border:none;">
+Your browser does not support embedded PDFs.  
+Please use the link above to download the file.
+</iframe>
+
+[Read full report (PDF)](../cigarette.pdf)
+
+[← Back to Projects](../projects.html){.btn .btn-outline-primary}

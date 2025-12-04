@@ -1,0 +1,22 @@
+---
+title: "UFO Sightings and Political Alignment in the U.S."
+subtitle: "What UFO sightings really mean"
+date: 2025-12-04
+categories: [Statistics, Data Science, Politics, Hypothesis Testing]
+description: "Work in progress – exploring how state political alignment relates to UFO sighting frequency and narrative characteristics."
+image: "../images/projects/ufo.jpeg"
+---
+
+> **Status:** Work in progress
+
+This project analyzes UFO sighting records from the National UFO Reporting Center to study whether **state political alignment** is associated with differences in sighting frequency.
+
+Early results show:
+
+- Democratic-leaning states tend to report **higher average sightings**.  
+- Mann–Whitney, chi-square, and Poisson regression all support this pattern.  
+- Narrative descriptions and sighting characteristics (shape, duration) appear **similar** across political groups.
+
+Upcoming work includes adjusting for population, incorporating additional state-level covariates, and expanding the text analysis of witness narratives.
+
+[← Back to Projects](../projects.html){.btn .btn-outline-primary}

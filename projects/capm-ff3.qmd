@@ -1,0 +1,24 @@
+---
+title: "CAPM vs Fama–French 3-Factor Model"
+subtitle: "Explaining stock returns with factor models"
+date: 2024-03-16
+categories: [Statistics, Finance, Asset Pricing]
+description: "Comparison of CAPM and Fama–French 3-factor model for a set of equities."
+image: "../images/projects/capm-ff3.jpeg"
+---
+
+We compare how well **CAPM** and the **Fama–French 3-factor model** explain excess returns of a
+set of equities relative to a market index.
+
+- Estimate factor loadings and risk premia
+- Compare model fit and residual patterns
+- Discuss which model better captures cross-sectional return differences
+
+<iframe src="../CAPM_FF3.pdf" width="100%" height="700px" style="border:none;">
+Your browser does not support embedded PDFs.  
+Please use the link above to download the file.
+</iframe>
+
+[Read full report (PDF)](../CAPM_FF3.pdf)
+
+[← Back to Projects](../projects.html){.btn .btn-outline-primary}

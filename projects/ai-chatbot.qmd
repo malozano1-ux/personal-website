@@ -1,0 +1,15 @@
+---
+title: "AI Chatbot for Investment Education"
+subtitle: "LLM + RAG for client-facing financial education"
+date: 2025-11-25
+categories: [AI, NLP, FinTech]
+description: "Work in progress – an LLM-powered chatbot with retrieval-augmented generation for an investment platform."
+image: "../images/projects/ai-chatbot.jpeg"
+---
+
+> **Status:** Work in progress
+
+Developing a multi-agent, LLM-powered chatbot that uses retrieval-augmented generation to answer
+client questions for an investment platform, focusing on safe, compliant educational responses.
+
+[← Back to Projects](../projects.html){.btn .btn-outline-primary}

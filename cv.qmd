@@ -1,0 +1,19 @@
+---
+title: "Resume"
+format:
+  html:
+    toc: false
+---
+
+You can view or download my Resume here:
+
+[Download Resume (PDF)](cv.pdf)
+
+<iframe src="cv.pdf" width="100%" height="700px" style="border:none;">
+Your browser does not support embedded PDFs.  
+Please use the link above to download the CV.
+</iframe>
+
+[Take a look at some of my projects →](projects.qmd)
+
+[Home →](index.qmd)
