@@ -14,76 +14,6 @@
     "text": "Hi, I’m Manuela 👋\nI am a Statistics & Data Science and Economics student at UCLA with a strong interest in data analytics, machine learning, and applied AI. I enjoy building end-to-end solutions that connect statistical modeling with real-world decision making.\nWhat I work on\n\nPredictive models in R and Python\nData visualization and dashboards with SQL, Tableau, and Quarto\nProjects in CTR prediction, health analytics, and customer behavior\nAI tools to improve how people interact with data and products\n\nLearn more about me →\nTake a look at some of my projects →\nLearn about my experience →\nHow to contact me →"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact Information",
-    "section": "",
-    "text": "Feel free to reach out for collaboration, questions, or opportunities.\n\n📍 Based in Los Angeles, CA\n\n📧 Email: malozano1@g.ucla.edu\n\n💼 LinkedIn: linkedin.com\n🧪 GitHub: github.com/malozano1-ux\n\nHome"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Here are some of my academic and personal projects in statistics, econometrics, and data science. Click any project to read more or open the full report.\nLearn about my experience →\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nUFO Sightings and Political Alignment in the U.S.\n\n\n\nStatistics\n\nData Science\n\nPolitics\n\nHypothesis Testing\n\n\n\nWork in progress – exploring how state political alignment relates to UFO sighting frequency and narrative characteristics.\n\n\n\nDec 4, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nClick-Through Rate (CTR) Prediction\n\n\n\nStatistics\n\nMachine Learning\n\nMarketing\n\nAI\n\n\n\nWork in progress – building models to predict ad click-through using rich behavioral data.\n\n\n\nDec 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI Chatbot for Investment Education\n\n\n\nAI\n\nNLP\n\nFinTech\n\n\n\nWork in progress – an LLM-powered chatbot with retrieval-augmented generation for an investment platform.\n\n\n\nNov 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSkin Cancer Risk Prediction\n\n\n\nStatistics\n\nData Mining\n\nHealth Analytics\n\nClassification\n\n\n\nWork in progress – predictive modeling of skin cancer risk using clinical and lifestyle data.\n\n\n\nNov 20, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlcohol, Music, Gender, and Oxytocin\n\n\n\nStatistics\n\nExperimental Design\n\n\n\nThree-way ANOVA studying how alcohol type, music genre, and gender affect blood oxytocin levels.\n\n\n\nJun 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nPanel Analysis of U.S. Cigarette Consumption\n\n\n\nEconometrics\n\nPanel Data\n\n\n\nPanel-data regression on 46 U.S. states from 1963–1992 to estimate price elasticity of cigarette demand.\n\n\n\nJun 5, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nMacroeconomic Drivers of U.S. Nominal GDP\n\n\n\nEconomics\n\nTime Series\n\nFinance\n\n\n\nRegression relating nominal GDP to unemployment, inflation, interest rates, and money supply.\n\n\n\nMar 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nCAPM vs Fama–French 3-Factor Model\n\n\n\nStatistics\n\nFinance\n\nAsset Pricing\n\n\n\nComparison of CAPM and Fama–French 3-factor model for a set of equities.\n\n\n\nMar 16, 2024\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects.html#click-through-rate-ctr-prediction",
-    "href": "projects.html#click-through-rate-ctr-prediction",
-    "title": "Projects",
-    "section": "Click-Through Rate (CTR) Prediction",
-    "text": "Click-Through Rate (CTR) Prediction\nBuilt machine learning models in R and Python to predict ad click-through rates using a large digital marketing dataset with user, ad, and news-feed features.\n\nCompared logistic regression, tree-based models, and gradient boosting\nEvaluated models using AUC, recall, precision, and F1\nImplemented feature engineering and cross-validation"
-  },
-  {
-    "objectID": "projects.html#skin-cancer-prediction",
-    "href": "projects.html#skin-cancer-prediction",
-    "title": "Projects",
-    "section": "Skin Cancer Prediction",
-    "text": "Skin Cancer Prediction\nDeveloped statistical learning models to predict skin cancer using clinical and behavioral variables.\n\nUsed logistic regression with regularization (LASSO, ridge)\nPerformed model selection and cross-validation\nCommunicated findings through visualizations and a written report"
-  },
-  {
-    "objectID": "projects.html#ai-chatbot-for-investment-education",
-    "href": "projects.html#ai-chatbot-for-investment-education",
-    "title": "Projects",
-    "section": "AI Chatbot for Investment Education",
-    "text": "AI Chatbot for Investment Education\nDesigned an AI-powered chatbot to answer client questions for an investment platform.\n\nIntegrated large language models with WhatsApp via API\nImplemented retrieval-augmented generation (RAG) using company resources\nFocused on safe, educational responses compliant with regulations"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "I am an undergraduate at the University of California, Los Angeles (UCLA), double majoring in Statistics & Data Science and Economics. I love working at the intersection of analytics, technology, and business — especially where data-driven insights can enhance decision-making and real-world outcomes.\nMy academic work blends statistical modeling, machine learning, and applied econometrics with a strong interest in how data products are built, deployed, and used. Whether it’s developing predictive models, building dashboards, or designing generative-AI tools, I enjoy turning complex data problems into clear, actionable solutions."
-  },
-  {
-    "objectID": "about.html#beyond-academics",
-    "href": "about.html#beyond-academics",
-    "title": "About Me",
-    "section": "Beyond Academics",
-    "text": "Beyond Academics\nOutside the classroom, I am deeply involved in the UCLA community:\n\nResident Assistant (RA) — supporting residents, designing programming, and building inclusive communities\n\nLatin American Student Organization (LASO) — leadership roles focused on mentorship, cultural engagement, and event planning\n\nEngineers Without Borders (EWB) — supporting internal operations and member coordination\n\nActive involvement in other campus and professional organizations\n\nThese experiences have strengthened my communication, project management, and leadership skills, and they inspire me to bring empathy and structure into every team I work with."
-  },
-  {
-    "objectID": "projects.html#section",
-    "href": "projects.html#section",
-    "title": "Projects",
-    "section": "",
-    "text": "Download Resume (PDF)\n\nYour browser does not support embedded PDFs.&lt;br /&gt;\nPlease use the link above to download the CV."
-  },
-  {
-    "objectID": "about.html#core-interests",
-    "href": "about.html#core-interests",
-    "title": "About Me",
-    "section": "Core Interests",
-    "text": "Core Interests\n\nPredictive modeling and machine learning\n\nExperimental design and causal inference\n\nBusiness intelligence, data visualization, and reporting\n\nAI applications in finance, customer analytics, and operational automation\n\nUsing statistical thinking to solve interdisciplinary problems"
-  },
-  {
-    "objectID": "about.html#looking-ahead",
-    "href": "about.html#looking-ahead",
-    "title": "About Me",
-    "section": "Looking Ahead",
-    "text": "Looking Ahead\nI’m excited about opportunities that let me combine analytics, creativity, and technology — especially roles where I can contribute to data-driven products, scalable systems, or AI-enabled tools with real impact.\nLearn about my experience →\nTake a look at some of my projects →"
-  },
-  {
     "objectID": "projects/ctr.html",
     "href": "projects/ctr.html",
     "title": "Click-Through Rate (CTR) Prediction",
@@ -91,18 +21,18 @@
     "text": "Status: Work in progress\n\nModeling user click-through behavior using combined advertising and news-feed interaction data. Current work includes feature engineering, regularization, and gradient-boosting models with a focus on recall and F1 for imbalanced data.\n← Back to Projects"
   },
   {
-    "objectID": "projects/capm-ff3.html",
-    "href": "projects/capm-ff3.html",
-    "title": "CAPM vs Fama–French 3-Factor Model",
+    "objectID": "projects/skin-cancer.html",
+    "href": "projects/skin-cancer.html",
+    "title": "Skin Cancer Risk Prediction",
     "section": "",
-    "text": "We compare how well CAPM and the Fama–French 3-factor model explain excess returns of a set of equities relative to a market index.\n\nEstimate factor loadings and risk premia\nCompare model fit and residual patterns\nDiscuss which model better captures cross-sectional return differences\n\n\nYour browser does not support embedded PDFs.&lt;br /&gt;\nPlease use the link above to download the file.\n\nRead full report (PDF)\n← Back to Projects"
+    "text": "Status: Work in progress\n\nBuilding predictive models using demographic, clinical, and behavioral variables to estimate skin cancer risk. The project explores logistic regression with LASSO and ridge penalties, feature selection, cross-validation, and calibration checks.\n← Back to Projects"
   },
   {
-    "objectID": "projects/cigarettes-panel.html",
-    "href": "projects/cigarettes-panel.html",
-    "title": "Panel Analysis of U.S. Cigarette Consumption",
+    "objectID": "projects/ufo-politics.html",
+    "href": "projects/ufo-politics.html",
+    "title": "UFO Sightings and Political Alignment in the U.S.",
     "section": "",
-    "text": "Using the Cigar dataset, this project models per-capita cigarette sales across 46 states from 1963–1992.\nWe compare:\n\nPooled OLS\nFixed effects\nRandom effects\n\nThe Hausman test and F-tests support the fixed effects model, which we use to estimate price elasticity and discuss taxation policy implications.\n\nYour browser does not support embedded PDFs.&lt;br /&gt;\nPlease use the link above to download the file.\n\nRead full report (PDF)\n← Back to Projects"
+    "text": "Status: Work in progress\n\nThis project analyzes UFO sighting records from the National UFO Reporting Center to study whether state political alignment is associated with differences in sighting frequency.\nEarly results show:\n\nDemocratic-leaning states tend to report higher average sightings.\n\nMann–Whitney, chi-square, and Poisson regression all support this pattern.\n\nNarrative descriptions and sighting characteristics (shape, duration) appear similar across political groups.\n\nUpcoming work includes adjusting for population, incorporating additional state-level covariates, and expanding the text analysis of witness narratives.\n\nYour browser does not support embedded PDFs.&lt;br /&gt;\nPlease use the link above to download the file.\n\nDownload poster (PDF)\n← Back to Projects"
   },
   {
     "objectID": "projects/ai-chatbot.html",
@@ -110,6 +40,13 @@
     "title": "AI Chatbot for Investment Education",
     "section": "",
     "text": "Status: Work in progress\n\nDeveloping a multi-agent, LLM-powered chatbot that uses retrieval-augmented generation to answer client questions for an investment platform, focusing on safe, compliant educational responses.\n← Back to Projects"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Information",
+    "section": "",
+    "text": "Feel free to reach out for collaboration, questions, or opportunities.\n\n📍 Based in Los Angeles, CA\n\n📧 Email: malozano1@g.ucla.edu\n\n💼 LinkedIn: linkedin.com\n🧪 GitHub: github.com/malozano1-ux\n\nHome"
   },
   {
     "objectID": "projects/alcohol-oxytocin.html",
@@ -126,17 +63,52 @@
     "text": "This project fits multiple regression models linking nominal GDP to unemployment, inflation, the federal funds rate, money supply, and consumer confidence.\nWe focus on:\n\nMulticollinearity diagnostics (VIF)\nAIC-based model selection\nResidual and specification checks\n\n\nYour browser does not support embedded PDFs.&lt;br /&gt;\nPlease use the link above to download the file.\n\nRead full report (PDF)\n← Back to Projects"
   },
   {
-    "objectID": "projects/skin-cancer.html",
-    "href": "projects/skin-cancer.html",
-    "title": "Skin Cancer Risk Prediction",
+    "objectID": "projects/cigarettes-panel.html",
+    "href": "projects/cigarettes-panel.html",
+    "title": "Panel Analysis of U.S. Cigarette Consumption",
     "section": "",
-    "text": "Status: Work in progress\n\nBuilding predictive models using demographic, clinical, and behavioral variables to estimate skin cancer risk. The project explores logistic regression with LASSO and ridge penalties, feature selection, cross-validation, and calibration checks.\n← Back to Projects"
+    "text": "Using the Cigar dataset, this project models per-capita cigarette sales across 46 states from 1963–1992.\nWe compare:\n\nPooled OLS\nFixed effects\nRandom effects\n\nThe Hausman test and F-tests support the fixed effects model, which we use to estimate price elasticity and discuss taxation policy implications.\n\nYour browser does not support embedded PDFs.&lt;br /&gt;\nPlease use the link above to download the file.\n\nRead full report (PDF)\n← Back to Projects"
   },
   {
-    "objectID": "projects/ufo-politics.html",
-    "href": "projects/ufo-politics.html",
-    "title": "UFO Sightings and Political Alignment in the U.S.",
+    "objectID": "projects/capm-ff3.html",
+    "href": "projects/capm-ff3.html",
+    "title": "CAPM vs Fama–French 3-Factor Model",
     "section": "",
-    "text": "Status: Work in progress\n\nThis project analyzes UFO sighting records from the National UFO Reporting Center to study whether state political alignment is associated with differences in sighting frequency.\nEarly results show:\n\nDemocratic-leaning states tend to report higher average sightings.\n\nMann–Whitney, chi-square, and Poisson regression all support this pattern.\n\nNarrative descriptions and sighting characteristics (shape, duration) appear similar across political groups.\n\nUpcoming work includes adjusting for population, incorporating additional state-level covariates, and expanding the text analysis of witness narratives.\n← Back to Projects"
+    "text": "We compare how well CAPM and the Fama–French 3-factor model explain excess returns of a set of equities relative to a market index.\n\nEstimate factor loadings and risk premia\nCompare model fit and residual patterns\nDiscuss which model better captures cross-sectional return differences\n\n\nYour browser does not support embedded PDFs.&lt;br /&gt;\nPlease use the link above to download the file.\n\nRead full report (PDF)\n← Back to Projects"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Here are some of my academic and personal projects in statistics, econometrics, and data science. Click any project to read more or open the full report.\nLearn about my experience →\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nUFO Sightings and Political Alignment in the U.S.\n\n\n\nStatistics\n\nPolitics\n\nHypothesis Testing\n\n\n\nWork in progress – exploring how state political alignment relates to UFO sighting frequency and narrative characteristics.\n\n\n\nDec 4, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nClick-Through Rate (CTR) Prediction\n\n\n\nStatistics\n\nMachine Learning\n\nMarketing\n\nAI\n\n\n\nWork in progress – building models to predict ad click-through using rich behavioral data.\n\n\n\nDec 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI Chatbot for Investment Education\n\n\n\nAI\n\nNLP\n\nFinTech\n\n\n\nWork in progress – an LLM-powered chatbot with retrieval-augmented generation for an investment platform.\n\n\n\nNov 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSkin Cancer Risk Prediction\n\n\n\nStatistics\n\nData Mining\n\nHealth Analytics\n\nClassification\n\n\n\nWork in progress – predictive modeling of skin cancer risk using clinical and lifestyle data.\n\n\n\nNov 20, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlcohol, Music, Gender, and Oxytocin\n\n\n\nStatistics\n\nExperimental Design\n\n\n\nThree-way ANOVA studying how alcohol type, music genre, and gender affect blood oxytocin levels.\n\n\n\nJun 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nPanel Analysis of U.S. Cigarette Consumption\n\n\n\nEconometrics\n\nPanel Data\n\n\n\nPanel-data regression on 46 U.S. states from 1963–1992 to estimate price elasticity of cigarette demand.\n\n\n\nJun 5, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nMacroeconomic Drivers of U.S. Nominal GDP\n\n\n\nEconomics\n\nTime Series\n\nFinance\n\n\n\nRegression relating nominal GDP to unemployment, inflation, interest rates, and money supply.\n\n\n\nMar 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nCAPM vs Fama–French 3-Factor Model\n\n\n\nStatistics\n\nFinance\n\nAsset Pricing\n\n\n\nComparison of CAPM and Fama–French 3-factor model for a set of equities.\n\n\n\nMar 16, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I am an undergraduate at the University of California, Los Angeles (UCLA), double majoring in Statistics & Data Science and Economics. I love working at the intersection of analytics, technology, and business — especially where data-driven insights can enhance decision-making and real-world outcomes.\nMy academic work blends statistical modeling, machine learning, and applied econometrics with a strong interest in how data products are built, deployed, and used. Whether it’s developing predictive models, building dashboards, or designing generative-AI tools, I enjoy turning complex data problems into clear, actionable solutions."
+  },
+  {
+    "objectID": "about.html#core-interests",
+    "href": "about.html#core-interests",
+    "title": "About Me",
+    "section": "Core Interests",
+    "text": "Core Interests\n\nPredictive modeling and machine learning\n\nExperimental design and causal inference\n\nBusiness intelligence, data visualization, and reporting\n\nAI applications in finance, customer analytics, and operational automation\n\nUsing statistical thinking to solve interdisciplinary problems"
+  },
+  {
+    "objectID": "about.html#beyond-academics",
+    "href": "about.html#beyond-academics",
+    "title": "About Me",
+    "section": "Beyond Academics",
+    "text": "Beyond Academics\nOutside the classroom, I am deeply involved in the UCLA community:\n\nResident Assistant (RA) — supporting residents, designing programming, and building inclusive communities\n\nLatin American Student Organization (LASO) — leadership roles focused on mentorship, cultural engagement, and event planning\n\nEngineers Without Borders (EWB) — supporting internal operations and member coordination\n\nActive involvement in other campus and professional organizations\n\nThese experiences have strengthened my communication, project management, and leadership skills, and they inspire me to bring empathy and structure into every team I work with."
+  },
+  {
+    "objectID": "about.html#looking-ahead",
+    "href": "about.html#looking-ahead",
+    "title": "About Me",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nI’m excited about opportunities that let me combine analytics, creativity, and technology — especially roles where I can contribute to data-driven products, scalable systems, or AI-enabled tools with real impact.\nLearn about my experience →\nTake a look at some of my projects →"
   }
 ]

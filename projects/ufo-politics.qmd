@@ -19,4 +19,11 @@ Early results show:
 
 Upcoming work includes adjusting for population, incorporating additional state-level covariates, and expanding the text analysis of witness narratives.
 
+<iframe src="ufo-poster.pdf" width="100%" height="700px" style="border:none;">
+Your browser does not support embedded PDFs.  
+Please use the link above to download the file.
+</iframe>
+
+[Download poster (PDF)](ufo-poster.pdf)
+
 [← Back to Projects](../projects.html){.btn .btn-outline-primary}
