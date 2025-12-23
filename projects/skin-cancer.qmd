@@ -1,16 +1,21 @@
 ---
 title: "Skin Cancer Risk Prediction"
 subtitle: "Clinical, behavioral, and environmental predictors"
-date: 2025-11-20
+date: 2025-12-17
 categories: [Statistics, Data Mining, Health Analytics, Classification]
-description: "Work in progress – predictive modeling of skin cancer risk using clinical and lifestyle data."
+description: "Predictive modeling of skin cancer risk using clinical and lifestyle data."
 image: "../images/projects/skin-cancer.jpeg"
 ---
-
-> **Status:** Work in progress
 
 Building predictive models using demographic, clinical, and behavioral variables to estimate
 skin cancer risk. The project explores logistic regression with LASSO and ridge penalties,
 feature selection, cross-validation, and calibration checks.
+
+<iframe src="skin_cancer_report.pdf" width="100%" height="700px" style="border:none;">
+Your browser does not support embedded PDFs.  
+Please use the link above to download the file.
+</iframe>
+
+[Download poster (PDF)](skin_cancer_report.pdf)
 
 [← Back to Projects](../projects.html){.btn .btn-outline-primary}

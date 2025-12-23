@@ -1,13 +1,11 @@
 ---
 title: "UFO Sightings and Political Alignment in the U.S."
 subtitle: "What UFO sightings really mean"
-date: 2025-12-04
+date: 2025-12-12
 categories: [Statistics, Politics, Hypothesis Testing]
-description: "Work in progress – exploring how state political alignment relates to UFO sighting frequency and narrative characteristics."
+description: "Exploring how state political alignment relates to UFO sighting frequency and narrative characteristics."
 image: "../images/projects/ufo.jpeg"
 ---
-
-> **Status:** Work in progress
 
 This project analyzes UFO sighting records from the National UFO Reporting Center to study whether **state political alignment** is associated with differences in sighting frequency.
 
@@ -25,5 +23,14 @@ Please use the link above to download the file.
 </iframe>
 
 [Download poster (PDF)](ufo-poster.pdf)
+
+
+<iframe src="ufo_report.pdf" width="100%" height="700px" style="border:none;">
+Your browser does not support embedded PDFs.  
+Please use the link above to download the file.
+</iframe>
+
+[Download poster (PDF)](ufo_report.pdf)
+
 
 [← Back to Projects](../projects.html){.btn .btn-outline-primary}

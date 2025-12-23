@@ -1,16 +1,21 @@
 ---
 title: "Click-Through Rate (CTR) Prediction"
 subtitle: "Modeling ad click behavior with machine learning"
-date: 2025-12-01
+date: 2025-12-12
 categories: [Statistics, Machine Learning, Marketing, AI]
-description: "Work in progress – building models to predict ad click-through using rich behavioral data."
+description: "Building models to predict ad click-through using rich behavioral data."
 image: "../images/projects/ctr.jpeg"
 ---
-
-> **Status:** Work in progress
 
 Modeling user click-through behavior using combined advertising and news-feed interaction data.
 Current work includes feature engineering, regularization, and gradient-boosting models with a
 focus on recall and F1 for imbalanced data.
+
+<iframe src="ctr_report.pdf" width="100%" height="700px" style="border:none;">
+Your browser does not support embedded PDFs.  
+Please use the link above to download the file.
+</iframe>
+
+[Download poster (PDF)](ctr_report.pdf)
 
 [← Back to Projects](../projects.html){.btn .btn-outline-primary}

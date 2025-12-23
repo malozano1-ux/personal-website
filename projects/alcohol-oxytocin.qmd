@@ -13,11 +13,11 @@ and gender on blood oxytocin levels. We fit a three-way ANOVA and check all mode
 - Gender explains ~99% of the variance in oxytocin response.
 - Alcohol type and music genre show no meaningful main or interaction effects.
 
-<iframe src="../alcohol_oxcytocin.pdf" width="100%" height="700px" style="border:none;">
+<iframe src="alcohol.pdf" width="100%" height="700px" style="border:none;">
 Your browser does not support embedded PDFs.  
 Please use the link above to download the file.
 </iframe>
 
-[Read full report (PDF)](../alcohol_oxcytocin.pdf)
+[Download poster (PDF)](alcohol.pdf)
 
 [← Back to Projects](../projects.html){.btn .btn-outline-primary}
