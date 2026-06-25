@@ -1,0 +1,12 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+/.quarto/
+**/*.quarto_ipynb
+
+# Mac junk
+.DS_Store
+
+# Built site output (Netlify builds this — no need to track it)
+_site/
