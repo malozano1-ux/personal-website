@@ -12,15 +12,15 @@ main.content {
 /* Hero */
 .hero {
   display: grid;
-  grid-template-columns: 320px 1fr;
+  grid-template-columns: 360px 1fr;
   gap: 3rem;
   align-items: center;
   margin-top: 3rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .profile-pic {
-  width: 320px;
+  width: 360px;
   max-width: 100%;
   border-radius: 24px;
   object-fit: cover;
@@ -33,10 +33,10 @@ main.content {
   margin-bottom: 0.25rem;
 }
 
-.hero-subtitle {
-  font-size: 1.35rem;
-  color: #2563eb;
-  font-weight: 600;
+.hero-text h2 {
+  font-size: 1.55rem;
+  font-weight: 800;
+  margin-top: 0.5rem;
   margin-bottom: 1rem;
 }
 
@@ -45,12 +45,35 @@ main.content {
   max-width: 720px;
 }
 
+/* Open-to-work banner */
+.open-to-work {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: #e6f4ea;
+  color: #1a7f37;
+  border: 1px solid #b7dfbf;
+  border-radius: 999px;
+  padding: 0.3em 0.85em;
+  font-size: 0.82rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.open-to-work::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #1a7f37;
+}
+
 /* Buttons */
 .btn {
   display: inline-block;
   padding: 0.7rem 1rem;
   border-radius: 10px;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
   margin: 0.35rem 0.35rem 0.35rem 0;
 }
@@ -63,6 +86,40 @@ main.content {
 .btn-outline {
   border: 1px solid #d1d5db;
   color: #111827 !important;
+  background: white;
+}
+
+/* Credibility strip */
+.cred-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.25rem 0;
+  font-size: 0.95rem;
+}
+
+.cred-strip span {
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 999px;
+  padding: 0.45rem 0.75rem;
+}
+
+/* Focus strip */
+.focus-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1rem 0 3rem 0;
+}
+
+.focus-strip span {
+  background: #eff6ff;
+  color: #1d4ed8;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 0.5rem 0.8rem;
+  font-size: 0.9rem;
 }
 
 /* Project cards */
@@ -105,6 +162,11 @@ main.content {
   border-radius: 12px;
 }
 
+.metric-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .metric-number {
   font-size: 1.8rem;
   font-weight: 800;
@@ -112,46 +174,22 @@ main.content {
 
 /* Badges */
 .badge {
+  display: inline-block;
   font-size: 0.75rem;
   padding: 0.35em 0.6em;
   border-radius: 999px;
   background: #eef2ff;
   color: #3730a3;
-  font-weight: 600;
+  font-weight: 700;
+  margin: 0.15rem 0.1rem;
 }
 
-/* Open-to-work banner */
-.open-to-work {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  background: #e6f4ea;
-  color: #1a7f37;
-  border: 1px solid #b7dfbf;
-  border-radius: 20px;
-  padding: 0.3em 0.85em;
-  font-size: 0.82rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-  letter-spacing: 0.01em;
+/* Skills */
+.skill-section {
+  display: grid;
+  gap: 0.75rem;
 }
 
-.open-to-work::before {
-  content: "";
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: #1a7f37;
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.5; transform: scale(1.3); }
-}
-
-/* Skill tag pills */
 .skill-pills {
   display: flex;
   flex-wrap: wrap;
@@ -166,21 +204,50 @@ main.content {
   background: #f0f4ff;
   color: #3b5bdb;
   border: 1px solid #c5d0fa;
-  border-radius: 6px;
-  padding: 0.25em 0.7em;
-  font-size: 0.82rem;
-  font-weight: 500;
+  border-radius: 999px;
+  padding: 0.35em 0.75em;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* About page */
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.about-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 1.25rem;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+}
+
+.about-card h3 {
+  margin-top: 0;
 }
 
 /* Mobile */
 @media (max-width: 800px) {
   .hero,
   .project-grid,
-  .metric-grid {
+  .metric-grid,
+  .about-grid {
     grid-template-columns: 1fr;
+  }
+
+  .profile-pic {
+    width: 100%;
   }
 
   .hero-text h1 {
     font-size: 2.3rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1.3rem;
   }
 }

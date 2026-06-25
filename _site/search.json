@@ -88,7 +88,7 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "I’m an undergraduate at the University of California, Los Angeles (UCLA), double majoring in Statistics & Data Science and Economics (graduating June 2026). I work at the intersection of analytics, technology, and business — building things that turn messy data into clear decisions.\nMy academic work spans statistical modeling, machine learning, and applied econometrics, with a strong focus on how data products are actually built, deployed, and used. Whether it’s a predictive model, an analytics dashboard, or a generative-AI tool, I care about making the output useful, not just technically correct."
+    "text": "I’m Manuela Lozano, a UCLA graduate in Statistics & Data Science and Economics, currently preparing to begin my M.S. in Statistics at the University of Washington.\nI like building things that make data useful. My work sits at the intersection of machine learning, analytics, business intelligence, and applied AI — from forecasting pipelines and dashboards to LLM-powered tools and statistical modeling projects.\nWhat drives me most is not just building technically correct models, but turning messy real-world data into something people can actually use to make better decisions."
   },
   {
     "objectID": "about.html#core-interests",
@@ -151,7 +151,7 @@
     "href": "about.html#skills-tools",
     "title": "About Me",
     "section": "Skills & Tools",
-    "text": "Skills & Tools\nLanguages\n\n\nPython\n\n\nR\n\n\nSQL\n\n\nHTML/CSS\n\n\nData & ML\n\n\nscikit-learn\n\n\ntidyverse\n\n\npandas / NumPy\n\n\nggplot2\n\n\nTableau\n\n\nQuarto\n\n\nMethods\n\n\nRegression & classification\n\n\nCausal inference\n\n\nPanel data models\n\n\nTime series\n\n\nA/B testing\n\n\nRAG / LLM agents"
+    "text": "Skills & Tools\nLanguages\n\n\nPython\n\n\nR\n\n\nSQL\n\n\nHTML/CSS\n\n\nData & ML\n\n\npandas / NumPy\n\n\nscikit-learn\n\n\nCatBoost\n\n\ntidyverse\n\n\nggplot2\n\n\nTableau\n\n\nQuickSight\n\n\nQuarto\n\n\nMethods\n\n\nRegression\n\n\nClassification\n\n\nForecasting\n\n\nTime Series\n\n\nNLP\n\n\nPanel Data\n\n\nA/B Testing\n\n\nRAG / LLM Agents"
   },
   {
     "objectID": "index.html#data-scientist-ai-engineer-business-intelligence",
@@ -180,5 +180,26 @@
     "title": "Manuela Lozano",
     "section": "Tech Stack",
     "text": "Tech Stack\nLanguages: Python, SQL, R\nMachine Learning: Regression, Classification, NLP, Forecasting, Feature Engineering, Time Series\nAI & LLMs: RAG, Vector Search, Prompt Engineering, Agentic AI\nData & Cloud: AWS, QuickSight, Tableau, Redash\nTools: GitHub, Jupyter Notebook, Quarto"
+  },
+  {
+    "objectID": "about.html#what-i-work-on",
+    "href": "about.html#what-i-work-on",
+    "title": "About Me",
+    "section": "What I Work On",
+    "text": "What I Work On\n\n\nMachine Learning & Statistics\nPredictive modeling, classification, regression, forecasting, NLP, experimental design, and applied econometrics.\n\n\nAI Applications\nLLM tools, RAG systems, vector search, prompt engineering, and AI products that support real users.\n\n\nAnalytics & Business Intelligence\nSQL workflows, dashboards, data visualization, reporting automation, and translating analysis into decisions."
+  },
+  {
+    "objectID": "about.html#beyond-the-classroom",
+    "href": "about.html#beyond-the-classroom",
+    "title": "About Me",
+    "section": "Beyond the Classroom",
+    "text": "Beyond the Classroom\nAt UCLA, I’ve been involved in communities that taught me how to lead, communicate, and work across different groups. As a Resident Assistant, I supported students and designed community programming. Through the Latin American Student Organization, I worked on mentorship, cultural engagement, and student outreach. With Engineers Without Borders, I supported internal operations and team coordination.\nThese experiences shaped how I work: I care about clarity, collaboration, and building things that are useful to the people around me."
+  },
+  {
+    "objectID": "about.html#what-im-looking-for",
+    "href": "about.html#what-im-looking-for",
+    "title": "About Me",
+    "section": "What I’m Looking For",
+    "text": "What I’m Looking For\nI’m interested in roles across Data Science, Machine Learning, Analytics Engineering, Business Intelligence, and Applied AI.\nI’m especially excited by teams building data-driven products, AI tools, or analytical systems where strong statistical thinking and practical execution both matter.\nView my resume →\nExplore my projects →"
   }
 ]
