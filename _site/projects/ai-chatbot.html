@@ -168,10 +168,56 @@ ul.task-list li input[type="checkbox"] {
 <blockquote class="blockquote">
 <p><strong>Status:</strong> Work in progress</p>
 </blockquote>
-<p>Developing a multi-agent, LLM-powered chatbot that uses retrieval-augmented generation to answer client questions for an investment platform, focusing on safe, compliant educational responses.</p>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This project builds a multi-agent, LLM-powered chatbot for client-facing financial education on an investment platform. The goal is to let retail clients ask natural-language questions about investing concepts and get accurate, compliant responses — without replacing human advisors.</p>
+</section>
+<section id="architecture" class="level2">
+<h2 class="anchored" data-anchor-id="architecture">Architecture</h2>
+<p>The system uses a <strong>Retrieval-Augmented Generation (RAG)</strong> pipeline:</p>
+<ul>
+<li><strong>Document store</strong> — a curated knowledge base of investment education content (prospectuses, FAQs, regulatory disclosures) embedded with OpenAI embeddings and indexed in a vector database</li>
+<li><strong>Retriever</strong> — semantic search over the knowledge base to ground each response in source material</li>
+<li><strong>LLM layer</strong> — GPT-4 generates responses strictly from retrieved context, avoiding hallucinated financial advice</li>
+<li><strong>Compliance guardrails</strong> — prompt-level and output-level filters to flag or block responses that stray into personalized investment advice</li>
+</ul>
+</section>
+<section id="tech-stack" class="level2">
+<h2 class="anchored" data-anchor-id="tech-stack">Tech Stack</h2>
+<ul class="skill-pills">
+<li class="skill-pill">
+Python
+</li>
+<li class="skill-pill">
+OpenAI API
+</li>
+<li class="skill-pill">
+LangChain
+</li>
+<li class="skill-pill">
+FAISS
+</li>
+<li class="skill-pill">
+FastAPI
+</li>
+</ul>
+</section>
+<section id="whats-been-built" class="level2">
+<h2 class="anchored" data-anchor-id="whats-been-built">What’s been built</h2>
+<ul>
+<li>RAG retriever with chunking, embedding, and semantic search over a sample knowledge base</li>
+<li>Conversation history management for multi-turn Q&amp;A</li>
+<li>Output filtering pipeline to catch out-of-scope responses</li>
+<li>Onboarding email campaign automation via SendGrid for new platform users</li>
+</ul>
+</section>
+<section id="next-steps" class="level2">
+<h2 class="anchored" data-anchor-id="next-steps">Next steps</h2>
+<p>Expanding the knowledge base, evaluating retrieval quality (precision/recall), and integrating a front-end interface for end-to-end testing.</p>
 <p><a href="../projects.html" class="btn btn-outline-primary">← Back to Projects</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

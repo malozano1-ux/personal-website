@@ -6,7 +6,7 @@ Feel free to reach out for collaboration, questions, or opportunities.
 
 - 📍 Based in Los Angeles, CA  
 - 📧 Email: [malozano1@g.ucla.edu](mailto:malozano1@g.ucla.edu)  
-- 💼 LinkedIn: [linkedin.com](https://www.linkedin.com/in/manuela-lozano-395670299/) 
+- 💼 LinkedIn: [linkedin.com/in/manuela-lozano-395670299](https://www.linkedin.com/in/manuela-lozano-395670299/)
 - 🧪 GitHub: [github.com/malozano1-ux](https://github.com/malozano1-ux)
 
 [Home](index.qmd)

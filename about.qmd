@@ -2,32 +2,54 @@
 title: "About Me"
 ---
 
-I am an undergraduate at the **University of California, Los Angeles (UCLA)**, double majoring in **Statistics & Data Science** and **Economics**. I love working at the intersection of analytics, technology, and business — especially where data-driven insights can enhance decision-making and real-world outcomes.
+I’m an undergraduate at the **University of California, Los Angeles (UCLA)**, double majoring in **Statistics & Data Science** and **Economics** (graduating June 2026). I work at the intersection of analytics, technology, and business — building things that turn messy data into clear decisions.
 
-My academic work blends statistical modeling, machine learning, and applied econometrics with a strong interest in how data products are built, deployed, and used. Whether it’s developing predictive models, building dashboards, or designing generative-AI tools, I enjoy turning complex data problems into clear, actionable solutions.
+My academic work spans statistical modeling, machine learning, and applied econometrics, with a strong focus on how data products are actually built, deployed, and used. Whether it’s a predictive model, an analytics dashboard, or a generative-AI tool, I care about making the output useful, not just technically correct.
+
+## Skills & Tools
+
+**Languages**
+
+<ul class="skill-pills">
+  <li class="skill-pill">Python</li>
+  <li class="skill-pill">R</li>
+  <li class="skill-pill">SQL</li>
+  <li class="skill-pill">HTML/CSS</li>
+</ul>
+
+**Data & ML**
+
+<ul class="skill-pills">
+  <li class="skill-pill">scikit-learn</li>
+  <li class="skill-pill">tidyverse</li>
+  <li class="skill-pill">pandas / NumPy</li>
+  <li class="skill-pill">ggplot2</li>
+  <li class="skill-pill">Tableau</li>
+  <li class="skill-pill">Quarto</li>
+</ul>
+
+**Methods**
+
+<ul class="skill-pills">
+  <li class="skill-pill">Regression & classification</li>
+  <li class="skill-pill">Causal inference</li>
+  <li class="skill-pill">Panel data models</li>
+  <li class="skill-pill">Time series</li>
+  <li class="skill-pill">A/B testing</li>
+  <li class="skill-pill">RAG / LLM agents</li>
+</ul>
 
 ## Core Interests
 
-- Predictive modeling and machine learning  
-- Experimental design and causal inference  
-- Business intelligence, data visualization, and reporting  
-- AI applications in finance, customer analytics, and operational automation  
-- Using statistical thinking to solve interdisciplinary problems  
+Predictive modeling and ML, experimental design and causal inference, business intelligence and data visualization, AI applications in finance and customer analytics, and using statistical thinking to solve interdisciplinary problems.
 
 ## Beyond Academics
 
-Outside the classroom, I am deeply involved in the UCLA community:
-
-- **Resident Assistant (RA)** — supporting residents, designing programming, and building inclusive communities  
-- **Latin American Student Organization (LASO)** — leadership roles focused on mentorship, cultural engagement, and event planning  
-- **Engineers Without Borders (EWB)** — supporting internal operations and member coordination  
-- Active involvement in other campus and professional organizations  
-
-These experiences have strengthened my communication, project management, and leadership skills, and they inspire me to bring empathy and structure into every team I work with.
+Outside the classroom, I’m deeply involved in the UCLA community. As a **Resident Assistant (RA)**, I design programming and support residents across a residential community. I hold leadership roles in the **Latin American Student Organization (LASO)** focused on mentorship and event planning, and I support internal operations at **Engineers Without Borders (EWB)**. These roles have sharpened my communication, project management, and ability to work across diverse teams.
 
 ## Looking Ahead
 
-I’m excited about opportunities that let me combine analytics, creativity, and technology — especially roles where I can contribute to data-driven products, scalable systems, or AI-enabled tools with real impact.
+I’m actively looking for data science, analytics, or applied AI roles where I can contribute to data-driven products and scalable systems. I’m especially drawn to teams that value rigorous thinking and ship things that have real impact.
 
 [Learn about my experience →](cv.qmd)
 

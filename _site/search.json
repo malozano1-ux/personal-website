@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Manuela Lozano",
     "section": "",
-    "text": "Hi, I’m Manuela 👋\nI am a Statistics & Data Science and Economics student at UCLA with a strong interest in data analytics, machine learning, and applied AI. I enjoy building end-to-end solutions that connect statistical modeling with real-world decision making.\nWhat I work on\n\nPredictive models in R and Python\nData visualization and dashboards with SQL, Tableau, and Quarto\nProjects in CTR prediction, health analytics, and customer behavior\nAI tools to improve how people interact with data and products\n\nLearn more about me →\nTake a look at some of my projects →\nLearn about my experience →\nHow to contact me →"
+    "text": "Open to summer & full-time opportunities\nHi, I’m Manuela 👋\nI’m a Statistics & Data Science and Economics student at UCLA (graduating June 2026) who builds end-to-end data solutions — from predictive models to production-ready dashboards and AI-powered tools.\nWhat I work on\n\nPredictive models and ML pipelines in R and Python\nDashboards and data products with SQL, Tableau, and Quarto\nApplied research in causal inference, health analytics, and NLP\nGenerative AI tools (RAG, LLM agents) for real-world applications\n\nLearn more about me →\nTake a look at some of my projects →\nLearn about my experience →\nHow to contact me →"
   },
   {
     "objectID": "projects/ctr.html",
@@ -39,14 +39,14 @@
     "href": "projects/ai-chatbot.html",
     "title": "AI Chatbot for Investment Education",
     "section": "",
-    "text": "Status: Work in progress\n\nDeveloping a multi-agent, LLM-powered chatbot that uses retrieval-augmented generation to answer client questions for an investment platform, focusing on safe, compliant educational responses.\n← Back to Projects"
+    "text": "Status: Work in progress"
   },
   {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact Information",
     "section": "",
-    "text": "Feel free to reach out for collaboration, questions, or opportunities.\n\n📍 Based in Los Angeles, CA\n\n📧 Email: malozano1@g.ucla.edu\n\n💼 LinkedIn: linkedin.com\n🧪 GitHub: github.com/malozano1-ux\n\nHome"
+    "text": "Feel free to reach out for collaboration, questions, or opportunities.\n\n📍 Based in Los Angeles, CA\n\n📧 Email: malozano1@g.ucla.edu\n\n💼 LinkedIn: linkedin.com/in/manuela-lozano-395670299\n🧪 GitHub: github.com/malozano1-ux\n\nHome"
   },
   {
     "objectID": "projects/alcohol-oxytocin.html",
@@ -60,21 +60,21 @@
     "href": "projects/gdp-macro.html",
     "title": "Macroeconomic Drivers of U.S. Nominal GDP",
     "section": "",
-    "text": "This project fits multiple regression models linking nominal GDP to unemployment, inflation, the federal funds rate, money supply, and consumer confidence.\nWe focus on:\n\nMulticollinearity diagnostics (VIF)\nAIC-based model selection\nResidual and specification checks\n\n\nYour browser does not support embedded PDFs.&lt;br /&gt;\nPlease use the link above to download the file.\n\nRead full report (PDF)\n← Back to Projects"
+    "text": "This project fits multiple regression models linking nominal GDP to unemployment, inflation, the federal funds rate, money supply, and consumer confidence.\nWe focus on:\n\nMulticollinearity diagnostics (VIF)\nAIC-based model selection\nResidual and specification checks\n\n\nYour browser does not support embedded PDFs. Please use the link above to download the file.\n\nRead full report (PDF)\n← Back to Projects"
   },
   {
     "objectID": "projects/cigarettes-panel.html",
     "href": "projects/cigarettes-panel.html",
     "title": "Panel Analysis of U.S. Cigarette Consumption",
     "section": "",
-    "text": "Using the Cigar dataset, this project models per-capita cigarette sales across 46 states from 1963–1992.\nWe compare:\n\nPooled OLS\nFixed effects\nRandom effects\n\nThe Hausman test and F-tests support the fixed effects model, which we use to estimate price elasticity and discuss taxation policy implications.\n\nYour browser does not support embedded PDFs.&lt;br /&gt;\nPlease use the link above to download the file.\n\nRead full report (PDF)\n← Back to Projects"
+    "text": "Using the Cigar dataset, this project models per-capita cigarette sales across 46 states from 1963–1992.\nWe compare:\n\nPooled OLS\nFixed effects\nRandom effects\n\nThe Hausman test and F-tests support the fixed effects model, which we use to estimate price elasticity and discuss taxation policy implications.\n\nYour browser does not support embedded PDFs. Please use the link above to download the file.\n\nRead full report (PDF)\n← Back to Projects"
   },
   {
     "objectID": "projects/capm-ff3.html",
     "href": "projects/capm-ff3.html",
     "title": "CAPM vs Fama–French 3-Factor Model",
     "section": "",
-    "text": "We compare how well CAPM and the Fama–French 3-factor model explain excess returns of a set of equities relative to a market index.\n\nEstimate factor loadings and risk premia\nCompare model fit and residual patterns\nDiscuss which model better captures cross-sectional return differences\n\n\nYour browser does not support embedded PDFs.&lt;br /&gt;\nPlease use the link above to download the file.\n\nRead full report (PDF)\n← Back to Projects"
+    "text": "We compare how well CAPM and the Fama–French 3-factor model explain excess returns of a set of equities relative to a market index.\n\nEstimate factor loadings and risk premia\nCompare model fit and residual patterns\nDiscuss which model better captures cross-sectional return differences\n\n\nYour browser does not support embedded PDFs. Please use the link above to download the file.\n\nRead full report (PDF)\n← Back to Projects"
   },
   {
     "objectID": "projects.html",
@@ -88,27 +88,69 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "I am an undergraduate at the University of California, Los Angeles (UCLA), double majoring in Statistics & Data Science and Economics. I love working at the intersection of analytics, technology, and business — especially where data-driven insights can enhance decision-making and real-world outcomes.\nMy academic work blends statistical modeling, machine learning, and applied econometrics with a strong interest in how data products are built, deployed, and used. Whether it’s developing predictive models, building dashboards, or designing generative-AI tools, I enjoy turning complex data problems into clear, actionable solutions."
+    "text": "I’m an undergraduate at the University of California, Los Angeles (UCLA), double majoring in Statistics & Data Science and Economics (graduating June 2026). I work at the intersection of analytics, technology, and business — building things that turn messy data into clear decisions.\nMy academic work spans statistical modeling, machine learning, and applied econometrics, with a strong focus on how data products are actually built, deployed, and used. Whether it’s a predictive model, an analytics dashboard, or a generative-AI tool, I care about making the output useful, not just technically correct."
   },
   {
     "objectID": "about.html#core-interests",
     "href": "about.html#core-interests",
     "title": "About Me",
     "section": "Core Interests",
-    "text": "Core Interests\n\nPredictive modeling and machine learning\n\nExperimental design and causal inference\n\nBusiness intelligence, data visualization, and reporting\n\nAI applications in finance, customer analytics, and operational automation\n\nUsing statistical thinking to solve interdisciplinary problems"
+    "text": "Core Interests\nPredictive modeling and ML, experimental design and causal inference, business intelligence and data visualization, AI applications in finance and customer analytics, and using statistical thinking to solve interdisciplinary problems."
   },
   {
     "objectID": "about.html#beyond-academics",
     "href": "about.html#beyond-academics",
     "title": "About Me",
     "section": "Beyond Academics",
-    "text": "Beyond Academics\nOutside the classroom, I am deeply involved in the UCLA community:\n\nResident Assistant (RA) — supporting residents, designing programming, and building inclusive communities\n\nLatin American Student Organization (LASO) — leadership roles focused on mentorship, cultural engagement, and event planning\n\nEngineers Without Borders (EWB) — supporting internal operations and member coordination\n\nActive involvement in other campus and professional organizations\n\nThese experiences have strengthened my communication, project management, and leadership skills, and they inspire me to bring empathy and structure into every team I work with."
+    "text": "Beyond Academics\nOutside the classroom, I’m deeply involved in the UCLA community. As a Resident Assistant (RA), I design programming and support residents across a residential community. I hold leadership roles in the Latin American Student Organization (LASO) focused on mentorship and event planning, and I support internal operations at Engineers Without Borders (EWB). These roles have sharpened my communication, project management, and ability to work across diverse teams."
   },
   {
     "objectID": "about.html#looking-ahead",
     "href": "about.html#looking-ahead",
     "title": "About Me",
     "section": "Looking Ahead",
-    "text": "Looking Ahead\nI’m excited about opportunities that let me combine analytics, creativity, and technology — especially roles where I can contribute to data-driven products, scalable systems, or AI-enabled tools with real impact.\nLearn about my experience →\nTake a look at some of my projects →"
+    "text": "Looking Ahead\nI’m actively looking for data science, analytics, or applied AI roles where I can contribute to data-driven products and scalable systems. I’m especially drawn to teams that value rigorous thinking and ship things that have real impact.\nLearn about my experience →\nTake a look at some of my projects →"
+  },
+  {
+    "objectID": "projects/ai-chatbot.html#overview",
+    "href": "projects/ai-chatbot.html#overview",
+    "title": "AI Chatbot for Investment Education",
+    "section": "Overview",
+    "text": "Overview\nThis project builds a multi-agent, LLM-powered chatbot for client-facing financial education on an investment platform. The goal is to let retail clients ask natural-language questions about investing concepts and get accurate, compliant responses — without replacing human advisors."
+  },
+  {
+    "objectID": "projects/ai-chatbot.html#architecture",
+    "href": "projects/ai-chatbot.html#architecture",
+    "title": "AI Chatbot for Investment Education",
+    "section": "Architecture",
+    "text": "Architecture\nThe system uses a Retrieval-Augmented Generation (RAG) pipeline:\n\nDocument store — a curated knowledge base of investment education content (prospectuses, FAQs, regulatory disclosures) embedded with OpenAI embeddings and indexed in a vector database\nRetriever — semantic search over the knowledge base to ground each response in source material\nLLM layer — GPT-4 generates responses strictly from retrieved context, avoiding hallucinated financial advice\nCompliance guardrails — prompt-level and output-level filters to flag or block responses that stray into personalized investment advice"
+  },
+  {
+    "objectID": "projects/ai-chatbot.html#tech-stack",
+    "href": "projects/ai-chatbot.html#tech-stack",
+    "title": "AI Chatbot for Investment Education",
+    "section": "Tech Stack",
+    "text": "Tech Stack\n\n\nPython\n\n\nOpenAI API\n\n\nLangChain\n\n\nFAISS\n\n\nFastAPI"
+  },
+  {
+    "objectID": "projects/ai-chatbot.html#whats-been-built",
+    "href": "projects/ai-chatbot.html#whats-been-built",
+    "title": "AI Chatbot for Investment Education",
+    "section": "What’s been built",
+    "text": "What’s been built\n\nRAG retriever with chunking, embedding, and semantic search over a sample knowledge base\nConversation history management for multi-turn Q&A\nOutput filtering pipeline to catch out-of-scope responses\nOnboarding email campaign automation via SendGrid for new platform users"
+  },
+  {
+    "objectID": "projects/ai-chatbot.html#next-steps",
+    "href": "projects/ai-chatbot.html#next-steps",
+    "title": "AI Chatbot for Investment Education",
+    "section": "Next steps",
+    "text": "Next steps\nExpanding the knowledge base, evaluating retrieval quality (precision/recall), and integrating a front-end interface for end-to-end testing.\n← Back to Projects"
+  },
+  {
+    "objectID": "about.html#skills-tools",
+    "href": "about.html#skills-tools",
+    "title": "About Me",
+    "section": "Skills & Tools",
+    "text": "Skills & Tools\nLanguages\n\n\nPython\n\n\nR\n\n\nSQL\n\n\nHTML/CSS\n\n\nData & ML\n\n\nscikit-learn\n\n\ntidyverse\n\n\npandas / NumPy\n\n\nggplot2\n\n\nTableau\n\n\nQuarto\n\n\nMethods\n\n\nRegression & classification\n\n\nCausal inference\n\n\nPanel data models\n\n\nTime series\n\n\nA/B testing\n\n\nRAG / LLM agents"
   }
 ]

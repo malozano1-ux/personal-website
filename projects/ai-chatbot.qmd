@@ -9,7 +9,38 @@ image: "../images/projects/ai-chatbot.jpeg"
 
 > **Status:** Work in progress
 
-Developing a multi-agent, LLM-powered chatbot that uses retrieval-augmented generation to answer
-client questions for an investment platform, focusing on safe, compliant educational responses.
+## Overview
+
+This project builds a multi-agent, LLM-powered chatbot for client-facing financial education on an investment platform. The goal is to let retail clients ask natural-language questions about investing concepts and get accurate, compliant responses — without replacing human advisors.
+
+## Architecture
+
+The system uses a **Retrieval-Augmented Generation (RAG)** pipeline:
+
+- **Document store** — a curated knowledge base of investment education content (prospectuses, FAQs, regulatory disclosures) embedded with OpenAI embeddings and indexed in a vector database
+- **Retriever** — semantic search over the knowledge base to ground each response in source material
+- **LLM layer** — GPT-4 generates responses strictly from retrieved context, avoiding hallucinated financial advice
+- **Compliance guardrails** — prompt-level and output-level filters to flag or block responses that stray into personalized investment advice
+
+## Tech Stack
+
+<ul class="skill-pills">
+  <li class="skill-pill">Python</li>
+  <li class="skill-pill">OpenAI API</li>
+  <li class="skill-pill">LangChain</li>
+  <li class="skill-pill">FAISS</li>
+  <li class="skill-pill">FastAPI</li>
+</ul>
+
+## What's been built
+
+- RAG retriever with chunking, embedding, and semantic search over a sample knowledge base
+- Conversation history management for multi-turn Q&A
+- Output filtering pipeline to catch out-of-scope responses
+- Onboarding email campaign automation via SendGrid for new platform users
+
+## Next steps
+
+Expanding the knowledge base, evaluating retrieval quality (precision/recall), and integrating a front-end interface for end-to-end testing.
 
 [← Back to Projects](../projects.html){.btn .btn-outline-primary}

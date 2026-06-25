@@ -16,23 +16,26 @@ about:
 toc: false      
 ---
   <div class="hero-text">
+
+  <span class="open-to-work">Open to summer & full-time opportunities</span>
+
   Hi, I'm Manuela 👋
 
-  I am a Statistics & Data Science and Economics student at UCLA with a strong interest in data analytics, machine learning, and applied AI. I enjoy building end-to-end solutions that connect statistical modeling with real-world decision making.
+  I'm a Statistics & Data Science and Economics student at UCLA (graduating June 2026) who builds end-to-end data solutions — from predictive models to production-ready dashboards and AI-powered tools.
 
-  What I work on
+  **What I work on**
 
-  - Predictive models in **R** and **Python**
-  - Data visualization and dashboards with **SQL**, **Tableau**, and **Quarto**
-  - Projects in **CTR prediction**, **health analytics**, and **customer behavior**
-  - AI tools to improve how people interact with data and products
+  - Predictive models and ML pipelines in **R** and **Python**
+  - Dashboards and data products with **SQL**, **Tableau**, and **Quarto**
+  - Applied research in **causal inference**, **health analytics**, and **NLP**
+  - Generative AI tools (RAG, LLM agents) for real-world applications
 
   [Learn more about me →](about.qmd)
-  
+
   [Take a look at some of my projects →](projects.qmd)
-  
+
   [Learn about my experience →](cv.qmd)
-  
+
   [How to contact me →](contact.qmd)
   </div>
 </div>
