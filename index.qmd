@@ -1,41 +1,101 @@
 ---
 title: "Manuela Lozano"
-about:
-  template: trestles
-  image: profile_pic.jpg
-  links:
-    - icon: github
-      text: Github
-      href: https://github.com/malozano1-ux
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/manuela-lozano-395670299/
-    - icon: envelope
-      text: Email
-      href: "mailto:malozano1@g.ucla.edu"
-toc: false      
+toc: false
 ---
-  <div class="hero-text">
+::: {.hero}
 
-  <span class="open-to-work">Open to summer & full-time opportunities</span>
+![](profile_pic.jpg){.profile-pic}
 
-  Hi, I'm Manuela 👋
+::: {.hero-text}
 
-  I'm a Statistics & Data Science and Economics student at UCLA (graduating June 2026) who builds end-to-end data solutions — from predictive models to production-ready dashboards and AI-powered tools.
+<span class="open-to-work">Open to Data Science, AI, and Business Intelligence roles</span>
 
-  **What I work on**
+# Hi, I'm Manuela 👋
 
-  - Predictive models and ML pipelines in **R** and **Python**
-  - Dashboards and data products with **SQL**, **Tableau**, and **Quarto**
-  - Applied research in **causal inference**, **health analytics**, and **NLP**
-  - Generative AI tools (RAG, LLM agents) for real-world applications
+## Data Scientist • AI Engineer • Business Intelligence
 
-  [Learn more about me →](about.qmd)
+I build machine learning models, analytics pipelines, and AI-powered tools that turn complex data into measurable business impact.
 
-  [Take a look at some of my projects →](projects.qmd)
+I'm a UCLA graduate in **Statistics & Data Science** and **Economics**, a former **Business Intelligence Engineer Intern at AWS**, and an incoming **M.S. Statistics student at the University of Washington**.
 
-  [Learn about my experience →](cv.qmd)
+[View Projects](projects.qmd){.btn .btn-primary}
+[Resume](cv.qmd){.btn .btn-outline}
+[GitHub](https://github.com/malozano1-ux){.btn .btn-outline}
+[LinkedIn](https://www.linkedin.com/in/manuela-lozano-395670299/){.btn .btn-outline}
 
-  [How to contact me →](contact.qmd)
-  </div>
-</div>
+:::
+:::
+
+## Featured Projects
+
+::: {.project-grid}
+
+::: {.project-card}
+### AI Investment Education Assistant
+
+<span class="badge">LLMs</span>
+<span class="badge">RAG</span>
+<span class="badge">Python</span>
+<span class="badge">FinTech</span>
+
+Built an AI-powered investment education assistant using retrieval-augmented generation and vector search to support client onboarding and financial education.
+
+[Read case study →](projects/ai-chatbot.qmd)
+:::
+
+::: {.project-card}
+### Click-Through Rate Prediction
+
+<span class="badge">Python</span>
+<span class="badge">CatBoost</span>
+<span class="badge">Machine Learning</span>
+<span class="badge">Imbalanced Data</span>
+
+Modeled 6M+ advertising interactions and improved ROC-AUC from 0.71 to 0.81 using feature engineering and class imbalance strategies.
+
+[Read case study →](projects/ctr.qmd)
+:::
+
+::: {.project-card}
+### UFO Political Alignment Analysis
+
+<span class="badge">NLP</span>
+<span class="badge">Poisson Regression</span>
+<span class="badge">R</span>
+<span class="badge">Statistics</span>
+
+Analyzed 140K+ UFO sighting reports using NLP and statistical modeling to explore geographic and sociopolitical reporting patterns.
+
+[Read case study →](projects/ufo-politics.qmd)
+:::
+
+:::
+
+## Impact Snapshot
+
+::: {.metric-grid}
+
+::: {.metric-card}
+<div class="metric-number">6M+</div>
+Advertising interactions modeled
+:::
+
+::: {.metric-card}
+<div class="metric-number">140K+</div>
+Text reports analyzed with NLP
+:::
+
+::: {.metric-card}
+<div class="metric-number">80%</div>
+Forecasting accuracy achieved at AWS
+:::
+
+:::
+
+## Tech Stack
+
+**Languages:** Python, SQL, R  
+**Machine Learning:** Regression, Classification, NLP, Forecasting, Feature Engineering, Time Series  
+**AI & LLMs:** RAG, Vector Search, Prompt Engineering, Agentic AI  
+**Data & Cloud:** AWS, QuickSight, Tableau, Redash  
+**Tools:** GitHub, Jupyter Notebook, Quarto

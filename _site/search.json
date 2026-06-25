@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Manuela Lozano",
     "section": "",
-    "text": "Open to summer & full-time opportunities\nHi, I’m Manuela 👋\nI’m a Statistics & Data Science and Economics student at UCLA (graduating June 2026) who builds end-to-end data solutions — from predictive models to production-ready dashboards and AI-powered tools.\nWhat I work on\n\nPredictive models and ML pipelines in R and Python\nDashboards and data products with SQL, Tableau, and Quarto\nApplied research in causal inference, health analytics, and NLP\nGenerative AI tools (RAG, LLM agents) for real-world applications\n\nLearn more about me →\nTake a look at some of my projects →\nLearn about my experience →\nHow to contact me →"
+    "text": "Open to Data Science, AI, and Business Intelligence roles\n\n\n\n\nI build machine learning models, analytics pipelines, and AI-powered tools that turn complex data into measurable business impact.\nI’m a UCLA graduate in Statistics & Data Science and Economics, a former Business Intelligence Engineer Intern at AWS, and an incoming M.S. Statistics student at the University of Washington.\nView Projects Resume GitHub LinkedIn"
   },
   {
     "objectID": "projects/ctr.html",
@@ -152,5 +152,33 @@
     "title": "About Me",
     "section": "Skills & Tools",
     "text": "Skills & Tools\nLanguages\n\n\nPython\n\n\nR\n\n\nSQL\n\n\nHTML/CSS\n\n\nData & ML\n\n\nscikit-learn\n\n\ntidyverse\n\n\npandas / NumPy\n\n\nggplot2\n\n\nTableau\n\n\nQuarto\n\n\nMethods\n\n\nRegression & classification\n\n\nCausal inference\n\n\nPanel data models\n\n\nTime series\n\n\nA/B testing\n\n\nRAG / LLM agents"
+  },
+  {
+    "objectID": "index.html#data-scientist-ai-engineer-business-intelligence",
+    "href": "index.html#data-scientist-ai-engineer-business-intelligence",
+    "title": "Manuela Lozano",
+    "section": "",
+    "text": "I build machine learning models, analytics pipelines, and AI-powered tools that turn complex data into measurable business impact.\nI’m a UCLA graduate in Statistics & Data Science and Economics, a former Business Intelligence Engineer Intern at AWS, and an incoming M.S. Statistics student at the University of Washington.\nView Projects Resume GitHub LinkedIn"
+  },
+  {
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Manuela Lozano",
+    "section": "Featured Projects",
+    "text": "Featured Projects\n\n\nAI Investment Education Assistant\nLLMs RAG Python FinTech\nBuilt an AI-powered investment education assistant using retrieval-augmented generation and vector search to support client onboarding and financial education.\nRead case study →\n\n\nClick-Through Rate Prediction\nPython CatBoost Machine Learning Imbalanced Data\nModeled 6M+ advertising interactions and improved ROC-AUC from 0.71 to 0.81 using feature engineering and class imbalance strategies.\nRead case study →\n\n\nUFO Political Alignment Analysis\nNLP Poisson Regression R Statistics\nAnalyzed 140K+ UFO sighting reports using NLP and statistical modeling to explore geographic and sociopolitical reporting patterns.\nRead case study →"
+  },
+  {
+    "objectID": "index.html#impact-snapshot",
+    "href": "index.html#impact-snapshot",
+    "title": "Manuela Lozano",
+    "section": "Impact Snapshot",
+    "text": "Impact Snapshot\n\n\n\n6M+\n\nAdvertising interactions modeled\n\n\n\n140K+\n\nText reports analyzed with NLP\n\n\n\n80%\n\nForecasting accuracy achieved at AWS"
+  },
+  {
+    "objectID": "index.html#tech-stack",
+    "href": "index.html#tech-stack",
+    "title": "Manuela Lozano",
+    "section": "Tech Stack",
+    "text": "Tech Stack\nLanguages: Python, SQL, R\nMachine Learning: Regression, Classification, NLP, Forecasting, Feature Engineering, Time Series\nAI & LLMs: RAG, Vector Search, Prompt Engineering, Agentic AI\nData & Cloud: AWS, QuickSight, Tableau, Redash\nTools: GitHub, Jupyter Notebook, Quarto"
   }
 ]
