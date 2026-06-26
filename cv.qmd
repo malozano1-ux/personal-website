@@ -16,7 +16,7 @@ I’m interested in roles across **Data Science**, **Machine Learning**, **Busin
 
 :::
 
-## Quick Facts
+## At a Glance
 
 ::: {.resume-facts}
 
@@ -43,10 +43,21 @@ Business Intelligence
 
 ::: {.resume-fact}
 ### Technical Skills
-Python  
-SQL  
-R  
-Tableau · AWS
+
+Programming
+Python · SQL · AWS
+
+Machine Learning
+scikit-learn · CatBoost · XGBoost
+
+Visualization
+Tableau · QuickSight
+
+Cloud 
+AWS
+
+AI
+Gemini · FAISS · RAG · FastAPI
 :::
 
 :::
