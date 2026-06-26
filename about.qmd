@@ -78,6 +78,6 @@ I’m interested in roles across **Data Science**, **Machine Learning**, **Analy
 
 I’m especially excited by teams building data-driven products, AI tools, or analytical systems where strong statistical thinking and practical execution both matter.
 
-[View my resume →](cv.qmd)
+[View my resume →](cv.qmd){.btn .btn-outline}
 
-[Explore my projects →](projects.qmd)
+[Explore my projects →](projects.qmd){.btn .btn-outline}
