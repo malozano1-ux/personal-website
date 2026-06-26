@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-description','listing-categories','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
       searchColumns: ["listing-title","listing-description","listing-categories"],
     };
@@ -207,11 +207,40 @@ window.Quarto = {
 </header>
 
 
-<p>Here are some of my academic and personal projects in statistics, econometrics, and data science. Click any project to read more or open the full report.</p>
-<p><a href="./cv.html">Learn about my experience →</a></p>
+<div class="projects-hero">
+<p>A curated collection of my work across <strong>machine learning</strong>, <strong>applied AI</strong>, <strong>statistics</strong>, <strong>econometrics</strong>, and <strong>business analytics</strong>.</p>
+<p>I use these projects to show how I think through messy data problems: defining the question, choosing the right method, building the model, evaluating results, and translating findings into useful decisions.</p>
+</div>
+<section id="featured-case-studies" class="level2">
+<h2 class="anchored" data-anchor-id="featured-case-studies">Featured Case Studies</h2>
+<div class="project-grid">
+<section id="ai-investment-education-assistant" class="level3 project-card featured-card">
+<h3 class="anchored" data-anchor-id="ai-investment-education-assistant">AI Investment Education Assistant</h3>
+<p><span class="badge">LLMs</span> <span class="badge">RAG</span> <span class="badge">Python</span> <span class="badge">FinTech</span></p>
+<p>AI-powered investment assistant using retrieval-augmented generation and vector search for client onboarding and financial education.</p>
+<p><a href="./projects/ai-chatbot.html">Read case study →</a></p>
+</section>
+<section id="click-through-rate-prediction" class="level3 project-card featured-card">
+<h3 class="anchored" data-anchor-id="click-through-rate-prediction">Click-Through Rate Prediction</h3>
+<p><span class="badge">Python</span> <span class="badge">CatBoost</span> <span class="badge">Machine Learning</span> <span class="badge">Imbalanced Data</span></p>
+<p>Modeled 6M+ advertising interactions and improved ROC-AUC from 0.71 to 0.81.</p>
+<p><a href="./projects/ctr.html">Read case study →</a></p>
+</section>
+<section id="ufo-political-alignment-analysis" class="level3 project-card featured-card">
+<h3 class="anchored" data-anchor-id="ufo-political-alignment-analysis">UFO Political Alignment Analysis</h3>
+<p><span class="badge">NLP</span> <span class="badge">Poisson Regression</span> <span class="badge">Statistics</span></p>
+<p>Analyzed 140K+ UFO reports using NLP and statistical modeling to study geographic and political reporting patterns.</p>
+<p><a href="./projects/ufo-politics.html">Read case study →</a></p>
+</section>
+</div>
+</section>
+<section id="full-project-portfolio" class="level2">
+<h2 class="anchored" data-anchor-id="full-project-portfolio">Full Project Portfolio</h2>
+<p>Use the filters below to explore additional projects in statistics, economics, machine learning, and applied analytics.</p>
 
 
 
+</section>
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="listing-actions-group">
@@ -220,12 +249,6 @@ window.Quarto = {
     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
       <option value="" disabled="" selected="" hidden="">Order By</option>
       <option value="index" data-direction="asc">Default</option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
       <option value="listing-title" data-direction="asc">
         Title
       </option>
@@ -237,7 +260,7 @@ window.Quarto = {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="QUklMkNOTFAlMkNGaW5UZWNo" data-listing-date-sort="1766390400000" data-listing-file-modified-sort="1782406693904" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="201">
+<div class="g-col-1" data-index="0" data-categories="QUklMkNOTFAlMkNGaW5UZWNo" data-listing-date-sort="1777532400000" data-listing-file-modified-sort="1782442412981" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="644">
 <a href="./projects/ai-chatbot.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -245,7 +268,7 @@ window.Quarto = {
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-AI Chatbot for Investment Education
+AI Investment Education Assistant
 </h5>
 <div class="listing-categories">
 
@@ -257,12 +280,7 @@ AI Chatbot for Investment Education
 
 </div>
 <div class="card-text listing-description delink">
-<p>Work in progress – an LLM-powered chatbot with retrieval-augmented generation for an investment platform.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Dec 22, 2025
-</div>
+<span class="badge">Case Study</span>
 </div>
 </div>
 </div></a>
@@ -291,11 +309,6 @@ Skin Cancer Risk Prediction
 <div class="card-text listing-description delink">
 <p>Predictive modeling of skin cancer risk using clinical and lifestyle data.</p>
 </div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Dec 17, 2025
-</div>
-</div>
 </div>
 </div></a>
 </div>
@@ -320,11 +333,6 @@ UFO Sightings and Political Alignment in the U.S.
 </div>
 <div class="card-text listing-description delink">
 <p>Exploring how state political alignment relates to UFO sighting frequency and narrative characteristics.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Dec 12, 2025
-</div>
 </div>
 </div>
 </div></a>
@@ -353,11 +361,6 @@ Click-Through Rate (CTR) Prediction
 <div class="card-text listing-description delink">
 <p>Building models to predict ad click-through using rich behavioral data.</p>
 </div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Dec 12, 2025
-</div>
-</div>
 </div>
 </div></a>
 </div>
@@ -381,11 +384,6 @@ Alcohol, Music, Gender, and Oxytocin
 <div class="card-text listing-description delink">
 <p>Three-way ANOVA studying how alcohol type, music genre, and gender affect blood oxytocin levels.</p>
 </div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jun 15, 2025
-</div>
-</div>
 </div>
 </div></a>
 </div>
@@ -408,11 +406,6 @@ Panel Analysis of U.S. Cigarette Consumption
 </div>
 <div class="card-text listing-description delink">
 <p>Panel-data regression on 46 U.S. states from 1963–1992 to estimate price elasticity of cigarette demand.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jun 5, 2025
-</div>
 </div>
 </div>
 </div></a>
@@ -439,11 +432,6 @@ Macroeconomic Drivers of U.S. Nominal GDP
 <div class="card-text listing-description delink">
 <p>Regression relating nominal GDP to unemployment, inflation, interest rates, and money supply.</p>
 </div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Mar 13, 2025
-</div>
-</div>
 </div>
 </div></a>
 </div>
@@ -468,11 +456,6 @@ CAPM vs Fama–French 3-Factor Model
 </div>
 <div class="card-text listing-description delink">
 <p>Comparison of CAPM and Fama–French 3-factor model for a set of equities.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Mar 16, 2024
-</div>
 </div>
 </div>
 </div></a>

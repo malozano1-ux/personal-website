@@ -37,9 +37,9 @@
   {
     "objectID": "projects/ai-chatbot.html",
     "href": "projects/ai-chatbot.html",
-    "title": "AI Chatbot for Investment Education",
+    "title": "AI Investment Education Assistant",
     "section": "",
-    "text": "Status: Work in progress"
+    "text": "Case Study\n\n\nI designed and built a retrieval-augmented generation (RAG) assistant for an investment platform that answered educational questions using grounded source material and compliance guardrails.\nView Source Code ← Back to Projects"
   },
   {
     "objectID": "contact.html",
@@ -81,7 +81,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Here are some of my academic and personal projects in statistics, econometrics, and data science. Click any project to read more or open the full report.\nLearn about my experience →\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nAI Chatbot for Investment Education\n\n\n\nAI\n\nNLP\n\nFinTech\n\n\n\nWork in progress – an LLM-powered chatbot with retrieval-augmented generation for an investment platform.\n\n\n\nDec 22, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSkin Cancer Risk Prediction\n\n\n\nStatistics\n\nData Mining\n\nHealth Analytics\n\nClassification\n\n\n\nPredictive modeling of skin cancer risk using clinical and lifestyle data.\n\n\n\nDec 17, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nUFO Sightings and Political Alignment in the U.S.\n\n\n\nStatistics\n\nPolitics\n\nHypothesis Testing\n\n\n\nExploring how state political alignment relates to UFO sighting frequency and narrative characteristics.\n\n\n\nDec 12, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nClick-Through Rate (CTR) Prediction\n\n\n\nStatistics\n\nMachine Learning\n\nMarketing\n\nAI\n\n\n\nBuilding models to predict ad click-through using rich behavioral data.\n\n\n\nDec 12, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlcohol, Music, Gender, and Oxytocin\n\n\n\nStatistics\n\nExperimental Design\n\n\n\nThree-way ANOVA studying how alcohol type, music genre, and gender affect blood oxytocin levels.\n\n\n\nJun 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nPanel Analysis of U.S. Cigarette Consumption\n\n\n\nEconometrics\n\nPanel Data\n\n\n\nPanel-data regression on 46 U.S. states from 1963–1992 to estimate price elasticity of cigarette demand.\n\n\n\nJun 5, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nMacroeconomic Drivers of U.S. Nominal GDP\n\n\n\nEconomics\n\nTime Series\n\nFinance\n\n\n\nRegression relating nominal GDP to unemployment, inflation, interest rates, and money supply.\n\n\n\nMar 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nCAPM vs Fama–French 3-Factor Model\n\n\n\nStatistics\n\nFinance\n\nAsset Pricing\n\n\n\nComparison of CAPM and Fama–French 3-factor model for a set of equities.\n\n\n\nMar 16, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "A curated collection of my work across machine learning, applied AI, statistics, econometrics, and business analytics.\nI use these projects to show how I think through messy data problems: defining the question, choosing the right method, building the model, evaluating results, and translating findings into useful decisions."
   },
   {
     "objectID": "about.html",
@@ -201,5 +201,47 @@
     "title": "About Me",
     "section": "What I’m Looking For",
     "text": "What I’m Looking For\nI’m interested in roles across Data Science, Machine Learning, Analytics Engineering, Business Intelligence, and Applied AI.\nI’m especially excited by teams building data-driven products, AI tools, or analytical systems where strong statistical thinking and practical execution both matter.\nView my resume →\nExplore my projects →"
+  },
+  {
+    "objectID": "projects.html#featured-case-studies",
+    "href": "projects.html#featured-case-studies",
+    "title": "Projects",
+    "section": "Featured Case Studies",
+    "text": "Featured Case Studies\n\n\nAI Investment Education Assistant\nLLMs RAG Python FinTech\nAI-powered investment assistant using retrieval-augmented generation and vector search for client onboarding and financial education.\nRead case study →\n\n\nClick-Through Rate Prediction\nPython CatBoost Machine Learning Imbalanced Data\nModeled 6M+ advertising interactions and improved ROC-AUC from 0.71 to 0.81.\nRead case study →\n\n\nUFO Political Alignment Analysis\nNLP Poisson Regression Statistics\nAnalyzed 140K+ UFO reports using NLP and statistical modeling to study geographic and political reporting patterns.\nRead case study →"
+  },
+  {
+    "objectID": "projects.html#full-project-portfolio",
+    "href": "projects.html#full-project-portfolio",
+    "title": "Projects",
+    "section": "Full Project Portfolio",
+    "text": "Full Project Portfolio\nUse the filters below to explore additional projects in statistics, economics, machine learning, and applied analytics."
+  },
+  {
+    "objectID": "projects/ai-chatbot.html#production-style-rag-assistant-for-financial-education",
+    "href": "projects/ai-chatbot.html#production-style-rag-assistant-for-financial-education",
+    "title": "AI Investment Education Assistant",
+    "section": "",
+    "text": "I designed and built an AI-powered investment education assistant that uses retrieval-augmented generation, vector search, and financial compliance guardrails to answer client questions safely and accurately.\nView GitHub Repository ← Back to Projects"
+  },
+  {
+    "objectID": "projects/ai-chatbot.html#end-to-end-rag-system-that-answers-investor-questions-safely-without-hallucinating-financial-advice",
+    "href": "projects/ai-chatbot.html#end-to-end-rag-system-that-answers-investor-questions-safely-without-hallucinating-financial-advice",
+    "title": "AI Investment Education Assistant",
+    "section": "",
+    "text": "I designed and built an AI-powered investment education assistant using retrieval-augmented generation, vector search, and compliance guardrails that keep every response grounded in approved source material.\nView GitHub Repository ← Back to Projects"
+  },
+  {
+    "objectID": "projects/ai-chatbot.html#ai-assistant-that-helps-new-investors-get-reliable-answers-without-crossing-into-financial-advice",
+    "href": "projects/ai-chatbot.html#ai-assistant-that-helps-new-investors-get-reliable-answers-without-crossing-into-financial-advice",
+    "title": "AI Investment Education Assistant",
+    "section": "",
+    "text": "I built a retrieval-augmented generation system for investment education that answers user questions through a grounded knowledge base, semantic search, structured prompts, and compliance guardrails.\nView GitHub Repository ← Back to Projects"
+  },
+  {
+    "objectID": "projects/ai-chatbot.html#ai-assistant-that-helped-new-investors-get-reliable-answers-without-crossing-into-financial-advice",
+    "href": "projects/ai-chatbot.html#ai-assistant-that-helped-new-investors-get-reliable-answers-without-crossing-into-financial-advice",
+    "title": "AI Investment Education Assistant",
+    "section": "",
+    "text": "I designed and built a retrieval-augmented generation (RAG) assistant for an investment platform that answered educational questions using grounded source material and compliance guardrails.\nView Source Code ← Back to Projects"
   }
 ]

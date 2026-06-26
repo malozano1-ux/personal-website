@@ -2,17 +2,68 @@
 title: "Projects"
 listing:
   contents: projects
-  type: grid            # <-- GRID cards
-  sort: "date desc"     # default order
+  type: grid
+  sort: "date desc"
   grid-columns: 3
   grid-item-border: true
-  fields: [image, title, description, categories, date]
-  sort-ui: [date, title]              # shows “Order By” dropdown
-  filter-ui: [title, description, categories]  # search box
+  fields: [image, title, description, categories]
+  sort-ui: [date, title]
+  filter-ui: [title, description, categories]
   categories: true
 ---
 
-Here are some of my academic and personal projects in statistics, econometrics, and data science.
-Click any project to read more or open the full report.
+::: {.projects-hero}
 
-[Learn about my experience →](cv.qmd)
+A curated collection of my work across **machine learning**, **applied AI**, **statistics**, **econometrics**, and **business analytics**.
+
+I use these projects to show how I think through messy data problems: defining the question, choosing the right method, building the model, evaluating results, and translating findings into useful decisions.
+
+:::
+
+## Featured Case Studies
+
+::: {.project-grid}
+
+::: {.project-card .featured-card}
+### AI Investment Education Assistant
+
+<span class="badge">LLMs</span>
+<span class="badge">RAG</span>
+<span class="badge">Python</span>
+<span class="badge">FinTech</span>
+
+AI-powered investment assistant using retrieval-augmented generation and vector search for client onboarding and financial education.
+
+[Read case study →](projects/ai-chatbot.qmd)
+:::
+
+::: {.project-card .featured-card}
+### Click-Through Rate Prediction
+
+<span class="badge">Python</span>
+<span class="badge">CatBoost</span>
+<span class="badge">Machine Learning</span>
+<span class="badge">Imbalanced Data</span>
+
+Modeled 6M+ advertising interactions and improved ROC-AUC from 0.71 to 0.81.
+
+[Read case study →](projects/ctr.qmd)
+:::
+
+::: {.project-card .featured-card}
+### UFO Political Alignment Analysis
+
+<span class="badge">NLP</span>
+<span class="badge">Poisson Regression</span>
+<span class="badge">Statistics</span>
+
+Analyzed 140K+ UFO reports using NLP and statistical modeling to study geographic and political reporting patterns.
+
+[Read case study →](projects/ufo-politics.qmd)
+:::
+
+:::
+
+## Full Project Portfolio
+
+Use the filters below to explore additional projects in statistics, economics, machine learning, and applied analytics.

@@ -1,46 +1,254 @@
 ---
-title: "AI Chatbot for Investment Education"
-subtitle: "LLM + RAG for client-facing financial education"
-date: 2025-12-22
+title: "AI Investment Education Assistant"
+subtitle: "Retrieval-Augmented Generation (RAG) for Financial Education"
+date: 2026-04-30
 categories: [AI, NLP, FinTech]
-description: "Work in progress – an LLM-powered chatbot with retrieval-augmented generation for an investment platform."
 image: "../images/projects/ai-chatbot.jpeg"
 ---
 
-> **Status:** Work in progress
+::: {.case-hero}
 
-## Overview
+<span class="badge">Case Study</span>
 
-This project builds a multi-agent, LLM-powered chatbot for client-facing financial education on an investment platform. The goal is to let retail clients ask natural-language questions about investing concepts and get accurate, compliant responses — without replacing human advisors.
+## AI assistant that helped new investors get reliable answers without crossing into financial advice
 
-## Architecture
+I designed and built a retrieval-augmented generation (RAG) assistant for an investment platform that answered educational questions using grounded source material and compliance guardrails.
 
-The system uses a **Retrieval-Augmented Generation (RAG)** pipeline:
+[View Source Code](https://github.com/malozano1-ux/investment-rag-chatbot){.btn .btn-primary}
+[← Back to Projects](../projects.html){.btn .btn-outline}
 
-- **Document store** — a curated knowledge base of investment education content (prospectuses, FAQs, regulatory disclosures) embedded with OpenAI embeddings and indexed in a vector database
-- **Retriever** — semantic search over the knowledge base to ground each response in source material
-- **LLM layer** — GPT-4 generates responses strictly from retrieved context, avoiding hallucinated financial advice
-- **Compliance guardrails** — prompt-level and output-level filters to flag or block responses that stray into personalized investment advice
+:::
 
-## Tech Stack
+::: {.case-summary}
+
+::: {.summary-item}
+**Role**  
+Solo developer
+:::
+
+::: {.summary-item}
+**Domain**  
+FinTech · Investment Education
+:::
+
+::: {.summary-item}
+**Technologies**  
+Python · Gemini · FAISS · FastAPI
+:::
+
+::: {.summary-item}
+**Duration**  
+Jun 2024 – Apr 2026
+:::
+
+:::
+
+# Project Snapshot
+
+::: {.snapshot-grid}
+
+::: {.snapshot-card}
+### Problem
+New investors often asked repetitive onboarding and financial education questions, but a raw LLM could hallucinate or accidentally provide personalized advice.
+:::
+
+::: {.snapshot-card}
+### Solution
+I designed a RAG assistant that retrieved approved content before generating an answer, keeping responses grounded in verified source material.
+:::
+
+::: {.snapshot-card}
+### Impact
+The system indexed 100+ financial education documents, connected retrieval and generation into one workflow, and helped reduce onboarding response time by 2 days.
+:::
+
+:::
+
+# Overview
+
+Financial platforms receive many repeated questions from new investors, but answering them with a general-purpose LLM creates risk. The model may sound confident while giving unsupported, inaccurate, or overly personalized financial guidance.
+
+This project was designed to solve that by routing every user question through a retrieval pipeline before generation. Instead of relying only on the model’s training data, the assistant searched a curated knowledge base, assembled relevant context, and generated responses grounded in approved educational material.
+
+# The Challenge
+
+::: {.feature-grid}
+
+::: {.feature-card}
+### Hallucination risk
+LLMs can generate fluent answers even when they do not have the right information. In a financial education setting, that creates trust and accuracy concerns.
+:::
+
+::: {.feature-card}
+### Compliance sensitivity
+The assistant needed to explain investment concepts clearly without crossing into personalized financial advice.
+:::
+
+::: {.feature-card}
+### Onboarding friction
+New users often asked the same questions repeatedly, creating a need for a scalable assistant that could handle common education and setup questions.
+:::
+
+::: {.feature-card}
+### Fragmented documentation
+Relevant information was spread across financial education pages, FAQs, and policy-style content, making it hard for users to find direct answers.
+:::
+
+:::
+
+# System Architecture
+
+Rather than sending user questions directly to an LLM, the system routed every request through a retrieval pipeline before generation.
+
+::: {.architecture-card}
+
+::: {.architecture-horizontal}
+
+::: {.architecture-step}
+<div class="step-number">1</div>
+<div class="step-icon">💬</div>
+
+### User Question
+User asked an investment education question through WhatsApp.
+:::
+
+<div class="flow-arrow-horizontal">→</div>
+
+::: {.architecture-step}
+<div class="step-number">2</div>
+<div class="step-icon">🧠</div>
+
+### Embedding
+The query was converted into a vector embedding.
+:::
+
+<div class="flow-arrow-horizontal">→</div>
+
+::: {.architecture-step}
+<div class="step-number">3</div>
+<div class="step-icon">🗂️</div>
+
+### Retrieval
+FAISS searched for the most relevant knowledge base chunks.
+:::
+
+<div class="flow-arrow-horizontal">→</div>
+
+::: {.architecture-step}
+<div class="step-number">4</div>
+<div class="step-icon">📄</div>
+
+### Context
+Retrieved documents were inserted into a structured prompt.
+:::
+
+<div class="flow-arrow-horizontal">→</div>
+
+::: {.architecture-step}
+<div class="step-number">5</div>
+<div class="step-icon">✨</div>
+
+### Generation
+Gemini generated an answer using the retrieved context.
+:::
+
+<div class="flow-arrow-horizontal">→</div>
+
+::: {.architecture-step}
+<div class="step-number">6</div>
+<div class="step-icon">✅</div>
+
+### Safe Response
+The answer was checked against compliance rules before returning.
+:::
+
+:::
+
+::: {.guardrail-box}
+<div class="guardrail-icon">🛡️</div>
+
+<div>
+
+**Compliance Guardrails**
+
+The assistant was designed to refuse personalized investment advice, avoid unsupported claims, and keep responses focused on financial education rather than recommendations.
+
+</div>
+:::
+
+<p class="architecture-caption">End-to-end RAG workflow with retrieval, generation, and compliance filtering.</p>
+
+:::
+
+# Technical Stack
 
 <ul class="skill-pills">
-  <li class="skill-pill">Python</li>
-  <li class="skill-pill">OpenAI API</li>
-  <li class="skill-pill">LangChain</li>
-  <li class="skill-pill">FAISS</li>
-  <li class="skill-pill">FastAPI</li>
+<li class="skill-pill">Python</li>
+<li class="skill-pill">Gemini API</li>
+<li class="skill-pill">FAISS</li>
+<li class="skill-pill">FastAPI</li>
+<li class="skill-pill">WhatsApp API</li>
+<li class="skill-pill">RAG</li>
+<li class="skill-pill">Vector Search</li>
+<li class="skill-pill">Prompt Engineering</li>
+<li class="skill-pill">LLMs</li>
+<li class="skill-pill">SendGrid</li>
 </ul>
 
-## What's been built
+# What I Built
 
-- RAG retriever with chunking, embedding, and semantic search over a sample knowledge base
-- Conversation history management for multi-turn Q&A
-- Output filtering pipeline to catch out-of-scope responses
-- Onboarding email campaign automation via SendGrid for new platform users
+::: {.feature-grid}
 
-## Next steps
+::: {.feature-card}
+### Document Ingestion Pipeline
+Chunked and embedded 100+ financial education documents into a FAISS vector store, balancing chunk size, retrieval precision, and context length.
+:::
 
-Expanding the knowledge base, evaluating retrieval quality (precision/recall), and integrating a front-end interface for end-to-end testing.
+::: {.feature-card}
+### Conversation Engine
+Built a multi-turn conversation engine with structured prompt templates, retrieval-augmented generation, and conversation history management.
+:::
 
-[← Back to Projects](../projects.html){.btn .btn-outline-primary}
+::: {.feature-card}
+### Compliance Layer
+Designed prompt and output guardrails to detect advice-seeking questions, enforce source-grounded generation, and return safe refusals when needed.
+:::
+
+::: {.feature-card}
+### Backend Integration
+Built a FastAPI backend to handle WhatsApp webhook events and connect onboarding workflows for new platform users.
+:::
+
+:::
+
+# Impact
+
+::: {.metric-grid}
+
+::: {.metric-card}
+<div class="metric-icon">📚</div>
+<div class="metric-number">100+</div>
+Financial education documents indexed
+:::
+
+::: {.metric-card}
+<div class="metric-icon">⏱️</div>
+<div class="metric-number">2 days</div>
+Reduction in onboarding response time
+:::
+
+::: {.metric-card}
+<div class="metric-icon">🔗</div>
+<div class="metric-number">6</div>
+Core pipeline components: embeddings, retrieval, prompting, LLM, guardrails, WhatsApp
+:::
+
+:::
+
+# What I Learned
+
+Building this project taught me that strong AI products depend on much more than the model itself. The retrieval layer had the biggest impact on answer quality: chunk size, embedding choice, similarity thresholds, and context formatting shaped whether the assistant could answer accurately.
+
+I also learned that compliance is both a technical and product design problem. The system needed clear rules for when to answer, when to refuse, and how to keep educational responses helpful without becoming personalized financial advice.
+
+[← Back to Projects](../projects.html){.btn .btn-outline}

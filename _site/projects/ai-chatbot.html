@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-12-22">
-<meta name="description" content="Work in progress – an LLM-powered chatbot with retrieval-augmented generation for an investment platform.">
+<meta name="dcterms.date" content="2026-04-30">
 
-<title>AI Chatbot for Investment Education</title>
+<title>AI Investment Education Assistant</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -131,8 +130,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">AI Chatbot for Investment Education</h1>
-<p class="subtitle lead">LLM + RAG for client-facing financial education</p>
+<h1 class="title">AI Investment Education Assistant</h1>
+<p class="subtitle lead">Retrieval-Augmented Generation (RAG) for Financial Education</p>
   <div class="quarto-categories">
     <div class="quarto-category">AI</div>
     <div class="quarto-category">NLP</div>
@@ -140,11 +139,6 @@ ul.task-list li input[type="checkbox"] {
   </div>
   </div>
 
-<div>
-  <div class="description">
-    Work in progress – an LLM-powered chatbot with retrieval-augmented generation for an investment platform.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -153,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 22, 2025</p>
+      <p class="date">April 30, 2026</p>
     </div>
   </div>
   
@@ -165,34 +159,190 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<blockquote class="blockquote">
-<p><strong>Status:</strong> Work in progress</p>
-</blockquote>
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This project builds a multi-agent, LLM-powered chatbot for client-facing financial education on an investment platform. The goal is to let retail clients ask natural-language questions about investing concepts and get accurate, compliant responses — without replacing human advisors.</p>
+<div class="case-hero">
+<p><span class="badge">Case Study</span></p>
+<section id="ai-assistant-that-helped-new-investors-get-reliable-answers-without-crossing-into-financial-advice" class="level2">
+<h2 class="anchored" data-anchor-id="ai-assistant-that-helped-new-investors-get-reliable-answers-without-crossing-into-financial-advice">AI assistant that helped new investors get reliable answers without crossing into financial advice</h2>
+<p>I designed and built a retrieval-augmented generation (RAG) assistant for an investment platform that answered educational questions using grounded source material and compliance guardrails.</p>
+<p><a href="https://github.com/malozano1-ux/investment-rag-chatbot" class="btn btn-primary">View Source Code</a> <a href="../projects.html" class="btn btn-outline">← Back to Projects</a></p>
 </section>
-<section id="architecture" class="level2">
-<h2 class="anchored" data-anchor-id="architecture">Architecture</h2>
-<p>The system uses a <strong>Retrieval-Augmented Generation (RAG)</strong> pipeline:</p>
-<ul>
-<li><strong>Document store</strong> — a curated knowledge base of investment education content (prospectuses, FAQs, regulatory disclosures) embedded with OpenAI embeddings and indexed in a vector database</li>
-<li><strong>Retriever</strong> — semantic search over the knowledge base to ground each response in source material</li>
-<li><strong>LLM layer</strong> — GPT-4 generates responses strictly from retrieved context, avoiding hallucinated financial advice</li>
-<li><strong>Compliance guardrails</strong> — prompt-level and output-level filters to flag or block responses that stray into personalized investment advice</li>
-</ul>
+</div>
+<div class="case-summary">
+<div class="summary-item">
+<p><strong>Role</strong><br>
+Solo developer</p>
+</div>
+<div class="summary-item">
+<p><strong>Domain</strong><br>
+FinTech · Investment Education</p>
+</div>
+<div class="summary-item">
+<p><strong>Technologies</strong><br>
+Python · Gemini · FAISS · FastAPI</p>
+</div>
+<div class="summary-item">
+<p><strong>Duration</strong><br>
+Jun 2024 – Apr 2026</p>
+</div>
+</div>
+<section id="project-snapshot" class="level1">
+<h1>Project Snapshot</h1>
+<div class="snapshot-grid">
+<section id="problem" class="level3 snapshot-card">
+<h3 class="anchored" data-anchor-id="problem">Problem</h3>
+<p>New investors often asked repetitive onboarding and financial education questions, but a raw LLM could hallucinate or accidentally provide personalized advice.</p>
 </section>
-<section id="tech-stack" class="level2">
-<h2 class="anchored" data-anchor-id="tech-stack">Tech Stack</h2>
+<section id="solution" class="level3 snapshot-card">
+<h3 class="anchored" data-anchor-id="solution">Solution</h3>
+<p>I designed a RAG assistant that retrieved approved content before generating an answer, keeping responses grounded in verified source material.</p>
+</section>
+<section id="impact" class="level3 snapshot-card">
+<h3 class="anchored" data-anchor-id="impact">Impact</h3>
+<p>The system indexed 100+ financial education documents, connected retrieval and generation into one workflow, and helped reduce onboarding response time by 2 days.</p>
+</section>
+</div>
+</section>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Financial platforms receive many repeated questions from new investors, but answering them with a general-purpose LLM creates risk. The model may sound confident while giving unsupported, inaccurate, or overly personalized financial guidance.</p>
+<p>This project was designed to solve that by routing every user question through a retrieval pipeline before generation. Instead of relying only on the model’s training data, the assistant searched a curated knowledge base, assembled relevant context, and generated responses grounded in approved educational material.</p>
+</section>
+<section id="the-challenge" class="level1">
+<h1>The Challenge</h1>
+<div class="feature-grid">
+<section id="hallucination-risk" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="hallucination-risk">Hallucination risk</h3>
+<p>LLMs can generate fluent answers even when they do not have the right information. In a financial education setting, that creates trust and accuracy concerns.</p>
+</section>
+<section id="compliance-sensitivity" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="compliance-sensitivity">Compliance sensitivity</h3>
+<p>The assistant needed to explain investment concepts clearly without crossing into personalized financial advice.</p>
+</section>
+<section id="onboarding-friction" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="onboarding-friction">Onboarding friction</h3>
+<p>New users often asked the same questions repeatedly, creating a need for a scalable assistant that could handle common education and setup questions.</p>
+</section>
+<section id="fragmented-documentation" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="fragmented-documentation">Fragmented documentation</h3>
+<p>Relevant information was spread across financial education pages, FAQs, and policy-style content, making it hard for users to find direct answers.</p>
+</section>
+</div>
+</section>
+<section id="system-architecture" class="level1">
+<h1>System Architecture</h1>
+<p>Rather than sending user questions directly to an LLM, the system routed every request through a retrieval pipeline before generation.</p>
+<div class="architecture-card">
+<div class="architecture-horizontal">
+<div class="architecture-step">
+<div class="step-number">
+1
+</div>
+<div class="step-icon">
+💬
+</div>
+<section id="user-question" class="level3">
+<h3 class="anchored" data-anchor-id="user-question">User Question</h3>
+<p>User asked an investment education question through WhatsApp.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+→
+</div>
+<div class="architecture-step">
+<div class="step-number">
+2
+</div>
+<div class="step-icon">
+🧠
+</div>
+<section id="embedding" class="level3">
+<h3 class="anchored" data-anchor-id="embedding">Embedding</h3>
+<p>The query was converted into a vector embedding.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+→
+</div>
+<div class="architecture-step">
+<div class="step-number">
+3
+</div>
+<div class="step-icon">
+🗂️
+</div>
+<section id="retrieval" class="level3">
+<h3 class="anchored" data-anchor-id="retrieval">Retrieval</h3>
+<p>FAISS searched for the most relevant knowledge base chunks.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+→
+</div>
+<div class="architecture-step">
+<div class="step-number">
+4
+</div>
+<div class="step-icon">
+📄
+</div>
+<section id="context" class="level3">
+<h3 class="anchored" data-anchor-id="context">Context</h3>
+<p>Retrieved documents were inserted into a structured prompt.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+→
+</div>
+<div class="architecture-step">
+<div class="step-number">
+5
+</div>
+<div class="step-icon">
+✨
+</div>
+<section id="generation" class="level3">
+<h3 class="anchored" data-anchor-id="generation">Generation</h3>
+<p>Gemini generated an answer using the retrieved context.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+→
+</div>
+<div class="architecture-step">
+<div class="step-number">
+6
+</div>
+<div class="step-icon">
+✅
+</div>
+<section id="safe-response" class="level3">
+<h3 class="anchored" data-anchor-id="safe-response">Safe Response</h3>
+<p>The answer was checked against compliance rules before returning.</p>
+</section>
+</div>
+</div>
+<div class="guardrail-box">
+<div class="guardrail-icon">
+🛡️
+</div>
+<div>
+<p><strong>Compliance Guardrails</strong></p>
+<p>The assistant was designed to refuse personalized investment advice, avoid unsupported claims, and keep responses focused on financial education rather than recommendations.</p>
+</div>
+</div>
+<p class="architecture-caption">
+End-to-end RAG workflow with retrieval, generation, and compliance filtering.
+</p>
+</div>
+</section>
+<section id="technical-stack" class="level1">
+<h1>Technical Stack</h1>
 <ul class="skill-pills">
 <li class="skill-pill">
 Python
 </li>
 <li class="skill-pill">
-OpenAI API
-</li>
-<li class="skill-pill">
-LangChain
+Gemini API
 </li>
 <li class="skill-pill">
 FAISS
@@ -200,21 +350,84 @@ FAISS
 <li class="skill-pill">
 FastAPI
 </li>
+<li class="skill-pill">
+WhatsApp API
+</li>
+<li class="skill-pill">
+RAG
+</li>
+<li class="skill-pill">
+Vector Search
+</li>
+<li class="skill-pill">
+Prompt Engineering
+</li>
+<li class="skill-pill">
+LLMs
+</li>
+<li class="skill-pill">
+SendGrid
+</li>
 </ul>
 </section>
-<section id="whats-been-built" class="level2">
-<h2 class="anchored" data-anchor-id="whats-been-built">What’s been built</h2>
-<ul>
-<li>RAG retriever with chunking, embedding, and semantic search over a sample knowledge base</li>
-<li>Conversation history management for multi-turn Q&amp;A</li>
-<li>Output filtering pipeline to catch out-of-scope responses</li>
-<li>Onboarding email campaign automation via SendGrid for new platform users</li>
-</ul>
+<section id="what-i-built" class="level1">
+<h1>What I Built</h1>
+<div class="feature-grid">
+<section id="document-ingestion-pipeline" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="document-ingestion-pipeline">Document Ingestion Pipeline</h3>
+<p>Chunked and embedded 100+ financial education documents into a FAISS vector store, balancing chunk size, retrieval precision, and context length.</p>
 </section>
-<section id="next-steps" class="level2">
-<h2 class="anchored" data-anchor-id="next-steps">Next steps</h2>
-<p>Expanding the knowledge base, evaluating retrieval quality (precision/recall), and integrating a front-end interface for end-to-end testing.</p>
-<p><a href="../projects.html" class="btn btn-outline-primary">← Back to Projects</a></p>
+<section id="conversation-engine" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="conversation-engine">Conversation Engine</h3>
+<p>Built a multi-turn conversation engine with structured prompt templates, retrieval-augmented generation, and conversation history management.</p>
+</section>
+<section id="compliance-layer" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="compliance-layer">Compliance Layer</h3>
+<p>Designed prompt and output guardrails to detect advice-seeking questions, enforce source-grounded generation, and return safe refusals when needed.</p>
+</section>
+<section id="backend-integration" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="backend-integration">Backend Integration</h3>
+<p>Built a FastAPI backend to handle WhatsApp webhook events and connect onboarding workflows for new platform users.</p>
+</section>
+</div>
+</section>
+<section id="impact-1" class="level1">
+<h1>Impact</h1>
+<div class="metric-grid">
+<div class="metric-card">
+<div class="metric-icon">
+📚
+</div>
+<div class="metric-number">
+100+
+</div>
+<p>Financial education documents indexed</p>
+</div>
+<div class="metric-card">
+<div class="metric-icon">
+⏱️
+</div>
+<div class="metric-number">
+2 days
+</div>
+<p>Reduction in onboarding response time</p>
+</div>
+<div class="metric-card">
+<div class="metric-icon">
+🔗
+</div>
+<div class="metric-number">
+6
+</div>
+<p>Core pipeline components: embeddings, retrieval, prompting, LLM, guardrails, WhatsApp</p>
+</div>
+</div>
+</section>
+<section id="what-i-learned" class="level1">
+<h1>What I Learned</h1>
+<p>Building this project taught me that strong AI products depend on much more than the model itself. The retrieval layer had the biggest impact on answer quality: chunk size, embedding choice, similarity thresholds, and context formatting shaped whether the assistant could answer accurately.</p>
+<p>I also learned that compliance is both a technical and product design problem. The system needed clear rules for when to answer, when to refuse, and how to keep educational responses helpful without becoming personalized financial advice.</p>
+<p><a href="../projects.html" class="btn btn-outline">← Back to Projects</a></p>
 
 
 </section>
