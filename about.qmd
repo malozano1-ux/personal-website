@@ -8,22 +8,81 @@ I like building things that make data useful. My work sits at the intersection o
 
 What drives me most is not just building technically correct models, but turning messy real-world data into something people can actually use to make better decisions.
 
+## My Journey
+
+I originally became interested in economics because I enjoyed understanding how people make decisions. As I took more statistics courses at UCLA, I realized that data could answer those questions in a rigorous, quantitative way.
+
+That curiosity eventually led me toward machine learning and AI. Since then, I’ve built forecasting pipelines at AWS, developed a retrieval-augmented AI assistant for investment education, and worked on projects across healthcare, finance, marketing, econometrics, and NLP.
+
+Today, I’m most interested in building data products that combine statistical modeling, software engineering, and practical business impact.
+
+## Career Timeline
+
+::: {.timeline}
+
+::: {.timeline-item}
+<span class="timeline-year">2022</span>
+
+### Started at UCLA
+Began studying Statistics & Data Science and Economics.
+:::
+
+::: {.timeline-item}
+<span class="timeline-year">2024</span>
+
+### Data Analyst Intern · IDT
+Worked on predictive analytics, SQL workflows, and dashboards.
+:::
+
+::: {.timeline-item}
+<span class="timeline-year">2024–2026</span>
+
+### Data Analyst / Data Scientist · Insights Investment WM
+Built predictive models and an AI-powered investment education assistant.
+:::
+
+::: {.timeline-item}
+<span class="timeline-year">2025</span>
+
+### Business Intelligence Engineer Intern · AWS
+Built forecasting pipelines, dashboards, and analytics workflows.
+:::
+
+::: {.timeline-item}
+<span class="timeline-year">2026</span>
+
+### Graduated from UCLA
+Completed dual degree in Statistics & Data Science and Economics.
+:::
+
+::: {.timeline-item}
+<span class="timeline-year">2026</span>
+
+### Incoming M.S. Statistics Student · University of Washington
+Preparing to deepen my work in statistical modeling and applied data science.
+:::
+
+:::
+
 ## What I Work On
 
 ::: {.about-grid}
 
 ::: {.about-card}
 ### Machine Learning & Statistics
+
 Predictive modeling, classification, regression, forecasting, NLP, experimental design, and applied econometrics.
 :::
 
 ::: {.about-card}
 ### AI Applications
+
 LLM tools, RAG systems, vector search, prompt engineering, and AI products that support real users.
 :::
 
 ::: {.about-card}
 ### Analytics & Business Intelligence
+
 SQL workflows, dashboards, data visualization, reporting automation, and translating analysis into decisions.
 :::
 
@@ -31,40 +90,44 @@ SQL workflows, dashboards, data visualization, reporting automation, and transla
 
 ## Skills & Tools
 
+::: {.skill-section}
+
 **Languages**
 
 <ul class="skill-pills">
-  <li class="skill-pill">Python</li>
-  <li class="skill-pill">R</li>
-  <li class="skill-pill">SQL</li>
-  <li class="skill-pill">HTML/CSS</li>
+<li class="skill-pill">Python</li>
+<li class="skill-pill">R</li>
+<li class="skill-pill">SQL</li>
+<li class="skill-pill">HTML/CSS</li>
 </ul>
 
 **Data & ML**
 
 <ul class="skill-pills">
-  <li class="skill-pill">pandas / NumPy</li>
-  <li class="skill-pill">scikit-learn</li>
-  <li class="skill-pill">CatBoost</li>
-  <li class="skill-pill">tidyverse</li>
-  <li class="skill-pill">ggplot2</li>
-  <li class="skill-pill">Tableau</li>
-  <li class="skill-pill">QuickSight</li>
-  <li class="skill-pill">Quarto</li>
+<li class="skill-pill">pandas / NumPy</li>
+<li class="skill-pill">scikit-learn</li>
+<li class="skill-pill">CatBoost</li>
+<li class="skill-pill">tidyverse</li>
+<li class="skill-pill">ggplot2</li>
+<li class="skill-pill">Tableau</li>
+<li class="skill-pill">QuickSight</li>
+<li class="skill-pill">Quarto</li>
 </ul>
 
 **Methods**
 
 <ul class="skill-pills">
-  <li class="skill-pill">Regression</li>
-  <li class="skill-pill">Classification</li>
-  <li class="skill-pill">Forecasting</li>
-  <li class="skill-pill">Time Series</li>
-  <li class="skill-pill">NLP</li>
-  <li class="skill-pill">Panel Data</li>
-  <li class="skill-pill">A/B Testing</li>
-  <li class="skill-pill">RAG / LLM Agents</li>
+<li class="skill-pill">Regression</li>
+<li class="skill-pill">Classification</li>
+<li class="skill-pill">Forecasting</li>
+<li class="skill-pill">Time Series</li>
+<li class="skill-pill">NLP</li>
+<li class="skill-pill">Panel Data</li>
+<li class="skill-pill">A/B Testing</li>
+<li class="skill-pill">RAG / LLM Agents</li>
 </ul>
+
+:::
 
 ## Beyond the Classroom
 
@@ -74,10 +137,10 @@ These experiences shaped how I work: I care about clarity, collaboration, and bu
 
 ## What I’m Looking For
 
-I’m interested in roles across **Data Science**, **Machine Learning**, **Analytics Engineering**, **Business Intelligence**, and **Applied AI**.
+I’m interested in roles across **Data Science, Machine Learning, Analytics Engineering, Business Intelligence,** and **Applied AI**.
 
 I’m especially excited by teams building data-driven products, AI tools, or analytical systems where strong statistical thinking and practical execution both matter.
 
-[View my resume →](cv.qmd){.btn .btn-outline}
+[View my resume →](cv.html){.btn .btn-outline}
 
-[Explore my projects →](projects.qmd){.btn .btn-outline}
+[Explore my projects →](projects.html){.btn .btn-outline}

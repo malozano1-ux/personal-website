@@ -1,5 +1,5 @@
 ---
-title: "Manuela Lozano"
+title: ""
 toc: false
 ---
 ::: {.hero}
@@ -10,7 +10,7 @@ toc: false
 
 <span class="open-to-work">Open to Data Science, AI, and Business Intelligence roles</span>
 
-# Hi, I'm Manuela 👋
+# Hi, I'm Manuela Lozano 👋
 
 ## Data Scientist • AI Engineer • Business Intelligence
 

@@ -842,3 +842,117 @@ grid-template-columns:1fr;
 }
 
 }
+
+/* Career Timeline */
+.timeline {
+  position: relative;
+  margin: 2rem 0 3.5rem 0;
+  padding-left: 2rem;
+  border-left: 3px solid #dbeafe;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 1.4rem;
+  padding: 1.15rem 1.25rem;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -2.55rem;
+  top: 1.35rem;
+  width: 16px;
+  height: 16px;
+  background: #2563eb;
+  border: 4px solid #eff6ff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #dbeafe;
+}
+
+.timeline-year {
+  display: inline-flex;
+  width: fit-content;
+  margin-bottom: 0.5rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  background: #eff6ff;
+  color: #2563eb;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.timeline-item h3 {
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+  font-size: 1.15rem;
+}
+
+.timeline-item p {
+  margin-bottom: 0;
+  color: #4b5563;
+}
+
+/* Footer */
+
+.site-footer {
+
+    margin-top: 80px;
+
+    padding: 45px 0;
+
+    border-top: 1px solid #e5e7eb;
+
+    text-align: center;
+
+    background: #fafafa;
+
+}
+
+.footer-container{
+
+    max-width:900px;
+
+    margin:auto;
+
+}
+
+.footer-container h3{
+
+    font-weight:700;
+
+    margin-bottom:8px;
+
+}
+
+.footer-links{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    margin:22px 0;
+
+}
+
+.footer-links a{
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+
+.footer-small{
+
+    color:#6b7280;
+
+    font-size:.9rem;
+
+}
