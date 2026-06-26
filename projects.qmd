@@ -122,6 +122,76 @@ Model selection
 
 :::
 
+## Project Collections
+
+Explore grouped projects that show deeper work in econometrics, forecasting, and machine learning.
+
+::: {.project-grid}
+
+::: {.project-card}
+<span class="project-type economics">Econometrics</span>
+
+### Econometrics & Forecasting Projects
+
+<div class="project-tech">R · ARIMA · VAR · ETS · Time Series</div>
+
+A collection of applied forecasting projects studying retail sales, labor market indicators, and exchange rate dynamics using econometric and time series methods.
+
+::: {.mini-metrics}
+::: {.mini-metric}
+**3**  
+Forecasting projects
+:::
+
+::: {.mini-metric}
+**ARIMA**  
+VAR · ETS
+:::
+:::
+
+<div class="difficulty-row">
+<span>Difficulty</span>
+<span class="difficulty intermediate">Intermediate</span>
+</div>
+
+<div class="card-actions">
+[View Collection →](projects/econometrics.html){.card-link}
+</div>
+:::
+
+::: {.project-card}
+<span class="project-type ml">Machine Learning</span>
+
+### Economics & Machine Learning Projects
+
+<div class="project-tech">R · Classification · Regression · XGBoost</div>
+
+A collection of machine learning projects using financial, music, and business datasets to solve prediction, model comparison, and business analytics problems.
+
+::: {.mini-metrics}
+::: {.mini-metric}
+**3**  
+ML projects
+:::
+
+::: {.mini-metric}
+**8+**  
+Models compared
+:::
+:::
+
+<div class="difficulty-row">
+<span>Difficulty</span>
+<span class="difficulty advanced">Advanced</span>
+</div>
+
+<div class="card-actions">
+[View Collection →](projects/econ_machine_learning.html){.card-link}
+</div>
+:::
+
+:::
+
 ## Full Project Portfolio
 
 Use the filters below to explore additional projects in statistics, economics, machine learning, and applied analytics.

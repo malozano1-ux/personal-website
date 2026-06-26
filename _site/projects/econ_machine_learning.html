@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-12-12">
-<meta name="description" content="Machine learning model for click-through rate prediction.">
+<meta name="description" content="Machine learning projects using economic and business datasets.">
 
-<title>Click-Through Rate (CTR) Prediction</title>
+<title>Economics &amp; Machine Learning</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -131,19 +130,16 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Click-Through Rate (CTR) Prediction</h1>
-<p class="subtitle lead">Machine Learning for Digital Advertising</p>
+<h1 class="title">Economics &amp; Machine Learning</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Statistics</div>
     <div class="quarto-category">Machine Learning</div>
-    <div class="quarto-category">Marketing</div>
-    <div class="quarto-category">AI</div>
+    <div class="quarto-category">Economics</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Machine learning model for click-through rate prediction.
+    Machine learning projects using economic and business datasets.
   </div>
 </div>
 
@@ -151,12 +147,6 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">December 12, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -166,266 +156,89 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="predicting-ad-click-through-behavior-from-large-scale-user-interaction-data" class="level2 case-hero">
-<h2 class="anchored" data-anchor-id="predicting-ad-click-through-behavior-from-large-scale-user-interaction-data">Predicting ad click-through behavior from large-scale user interaction data</h2>
-<p>I built machine learning models to predict whether a user would click on an advertisement using behavioral and contextual features from millions of ad interactions. The project focused on feature engineering, model comparison, and improving performance on an imbalanced classification problem.</p>
-<p><a href="https://github.com/malozano1-ux/ctr-prediction" class="btn btn-primary">View Source Code</a> <a href="ctr_report.pdf" class="btn btn-primary">View Full Report</a> <a href="../projects.html" class="btn btn-outline">← Back to Projects</a></p>
+<p>A collection of applied machine learning projects using <strong>financial, music, and business datasets</strong>. These projects focus on prediction, model comparison, feature engineering, and interpreting results in an economic or business context.</p>
+<section id="projects" class="level2">
+<h2 class="anchored" data-anchor-id="projects">Projects</h2>
+<div class="project-grid">
+<section id="predicting-stock-market-direction" class="level3 project-card">
+<h3 class="anchored" data-anchor-id="predicting-stock-market-direction">Predicting Stock Market Direction</h3>
+<p><strong>R · Logistic Regression · LDA · QDA · kNN · ROC-AUC</strong></p>
+<p>Tested whether lagged S&amp;P 500 returns could predict daily market direction using linear and nonlinear classification models.</p>
+<p><strong>Highlights</strong></p>
+<ul>
+<li>Built logistic regression, LDA, QDA, and kNN models</li>
+<li>Used time-based train/test splitting</li>
+<li>Evaluated cross-validation, confusion matrices, ROC curves, and AUC</li>
+<li>Found limited predictive power, consistent with weak-form market efficiency</li>
+</ul>
+<p><a href="https://github.com/malozano1-ux/econ187-machine-learning/tree/main/project1-stock-market">GitHub ↗</a></p>
 </section>
-<div class="case-summary">
-<div class="summary-item">
-<p><strong>Role</strong><br>
-Machine Learning Researcher</p>
-</div>
-<div class="summary-item">
-<p><strong>Domain</strong><br>
-Digital Advertising · Marketing Analytics</p>
-</div>
-<div class="summary-item">
-<p><strong>Stack</strong><br>
-Python · CatBoost · Logistic Regression</p>
-</div>
-<div class="summary-item">
-<p><strong>Methods</strong><br>
-Classification · Imbalanced Learning</p>
-</div>
-</div>
-<section id="project-snapshot" class="level1">
-<h1>Project Snapshot</h1>
-<div class="snapshot-grid">
-<section id="problem" class="level3 snapshot-card">
-<h3 class="anchored" data-anchor-id="problem">Problem</h3>
-<p>Most users do not click on ads, which creates a highly imbalanced classification problem where accuracy alone can be misleading.</p>
+<section id="predicting-spotify-song-popularity" class="level3 project-card">
+<h3 class="anchored" data-anchor-id="predicting-spotify-song-popularity">Predicting Spotify Song Popularity</h3>
+<p><strong>R · Regression · LASSO · Random Forest · XGBoost · GAMs</strong></p>
+<p>Compared linear and nonlinear machine learning models to predict Spotify song popularity using audio features and track metadata.</p>
+<p><strong>Highlights</strong></p>
+<ul>
+<li>Cleaned and modeled 100K+ Spotify tracks</li>
+<li>Compared regression, Ridge, LASSO, Elastic Net, GAMs, Random Forest, Bagging, and XGBoost</li>
+<li>Evaluated RMSE, MAE, and R²</li>
+<li>Used bootstrap confidence intervals for model performance</li>
+</ul>
+<p><a href="https://github.com/malozano1-ux/econ187-machine-learning/tree/main/project2-spotify">GitHub ↗</a></p>
 </section>
-<section id="solution" class="level3 snapshot-card">
-<h3 class="anchored" data-anchor-id="solution">Solution</h3>
-<p>I engineered behavioral features and compared logistic regression with gradient-boosted models to improve click prediction.</p>
-</section>
-<section id="outcome" class="level3 snapshot-card">
-<h3 class="anchored" data-anchor-id="outcome">Outcome</h3>
-<p>Improved ROC-AUC from 0.71 to 0.81 using feature engineering and class imbalance strategies.</p>
-</section>
-</div>
-</section>
-<section id="overview" class="level1">
-<h1>Overview</h1>
-<p>Click-through rate prediction is a core problem in digital advertising because even small improvements in prediction quality can improve ad targeting, budget allocation, and campaign performance.</p>
-<p>This project used large-scale advertising interaction data to predict whether an impression would result in a click. Because click events were rare, the main challenge was not just building a classifier, but building one that could learn meaningful signals from an imbalanced dataset.</p>
-</section>
-<section id="the-challenge" class="level1">
-<h1>The Challenge</h1>
-<div class="feature-grid">
-<section id="class-imbalance" class="level3 feature-card">
-<h3 class="anchored" data-anchor-id="class-imbalance">Class imbalance</h3>
-<p>Click events were much less common than non-click events, making standard accuracy a poor measure of model quality.</p>
-</section>
-<section id="large-scale-data" class="level3 feature-card">
-<h3 class="anchored" data-anchor-id="large-scale-data">Large-scale data</h3>
-<p>The dataset contained millions of ad interactions, requiring efficient preprocessing and modeling workflows.</p>
-</section>
-<section id="feature-engineering" class="level3 feature-card">
-<h3 class="anchored" data-anchor-id="feature-engineering">Feature engineering</h3>
-<p>Raw interaction data needed to be transformed into useful behavioral and contextual predictors.</p>
-</section>
-<section id="model-evaluation" class="level3 feature-card">
-<h3 class="anchored" data-anchor-id="model-evaluation">Model evaluation</h3>
-<p>The project required metrics such as ROC-AUC, recall, precision, and F1 rather than relying only on accuracy.</p>
+<section id="predicting-restaurant-success" class="level3 project-card">
+<h3 class="anchored" data-anchor-id="predicting-restaurant-success">Predicting Restaurant Success</h3>
+<p><strong>R · Classification · Random Forest · Boosting · SVM · SMOTE</strong></p>
+<p>Built classification models to predict restaurant success using marketing, customer demand, operations, and review-based variables.</p>
+<p><strong>Highlights</strong></p>
+<ul>
+<li>Compared classification trees, Random Forest, Boosting, Neural Networks, and SVM</li>
+<li>Used SMOTE to address class imbalance</li>
+<li>Evaluated accuracy, balanced accuracy, ROC curves, and ROC-AUC</li>
+<li>Identified marketing budget, social media followers, Google ratings, and reservations as key predictors</li>
+</ul>
+<p><a href="https://github.com/malozano1-ux/econ187-machine-learning/tree/main/project3-restaurant">GitHub ↗</a></p>
 </section>
 </div>
 </section>
-<section id="modeling-pipeline" class="level1">
-<h1>Modeling Pipeline</h1>
-<div class="architecture-card">
-<div class="architecture-horizontal">
-<div class="architecture-step">
-<div class="step-number">
-1
-</div>
-<div class="step-icon">
-📥
-</div>
-<section id="data-ingestion" class="level3">
-<h3 class="anchored" data-anchor-id="data-ingestion">Data Ingestion</h3>
-<p>Loaded large-scale advertising interaction data.</p>
-</section>
-</div>
-<div class="flow-arrow-horizontal">
-↓
-</div>
-<div class="architecture-step">
-<div class="step-number">
-2
-</div>
-<div class="step-icon">
-🧹
-</div>
-<section id="preprocessing" class="level3">
-<h3 class="anchored" data-anchor-id="preprocessing">Preprocessing</h3>
-<p>Cleaned variables, handled missing values, and prepared categorical features.</p>
-</section>
-</div>
-<div class="flow-arrow-horizontal">
-↓
-</div>
-<div class="architecture-step">
-<div class="step-number">
-3
-</div>
-<div class="step-icon">
-🧩
-</div>
-<section id="feature-engineering-1" class="level3">
-<h3 class="anchored" data-anchor-id="feature-engineering-1">Feature Engineering</h3>
-<p>Created behavioral and contextual predictors from user interaction patterns.</p>
-</section>
-</div>
-<div class="flow-arrow-horizontal">
-↓
-</div>
-<div class="architecture-step">
-<div class="step-number">
-4
-</div>
-<div class="step-icon">
-⚖️
-</div>
-<section id="imbalance-strategy" class="level3">
-<h3 class="anchored" data-anchor-id="imbalance-strategy">Imbalance Strategy</h3>
-<p>Applied class imbalance techniques to improve rare-click prediction.</p>
-</section>
-</div>
-<div class="flow-arrow-horizontal">
-↓
-</div>
-<div class="architecture-step">
-<div class="step-number">
-5
-</div>
-<div class="step-icon">
-🤖
-</div>
-<section id="model-training" class="level3">
-<h3 class="anchored" data-anchor-id="model-training">Model Training</h3>
-<p>Compared logistic regression and CatBoost classification models.</p>
-</section>
-</div>
-<div class="flow-arrow-horizontal">
-↓
-</div>
-<div class="architecture-step">
-<div class="step-number">
-6
-</div>
-<div class="step-icon">
-📊
-</div>
-<section id="evaluation" class="level3">
-<h3 class="anchored" data-anchor-id="evaluation">Evaluation</h3>
-<p>Evaluated models using ROC-AUC, recall, precision, and F1.</p>
-</section>
-</div>
-</div>
-<p class="architecture-caption">
-End-to-end classification workflow for predicting rare ad click events.
-</p>
-</div>
-</section>
-<section id="technical-stack" class="level1">
-<h1>Technical Stack</h1>
-<ul class="skill-pills">
+<section id="skills-demonstrated" class="level2">
+<h2 class="anchored" data-anchor-id="skills-demonstrated">Skills Demonstrated</h2>
+<div class="skill-tags">
 <li class="skill-pill">
-Python
+R
 </li>
 <li class="skill-pill">
-Pandas
+tidyverse
 </li>
 <li class="skill-pill">
-Scikit-learn
+caret
 </li>
 <li class="skill-pill">
-CatBoost
+glmnet
 </li>
 <li class="skill-pill">
-Logistic Regression
+randomForest
 </li>
 <li class="skill-pill">
-Feature Engineering
+xgboost
+</li>
+<li class="skill-pill">
+SMOTE
 </li>
 <li class="skill-pill">
 Classification
 </li>
 <li class="skill-pill">
-Imbalanced Data
+Regression
 </li>
 <li class="skill-pill">
 ROC-AUC
 </li>
 <li class="skill-pill">
-F1 Score
+Feature Engineering
 </li>
-</ul>
-</section>
-<section id="what-i-built" class="level1">
-<h1>What I Built</h1>
-<div class="feature-grid">
-<section id="feature-engineering-pipeline" class="level3 feature-card">
-<h3 class="anchored" data-anchor-id="feature-engineering-pipeline">Feature Engineering Pipeline</h3>
-<p>Created behavioral predictors from ad interaction data to capture patterns related to user engagement and click likelihood.</p>
-</section>
-<section id="baseline-model" class="level3 feature-card">
-<h3 class="anchored" data-anchor-id="baseline-model">Baseline Model</h3>
-<p>Built a logistic regression model to establish an interpretable benchmark for click prediction.</p>
-</section>
-<section id="gradient-boosted-model" class="level3 feature-card">
-<h3 class="anchored" data-anchor-id="gradient-boosted-model">Gradient-Boosted Model</h3>
-<p>Trained a CatBoost classifier to better capture nonlinear relationships and categorical feature interactions.</p>
-</section>
-<section id="evaluation-framework" class="level3 feature-card">
-<h3 class="anchored" data-anchor-id="evaluation-framework">Evaluation Framework</h3>
-<p>Compared models using metrics appropriate for imbalanced classification, including ROC-AUC, recall, precision, and F1.</p>
-</section>
 </div>
-</section>
-<section id="key-results" class="level1">
-<h1>Key Results</h1>
-<div class="metric-grid">
-<div class="metric-card">
-<div class="metric-icon">
-📈
-</div>
-<div class="metric-number">
-0.81
-</div>
-<p>Final ROC-AUC after feature engineering and imbalance handling</p>
-</div>
-<div class="metric-card">
-<div class="metric-icon">
-⬆️
-</div>
-<div class="metric-number">
-+14%
-</div>
-<p>ROC-AUC improvement from 0.71 to 0.81</p>
-</div>
-<div class="metric-card">
-<div class="metric-icon">
-📊
-</div>
-<div class="metric-number">
-6M+
-</div>
-<p>Ad interactions modeled</p>
-</div>
-</div>
-</section>
-<section id="what-i-learned" class="level1">
-<h1>What I Learned</h1>
-<p>This project taught me that model performance in imbalanced classification depends heavily on how the problem is framed. A model can appear accurate while failing to identify the minority class, so metrics like recall, F1, and ROC-AUC are essential for evaluating real performance.</p>
-<p>I also learned how much feature engineering matters in advertising prediction. CatBoost improved performance because it could capture nonlinear relationships and categorical interactions that simpler models missed.</p>
-</section>
-<section id="full-technical-report" class="level1">
-<h1>Full Technical Report</h1>
-<p>The complete report includes the modeling workflow, feature engineering process, class imbalance strategy, and model evaluation results.</p>
-<p><a href="https://github.com/malozano1-ux/ctr-prediction" class="btn btn-primary">View Source Code</a> <a href="ctr_report.pdf" class="btn btn-primary">View Full Report (PDF)</a> <a href="../projects.html" class="btn btn-outline">← Back to Projects</a></p>
+<p><a href="../projects.html" class="btn btn-outline">← Return to all projects</a></p>
 
 
 </section>

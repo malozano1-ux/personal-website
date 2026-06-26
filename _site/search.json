@@ -376,5 +376,138 @@
     "title": "Manuela Lozano",
     "section": "",
     "text": "I enjoy building data products that combine statistical rigor with practical business impact, from forecasting pipelines to AI-powered applications.\nI’m a UCLA graduate in Statistics & Data Science and Economics, a former Business Intelligence Engineer Intern at AWS, and an incoming M.S. Statistics student at the University of Washington.\nView Projects Resume GitHub Contact"
+  },
+  {
+    "objectID": "projects.html#project-collections",
+    "href": "projects.html#project-collections",
+    "title": "Projects",
+    "section": "Project Collections",
+    "text": "Project Collections\nExplore grouped projects that show deeper work in econometrics, forecasting, and machine learning.\n\n\nEconometrics\n\nEconometrics & Forecasting Projects\n\nR · ARIMA · VAR · ETS · Time Series\n\nA collection of applied forecasting projects studying retail sales, labor market indicators, and exchange rate dynamics using econometric and time series methods.\n\n\n3\nForecasting projects\n\n\nARIMA\nVAR · ETS\n\n\n\nDifficulty Intermediate\n\n\nView Collection →\n\n\n\n\nMachine Learning\n\nEconomics & Machine Learning Projects\n\nR · Classification · Regression · XGBoost\n\nA collection of machine learning projects using financial, music, and business datasets to solve prediction, model comparison, and business analytics problems.\n\n\n3\nML projects\n\n\n8+\nModels compared\n\n\n\nDifficulty Advanced\n\n\nView Collection →"
+  },
+  {
+    "objectID": "projects/econometrics.html",
+    "href": "projects/econometrics.html",
+    "title": "Econometrics & Forecasting",
+    "section": "",
+    "text": "A collection of applied forecasting projects using economic time series, model diagnostics, and forecast evaluation. These projects focus on understanding economic behavior over time and comparing models based on interpretability and out-of-sample performance."
+  },
+  {
+    "objectID": "projects/econometrics.html#projects",
+    "href": "projects/econometrics.html#projects",
+    "title": "Econometrics & Forecasting",
+    "section": "Projects",
+    "text": "Projects\n\n\nForecasting Monthly U.S. Retail Sales\nR · Time Series · Decomposition · ARIMA · Forecasting\nModeled monthly U.S. retail sales to study long-run trends, seasonality, and short-term forecast behavior.\nHighlights\n\nTested stationarity using ADF tests\nCompared linear and quadratic trend models\nEvaluated additive vs. multiplicative decomposition\nBuilt 12-month retail sales forecasts\n\nGitHub ↗\n\n\nU.S. Labor Market Forecasting\nR · ARIMA · VAR · Granger Causality · Forecast Evaluation\nAnalyzed jobless claims and temporary help employment to evaluate whether labor market indicators improve short-term forecasting.\nHighlights\n\nBuilt structured ARIMA models\nCompared manual and automatic model selection\nEstimated VAR models\nUsed impulse response functions and Granger causality tests\n\nGitHub ↗\n\n\nForecasting the USD/COP Exchange Rate\nR · ARIMA · ETS · NNETAR · Prophet · Forecast Combination\nCompared forecasting models for the USD/COP exchange rate using out-of-sample forecast accuracy.\nHighlights\n\nModeled monthly exchange rate dynamics\nCompared ARIMA, ETS, Holt-Winters, NNETAR, and Prophet\nEvaluated RMSE, MAE, and MAPE\nBuilt a forecast combination model\n\nGitHub ↗"
+  },
+  {
+    "objectID": "projects/econometrics.html#skills-demonstrated",
+    "href": "projects/econometrics.html#skills-demonstrated",
+    "title": "Econometrics & Forecasting",
+    "section": "Skills Demonstrated",
+    "text": "Skills Demonstrated\n\n\nR\n\n\nfpp3\n\n\nforecast\n\n\nquantmod\n\n\nARIMA\n\n\nVAR\n\n\nETS\n\n\nProphet\n\n\nGranger Causality\n\n\nForecast Evaluation\n\n\nTime Series\n\n\n← Return to all projects"
+  },
+  {
+    "objectID": "projects/econ_machine_learning.html",
+    "href": "projects/econ_machine_learning.html",
+    "title": "Economics & Machine Learning",
+    "section": "",
+    "text": "A collection of applied machine learning projects using financial, music, and business datasets. These projects focus on prediction, model comparison, feature engineering, and interpreting results in an economic or business context."
+  },
+  {
+    "objectID": "projects/econ_machine_learning.html#projects",
+    "href": "projects/econ_machine_learning.html#projects",
+    "title": "Economics & Machine Learning",
+    "section": "Projects",
+    "text": "Projects\n\n\nPredicting Stock Market Direction\nR · Logistic Regression · LDA · QDA · kNN · ROC-AUC\nTested whether lagged S&P 500 returns could predict daily market direction using linear and nonlinear classification models.\nHighlights\n\nBuilt logistic regression, LDA, QDA, and kNN models\nUsed time-based train/test splitting\nEvaluated cross-validation, confusion matrices, ROC curves, and AUC\nFound limited predictive power, consistent with weak-form market efficiency\n\nGitHub ↗\n\n\nPredicting Spotify Song Popularity\nR · Regression · LASSO · Random Forest · XGBoost · GAMs\nCompared linear and nonlinear machine learning models to predict Spotify song popularity using audio features and track metadata.\nHighlights\n\nCleaned and modeled 100K+ Spotify tracks\nCompared regression, Ridge, LASSO, Elastic Net, GAMs, Random Forest, Bagging, and XGBoost\nEvaluated RMSE, MAE, and R²\nUsed bootstrap confidence intervals for model performance\n\nGitHub ↗\n\n\nPredicting Restaurant Success\nR · Classification · Random Forest · Boosting · SVM · SMOTE\nBuilt classification models to predict restaurant success using marketing, customer demand, operations, and review-based variables.\nHighlights\n\nCompared classification trees, Random Forest, Boosting, Neural Networks, and SVM\nUsed SMOTE to address class imbalance\nEvaluated accuracy, balanced accuracy, ROC curves, and ROC-AUC\nIdentified marketing budget, social media followers, Google ratings, and reservations as key predictors\n\nGitHub ↗"
+  },
+  {
+    "objectID": "projects/econ_machine_learning.html#skills-demonstrated",
+    "href": "projects/econ_machine_learning.html#skills-demonstrated",
+    "title": "Economics & Machine Learning",
+    "section": "Skills Demonstrated",
+    "text": "Skills Demonstrated\n\n\nR\n\n\ntidyverse\n\n\ncaret\n\n\nglmnet\n\n\nrandomForest\n\n\nxgboost\n\n\nSMOTE\n\n\nClassification\n\n\nRegression\n\n\nROC-AUC\n\n\nFeature Engineering\n\n\n← Return to all projects"
+  },
+  {
+    "objectID": "projects/llm_agent_game.html",
+    "href": "projects/llm_agent_game.html",
+    "title": "Prisoner’s Dilemma Agent",
+    "section": "",
+    "text": "This project explored how autonomous agents behave in a repeated Prisoner’s Dilemma environment, where each agent must decide whether to cooperate or defect based on strategy, incentives, and prior interactions.\nThe project connects game theory, multi-agent systems, and AI decision-making."
+  },
+  {
+    "objectID": "projects/llm_agent_game.html#project-overview",
+    "href": "projects/llm_agent_game.html#project-overview",
+    "title": "Prisoner’s Dilemma Agent",
+    "section": "Project Overview",
+    "text": "Project Overview\nThe Prisoner’s Dilemma is a classic game theory problem used to study cooperation and competition. In this project, agents repeatedly interact and make decisions based on programmed strategies or learned behavior.\nThe simulation helps demonstrate how simple decision rules can lead to complex strategic patterns over time."
+  },
+  {
+    "objectID": "projects/llm_agent_game.html#what-i-worked-on",
+    "href": "projects/llm_agent_game.html#what-i-worked-on",
+    "title": "Prisoner’s Dilemma Agent",
+    "section": "What I Worked On",
+    "text": "What I Worked On\n\nTested agent behavior across repeated game rounds\nCompared cooperation and defection patterns\nInterpreted strategy outcomes using a game theory lens\nReviewed the codebase and documented the agent workflow\nPrepared the project for public GitHub presentation"
+  },
+  {
+    "objectID": "projects/llm_agent_game.html#technical-focus",
+    "href": "projects/llm_agent_game.html#technical-focus",
+    "title": "Prisoner’s Dilemma Agent",
+    "section": "Technical Focus",
+    "text": "Technical Focus\n\n\nPython\n\n\nMulti-Agent System\n\n\nGame Theory\n\n\nAgentic AI\n\n\nSimulation\n\n\nStrategic Behaviour"
+  },
+  {
+    "objectID": "projects/llm_agent_game.html#what-this-project-demonstrates",
+    "href": "projects/llm_agent_game.html#what-this-project-demonstrates",
+    "title": "Prisoner’s Dilemma Agent",
+    "section": "What This Project Demonstrates",
+    "text": "What This Project Demonstrates\nThis project shows my interest in building AI systems that do more than generate text. It demonstrates how agents can be used to model strategic behavior, decision-making, cooperation, and competition in simulated environments."
+  },
+  {
+    "objectID": "projects/llm_agent_game.html#repository",
+    "href": "projects/llm_agent_game.html#repository",
+    "title": "Prisoner’s Dilemma Agent",
+    "section": "Repository",
+    "text": "Repository\nView GitHub Repository ↗\n← Return to all projects"
+  },
+  {
+    "objectID": "projects/trivia_agent.html",
+    "href": "projects/trivia_agent.html",
+    "title": "AI Trivia Agent",
+    "section": "",
+    "text": "This project was a group-built AI agent system designed to answer trivia questions using language model reasoning, prompt engineering, and collaborative decision-making.\nThe goal was to explore how LLM-powered agents can break down questions, reason through possible answers, and coordinate responses in a structured way."
+  },
+  {
+    "objectID": "projects/trivia_agent.html#project-overview",
+    "href": "projects/trivia_agent.html#project-overview",
+    "title": "AI Trivia Agent",
+    "section": "Project Overview",
+    "text": "Project Overview\nThe trivia agent takes in a question, reasons through the possible answer choices, and produces a final response. The project demonstrates how AI agents can be structured to solve open-ended reasoning tasks rather than simply return direct completions."
+  },
+  {
+    "objectID": "projects/trivia_agent.html#what-i-worked-on",
+    "href": "projects/trivia_agent.html#what-i-worked-on",
+    "title": "AI Trivia Agent",
+    "section": "What I Worked On",
+    "text": "What I Worked On\n\nTested the agent across different trivia question types\nReviewed model responses for reasoning quality and accuracy\nHelped improve prompt structure and response formatting\nExplored how agents handle uncertainty and competing answer choices\nDocumented the project workflow for public presentation"
+  },
+  {
+    "objectID": "projects/trivia_agent.html#technical-focus",
+    "href": "projects/trivia_agent.html#technical-focus",
+    "title": "AI Trivia Agent",
+    "section": "Technical Focus",
+    "text": "Technical Focus\n\n\nPython\n\n\nLLMs\n\n\nAgentic AI\n\n\nPrompt Engineering\n\n\nReasoning Systems\n\n\nGroup Project"
+  },
+  {
+    "objectID": "projects/trivia_agent.html#what-this-project-demonstrates",
+    "href": "projects/trivia_agent.html#what-this-project-demonstrates",
+    "title": "AI Trivia Agent",
+    "section": "What This Project Demonstrates",
+    "text": "What This Project Demonstrates\nThis project helped me understand how AI systems can be designed around structured reasoning instead of one-shot prompting. It also gave me experience working with collaborative AI codebases, testing agent behavior, and thinking critically about the limitations of LLM-generated answers."
+  },
+  {
+    "objectID": "projects/trivia_agent.html#repository",
+    "href": "projects/trivia_agent.html#repository",
+    "title": "AI Trivia Agent",
+    "section": "Repository",
+    "text": "Repository\nView GitHub Repository ↗\n← Return to all projects"
   }
 ]

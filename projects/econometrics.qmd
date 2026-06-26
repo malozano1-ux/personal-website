@@ -1,0 +1,85 @@
+---
+title: "Econometrics & Forecasting"
+description: "Applied forecasting projects using ARIMA, VAR, and time series methods."
+categories:
+  - Econometrics
+  - Forecasting
+  - Time Series
+---
+
+A collection of applied forecasting projects using **economic time series, model diagnostics, and forecast evaluation**. These projects focus on understanding economic behavior over time and comparing models based on interpretability and out-of-sample performance.
+
+## Projects
+
+::: {.project-grid}
+
+::: {.project-card}
+### Forecasting Monthly U.S. Retail Sales
+
+**R · Time Series · Decomposition · ARIMA · Forecasting**
+
+Modeled monthly U.S. retail sales to study long-run trends, seasonality, and short-term forecast behavior.
+
+**Highlights**
+
+- Tested stationarity using ADF tests
+- Compared linear and quadratic trend models
+- Evaluated additive vs. multiplicative decomposition
+- Built 12-month retail sales forecasts
+
+[GitHub ↗](https://github.com/malozano1-ux/econ144-time-series-forecasting/tree/main/project1-retail-sales)
+:::
+
+::: {.project-card}
+### U.S. Labor Market Forecasting
+
+**R · ARIMA · VAR · Granger Causality · Forecast Evaluation**
+
+Analyzed jobless claims and temporary help employment to evaluate whether labor market indicators improve short-term forecasting.
+
+**Highlights**
+
+- Built structured ARIMA models
+- Compared manual and automatic model selection
+- Estimated VAR models
+- Used impulse response functions and Granger causality tests
+
+[GitHub ↗](https://github.com/malozano1-ux/econ144-time-series-forecasting/tree/main/project2-labor-market)
+:::
+
+::: {.project-card}
+### Forecasting the USD/COP Exchange Rate
+
+**R · ARIMA · ETS · NNETAR · Prophet · Forecast Combination**
+
+Compared forecasting models for the USD/COP exchange rate using out-of-sample forecast accuracy.
+
+**Highlights**
+
+- Modeled monthly exchange rate dynamics
+- Compared ARIMA, ETS, Holt-Winters, NNETAR, and Prophet
+- Evaluated RMSE, MAE, and MAPE
+- Built a forecast combination model
+
+[GitHub ↗](https://github.com/malozano1-ux/econ144-time-series-forecasting/tree/main/project3-exchange-rate)
+:::
+
+:::
+
+## Skills Demonstrated
+
+::: {.skill-tags}
+<li class="skill-pill">R</li>
+<li class="skill-pill">fpp3</li>
+<li class="skill-pill">forecast</li>
+<li class="skill-pill">quantmod</li>
+<li class="skill-pill">ARIMA</li>
+<li class="skill-pill">VAR</li>
+<li class="skill-pill">ETS</li>
+<li class="skill-pill">Prophet</li>
+<li class="skill-pill">Granger Causality</li>
+<li class="skill-pill">Forecast Evaluation</li>
+<li class="skill-pill">Time Series</li>
+:::
+
+[← Return to all projects](../projects.html){.btn .btn-outline}

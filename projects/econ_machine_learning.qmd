@@ -1,0 +1,84 @@
+---
+title: "Economics & Machine Learning"
+description: "Machine learning projects using economic and business datasets."
+categories:
+  - Machine Learning
+  - Economics
+---
+
+A collection of applied machine learning projects using **financial, music, and business datasets**. These projects focus on prediction, model comparison, feature engineering, and interpreting results in an economic or business context.
+
+## Projects
+
+::: {.project-grid}
+
+::: {.project-card}
+### Predicting Stock Market Direction
+
+**R · Logistic Regression · LDA · QDA · kNN · ROC-AUC**
+
+Tested whether lagged S&P 500 returns could predict daily market direction using linear and nonlinear classification models.
+
+**Highlights**
+
+- Built logistic regression, LDA, QDA, and kNN models
+- Used time-based train/test splitting
+- Evaluated cross-validation, confusion matrices, ROC curves, and AUC
+- Found limited predictive power, consistent with weak-form market efficiency
+
+[GitHub ↗](https://github.com/malozano1-ux/econ187-machine-learning/tree/main/project1-stock-market)
+:::
+
+::: {.project-card}
+### Predicting Spotify Song Popularity
+
+**R · Regression · LASSO · Random Forest · XGBoost · GAMs**
+
+Compared linear and nonlinear machine learning models to predict Spotify song popularity using audio features and track metadata.
+
+**Highlights**
+
+- Cleaned and modeled 100K+ Spotify tracks
+- Compared regression, Ridge, LASSO, Elastic Net, GAMs, Random Forest, Bagging, and XGBoost
+- Evaluated RMSE, MAE, and R²
+- Used bootstrap confidence intervals for model performance
+
+[GitHub ↗](https://github.com/malozano1-ux/econ187-machine-learning/tree/main/project2-spotify)
+:::
+
+::: {.project-card}
+### Predicting Restaurant Success
+
+**R · Classification · Random Forest · Boosting · SVM · SMOTE**
+
+Built classification models to predict restaurant success using marketing, customer demand, operations, and review-based variables.
+
+**Highlights**
+
+- Compared classification trees, Random Forest, Boosting, Neural Networks, and SVM
+- Used SMOTE to address class imbalance
+- Evaluated accuracy, balanced accuracy, ROC curves, and ROC-AUC
+- Identified marketing budget, social media followers, Google ratings, and reservations as key predictors
+
+[GitHub ↗](https://github.com/malozano1-ux/econ187-machine-learning/tree/main/project3-restaurant)
+:::
+
+:::
+
+## Skills Demonstrated
+
+::: {.skill-tags}
+<li class="skill-pill">R</li>
+<li class="skill-pill">tidyverse</li>
+<li class="skill-pill">caret</li>
+<li class="skill-pill">glmnet</li>
+<li class="skill-pill">randomForest</li>
+<li class="skill-pill">xgboost</li>
+<li class="skill-pill">SMOTE</li>
+<li class="skill-pill">Classification</li>
+<li class="skill-pill">Regression</li>
+<li class="skill-pill">ROC-AUC</li>
+<li class="skill-pill">Feature Engineering</li>
+:::
+
+[← Return to all projects](../projects.html){.btn .btn-outline}

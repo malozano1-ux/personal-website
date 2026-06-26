@@ -1,0 +1,53 @@
+---
+title: "Prisoner's Dilemma Agent"
+description: "Multi-agent system for answering trivia questions with LLMs."
+date: 2026-06-26
+categories:
+  - Agentic AI
+  - Game Theory
+  - Multi-Agent Systems
+  - Python
+---
+
+This project explored how autonomous agents behave in a repeated **Prisoner's Dilemma** environment, where each agent must decide whether to cooperate or defect based on strategy, incentives, and prior interactions.
+
+The project connects **game theory**, **multi-agent systems**, and **AI decision-making**.
+
+::: {.callout-note}
+This was a **group project** based on a copied repository. My contribution focused on understanding the agent strategies, testing behavior, interpreting outcomes, and preparing the project for portfolio presentation.
+:::
+
+## Project Overview
+
+The Prisoner's Dilemma is a classic game theory problem used to study cooperation and competition. In this project, agents repeatedly interact and make decisions based on programmed strategies or learned behavior.
+
+The simulation helps demonstrate how simple decision rules can lead to complex strategic patterns over time.
+
+## What I Worked On
+
+- Tested agent behavior across repeated game rounds
+- Compared cooperation and defection patterns
+- Interpreted strategy outcomes using a game theory lens
+- Reviewed the codebase and documented the agent workflow
+- Prepared the project for public GitHub presentation
+
+## Technical Focus
+
+::: {.skill-tags}
+<li class="skill-pill">Python</li>
+<li class="skill-pill">Multi-Agent System</li>
+<li class="skill-pill">Game Theory</li>
+<li class="skill-pill">Agentic AI</li>
+<li class="skill-pill">Simulation</li>
+<li class="skill-pill">Strategic Behaviour</li>
+:::
+
+## What This Project Demonstrates
+
+This project shows my interest in building AI systems that do more than generate text. It demonstrates how agents can be used to model strategic behavior, decision-making, cooperation, and competition in simulated environments.
+
+## Repository
+
+[View GitHub Repository ↗](https://github.com/malozano1-ux/llm-agent-game){.btn .btn-primary}
+
+[← Return to all projects](../projects.html){.btn .btn-outline}

@@ -1,0 +1,50 @@
+---
+title: "AI Trivia Agent"
+description: "LLM-powered agent system for solving trivia questions."
+date: 2026-06-26
+categories:
+  - Agentic AI
+  - LLMs
+  - Python
+---
+
+This project was a **group-built AI agent system** designed to answer trivia questions using language model reasoning, prompt engineering, and collaborative decision-making.
+
+The goal was to explore how LLM-powered agents can break down questions, reason through possible answers, and coordinate responses in a structured way.
+
+::: {.callout-note}
+This was a **group project** based on a forked repository. My contribution focused on understanding the agent workflow, improving prompts, testing responses, and helping evaluate the system’s reasoning behavior.
+:::
+
+## Project Overview
+
+The trivia agent takes in a question, reasons through the possible answer choices, and produces a final response. The project demonstrates how AI agents can be structured to solve open-ended reasoning tasks rather than simply return direct completions.
+
+## What I Worked On
+
+- Tested the agent across different trivia question types
+- Reviewed model responses for reasoning quality and accuracy
+- Helped improve prompt structure and response formatting
+- Explored how agents handle uncertainty and competing answer choices
+- Documented the project workflow for public presentation
+
+## Technical Focus
+
+::: {.skill-tags}
+<li class="skill-pill">Python</li>
+<li class="skill-pill">LLMs</li>
+<li class="skill-pill">Agentic AI</li>
+<li class="skill-pill">Prompt Engineering</li>
+<li class="skill-pill">Reasoning Systems</li>
+<li class="skill-pill">Group Project</li>
+:::
+
+## What This Project Demonstrates
+
+This project helped me understand how AI systems can be designed around structured reasoning instead of one-shot prompting. It also gave me experience working with collaborative AI codebases, testing agent behavior, and thinking critically about the limitations of LLM-generated answers.
+
+## Repository
+
+[View GitHub Repository ↗](https://github.com/malozano1-ux/stats263-trivia-agent){.btn .btn-primary}
+
+[← Return to all projects](../projects.html){.btn .btn-outline}
