@@ -18,21 +18,21 @@
     "href": "projects/ctr.html",
     "title": "Click-Through Rate (CTR) Prediction",
     "section": "",
-    "text": "Modeling user click-through behavior using combined advertising and news-feed interaction data. Current work includes feature engineering, regularization, and gradient-boosting models with a focus on recall and F1 for imbalanced data.\n\nYour browser does not support embedded PDFs.&lt;br /&gt;\nPlease use the link above to download the file.\n\nDownload poster (PDF)\n← Back to Projects"
+    "text": "I built machine learning models to predict whether a user would click on an advertisement using behavioral and contextual features from millions of ad interactions. The project focused on feature engineering, model comparison, and improving performance on an imbalanced classification problem.\nView Source Code View Full Report ← Back to Projects"
   },
   {
     "objectID": "projects/skin-cancer.html",
     "href": "projects/skin-cancer.html",
     "title": "Skin Cancer Risk Prediction",
     "section": "",
-    "text": "This project explored how demographic, clinical, and behavioral factors can be combined to estimate skin cancer risk. I compared regularized logistic regression models and evaluated their ability to balance predictive performance with clinical interpretability.\nView Full Report ← Back to Projects"
+    "text": "This project explored how demographic, clinical, and behavioral factors can be combined to estimate skin cancer risk. I compared regularized logistic regression models and evaluated their ability to balance predictive performance with clinical interpretability.\nView Source Code View Full Report ← Back to Projects"
   },
   {
     "objectID": "projects/ufo-politics.html",
     "href": "projects/ufo-politics.html",
-    "title": "UFO Sightings and Political Alignment in the U.S.",
+    "title": "UFO Sightings & Political Alignment",
     "section": "",
-    "text": "This project analyzes UFO sighting records from the National UFO Reporting Center to study whether state political alignment is associated with differences in sighting frequency.\nEarly results show:\n\nDemocratic-leaning states tend to report higher average sightings.\n\nMann–Whitney, chi-square, and Poisson regression all support this pattern.\n\nNarrative descriptions and sighting characteristics (shape, duration) appear similar across political groups.\n\nUpcoming work includes adjusting for population, incorporating additional state-level covariates, and expanding the text analysis of witness narratives.\n\nYour browser does not support embedded PDFs.&lt;br /&gt;\nPlease use the link above to download the file.\n\nDownload poster (PDF)\n\nYour browser does not support embedded PDFs.&lt;br /&gt;\nPlease use the link above to download the file.\n\nDownload poster (PDF)\n← Back to Projects"
+    "text": "Using over 100,000 public UFO reports, I investigated whether political alignment is associated with differences in reported sightings, narrative characteristics, and reporting behavior across U.S. states.\nView Source Code View Research Report View Research Poster ← Back to Projects"
   },
   {
     "objectID": "projects/ai-chatbot.html",
@@ -53,28 +53,28 @@
     "href": "projects/alcohol-oxytocin.html",
     "title": "Alcohol, Music, Gender, and Oxytocin",
     "section": "",
-    "text": "This project uses a 3×2×2 factorial design to test the effects of alcohol type, music genre, and gender on blood oxytocin levels. We fit a three-way ANOVA and check all model assumptions.\n\nGender explains ~99% of the variance in oxytocin response.\nAlcohol type and music genre show no meaningful main or interaction effects.\n\n\nYour browser does not support embedded PDFs.&lt;br /&gt;\nPlease use the link above to download the file.\n\nDownload poster (PDF)\n← Back to Projects"
+    "text": "I analyzed a 3×2×2 factorial experiment to evaluate whether alcohol type, music genre, gender, or their interactions influenced blood oxytocin levels. The project focused on experimental design, three-way ANOVA, assumption checking, and interpretation of interaction effects.\nView Source Code View Poster ← Back to Projects"
   },
   {
     "objectID": "projects/gdp-macro.html",
     "href": "projects/gdp-macro.html",
-    "title": "Macroeconomic Drivers of U.S. Nominal GDP",
+    "title": "Macroeconomic GDP Forecasting",
     "section": "",
-    "text": "This project fits multiple regression models linking nominal GDP to unemployment, inflation, the federal funds rate, money supply, and consumer confidence.\nWe focus on:\n\nMulticollinearity diagnostics (VIF)\nAIC-based model selection\nResidual and specification checks\n\n\nYour browser does not support embedded PDFs. Please use the link above to download the file.\n\nRead full report (PDF)\n← Back to Projects"
+    "text": "This project explored how historical macroeconomic indicators can be used to forecast future GDP growth. I compared multiple forecasting approaches while evaluating predictive performance, model assumptions, and economic interpretation.\nView Source Code View Full Report ← Back to Projects"
   },
   {
     "objectID": "projects/cigarettes-panel.html",
     "href": "projects/cigarettes-panel.html",
     "title": "Panel Analysis of U.S. Cigarette Consumption",
     "section": "",
-    "text": "Using the Cigar dataset, this project models per-capita cigarette sales across 46 states from 1963–1992.\nWe compare:\n\nPooled OLS\nFixed effects\nRandom effects\n\nThe Hausman test and F-tests support the fixed effects model, which we use to estimate price elasticity and discuss taxation policy implications.\n\nYour browser does not support embedded PDFs. Please use the link above to download the file.\n\nRead full report (PDF)\n← Back to Projects"
+    "text": "Using a panel dataset covering 46 U.S. states between 1963 and 1992, I estimated cigarette demand while accounting for unobserved state-level differences. The project compared pooled OLS, fixed effects, and random effects models to identify the most appropriate specification for estimating price elasticity.\nView Source Code View Full Report ← Back to Projects"
   },
   {
     "objectID": "projects/capm-ff3.html",
     "href": "projects/capm-ff3.html",
-    "title": "CAPM vs Fama–French 3-Factor Model",
+    "title": "CAPM vs. Fama–French Three-Factor Model",
     "section": "",
-    "text": "We compare how well CAPM and the Fama–French 3-factor model explain excess returns of a set of equities relative to a market index.\n\nEstimate factor loadings and risk premia\nCompare model fit and residual patterns\nDiscuss which model better captures cross-sectional return differences\n\n\nYour browser does not support embedded PDFs. Please use the link above to download the file.\n\nRead full report (PDF)\n← Back to Projects"
+    "text": "This project evaluated two foundational financial models—the Capital Asset Pricing Model (CAPM) and the Fama–French Three-Factor Model—to determine which better explains equity returns. The analysis focused on estimating factor exposures, comparing model fit, and interpreting the economic significance of each factor.\nView Source Code View Full Report ← Back to Projects"
   },
   {
     "objectID": "projects.html",
@@ -249,13 +249,62 @@
     "href": "projects/skin-cancer.html#predicting-skin-cancer-risk-using-interpretable-machine-learning-models",
     "title": "Skin Cancer Risk Prediction",
     "section": "",
-    "text": "This project explored how demographic, clinical, and behavioral factors can be combined to estimate skin cancer risk. I compared regularized logistic regression models and evaluated their ability to balance predictive performance with clinical interpretability.\nView Full Report ← Back to Projects"
+    "text": "This project explored how demographic, clinical, and behavioral factors can be combined to estimate skin cancer risk. I compared regularized logistic regression models and evaluated their ability to balance predictive performance with clinical interpretability.\nView Source Code View Full Report ← Back to Projects"
   },
   {
     "objectID": "projects/skin-cancer.html#full-technical-report",
     "href": "projects/skin-cancer.html#full-technical-report",
     "title": "Skin Cancer Risk Prediction",
     "section": "Full Technical Report",
-    "text": "Full Technical Report\nThe complete technical report, including methodology, statistical analysis, and model evaluation, is available below.\nView Full Report (PDF)"
+    "text": "Full Technical Report\nThe complete technical report, including methodology, statistical analysis, and model evaluation, is available below.\nView Source Code\nView Full Report (PDF)\n← Back to Projects"
+  },
+  {
+    "objectID": "projects/ufo-politics.html#do-political-differences-influence-reported-ufo-sightings",
+    "href": "projects/ufo-politics.html#do-political-differences-influence-reported-ufo-sightings",
+    "title": "UFO Sightings & Political Alignment",
+    "section": "",
+    "text": "Using over 100,000 public UFO reports, I investigated whether political alignment is associated with differences in reported sightings, narrative characteristics, and reporting behavior across U.S. states.\nView Source Code View Research Report View Research Poster ← Back to Projects"
+  },
+  {
+    "objectID": "projects/ctr.html#predicting-ad-click-through-behavior-from-large-scale-user-interaction-data",
+    "href": "projects/ctr.html#predicting-ad-click-through-behavior-from-large-scale-user-interaction-data",
+    "title": "Click-Through Rate (CTR) Prediction",
+    "section": "",
+    "text": "I built machine learning models to predict whether a user would click on an advertisement using behavioral and contextual features from millions of ad interactions. The project focused on feature engineering, model comparison, and improving performance on an imbalanced classification problem.\nView Source Code View Full Report ← Back to Projects"
+  },
+  {
+    "objectID": "projects/ctr.html#testing-how-alcohol-music-and-gender-affect-oxytocin-response",
+    "href": "projects/ctr.html#testing-how-alcohol-music-and-gender-affect-oxytocin-response",
+    "title": "Alcohol, Music, Gender, and Oxytocin",
+    "section": "",
+    "text": "I analyzed a 3×2×2 factorial experiment to evaluate whether alcohol type, music genre, gender, or their interactions influenced blood oxytocin levels. The project focused on experimental design, three-way ANOVA, assumption checking, and interpretation of interaction effects.\nView Poster ← Back to Projects"
+  },
+  {
+    "objectID": "projects/alcohol-oxytocin.html#testing-how-alcohol-music-and-gender-affect-oxytocin-response",
+    "href": "projects/alcohol-oxytocin.html#testing-how-alcohol-music-and-gender-affect-oxytocin-response",
+    "title": "Alcohol, Music, Gender, and Oxytocin",
+    "section": "",
+    "text": "I analyzed a 3×2×2 factorial experiment to evaluate whether alcohol type, music genre, gender, or their interactions influenced blood oxytocin levels. The project focused on experimental design, three-way ANOVA, assumption checking, and interpretation of interaction effects.\nView Source Code View Poster ← Back to Projects"
+  },
+  {
+    "objectID": "projects/cigarettes-panel.html#estimating-how-cigarette-prices-influence-consumption-using-panel-data-econometrics",
+    "href": "projects/cigarettes-panel.html#estimating-how-cigarette-prices-influence-consumption-using-panel-data-econometrics",
+    "title": "Panel Analysis of U.S. Cigarette Consumption",
+    "section": "",
+    "text": "Using a panel dataset covering 46 U.S. states between 1963 and 1992, I estimated cigarette demand while accounting for unobserved state-level differences. The project compared pooled OLS, fixed effects, and random effects models to identify the most appropriate specification for estimating price elasticity.\nView Source Code View Full Report ← Back to Projects"
+  },
+  {
+    "objectID": "projects/gdp-macro.html#forecasting-economic-growth-using-macroeconomic-indicators-and-time-series-analysis",
+    "href": "projects/gdp-macro.html#forecasting-economic-growth-using-macroeconomic-indicators-and-time-series-analysis",
+    "title": "Macroeconomic GDP Forecasting",
+    "section": "",
+    "text": "This project explored how historical macroeconomic indicators can be used to forecast future GDP growth. I compared multiple forecasting approaches while evaluating predictive performance, model assumptions, and economic interpretation.\nView Source Code View Full Report ← Back to Projects"
+  },
+  {
+    "objectID": "projects/capm-ff3.html#comparing-asset-pricing-models-to-explain-stock-returns",
+    "href": "projects/capm-ff3.html#comparing-asset-pricing-models-to-explain-stock-returns",
+    "title": "CAPM vs. Fama–French Three-Factor Model",
+    "section": "",
+    "text": "This project evaluated two foundational financial models—the Capital Asset Pricing Model (CAPM) and the Fama–French Three-Factor Model—to determine which better explains equity returns. The analysis focused on estimating factor exposures, comparing model fit, and interpreting the economic significance of each factor.\nView Source Code View Full Report ← Back to Projects"
   }
 ]

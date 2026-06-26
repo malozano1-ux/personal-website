@@ -1,28 +1,321 @@
 ---
 title: "Panel Analysis of U.S. Cigarette Consumption"
-subtitle: "Fixed vs random effects using state-level panel data"
+subtitle: "Estimating Price Elasticity with Fixed Effects Models"
 date: 2025-06-05
-categories: [Econometrics, Panel Data]
-description: "Panel-data regression on 46 U.S. states from 1963–1992 to estimate price elasticity of cigarette demand."
+categories: [Econometrics, Panel Data, Statistics]
+description: "Panel data analysis of cigarette demand across 46 U.S. states using fixed and random effects models."
 image: "../images/projects/cigarette.jpeg"
 ---
 
-Using the **Cigar** dataset, this project models per-capita cigarette sales across 46 states from 1963–1992.
+::: {.case-hero}
 
-We compare:
+## Estimating how cigarette prices influence consumption using panel data econometrics
 
-- Pooled OLS
-- Fixed effects
-- Random effects
+Using a panel dataset covering 46 U.S. states between 1963 and 1992, I estimated cigarette demand while accounting for unobserved state-level differences. The project compared pooled OLS, fixed effects, and random effects models to identify the most appropriate specification for estimating price elasticity.
 
-The Hausman test and F-tests support the **fixed effects model**, which we use to estimate price
-elasticity and discuss taxation policy implications.
+[View Source Code](https://github.com/malozano1-ux/cigarette-demand-panel){.btn .btn-primary}
+[View Full Report](cigarette.pdf){.btn .btn-primary}
+[← Back to Projects](../projects.html){.btn .btn-outline}
 
-<iframe src="cigarette.pdf" width="100%" height="700px" style="border:none;">
-Your browser does not support embedded PDFs.
-Please use the link above to download the file.
-</iframe>
+:::
 
-[Read full report (PDF)](cigarette.pdf)
+::: {.case-summary}
 
-[← Back to Projects](../projects.html){.btn .btn-outline-primary}
+::: {.summary-item}
+**Role**  
+Econometrics Analyst
+:::
+
+::: {.summary-item}
+**Domain**  
+Public Policy · Economics
+:::
+
+::: {.summary-item}
+**Stack**  
+R · plm · Econometrics
+:::
+
+::: {.summary-item}
+**Methods**  
+Panel Data · Fixed Effects · Hausman Test
+:::
+
+:::
+
+# Project Snapshot
+
+::: {.snapshot-grid}
+
+::: {.snapshot-card}
+### Question
+
+How sensitive is cigarette consumption to changes in cigarette prices?
+
+:::
+
+::: {.snapshot-card}
+### Approach
+
+Compared pooled OLS, fixed effects, and random effects panel models before selecting the appropriate specification through formal statistical testing.
+
+:::
+
+::: {.snapshot-card}
+### Finding
+
+Statistical tests supported the fixed effects model, suggesting that controlling for unobserved state-specific characteristics produced more reliable estimates of price elasticity.
+
+:::
+
+:::
+
+# Overview
+
+Estimating demand elasticity using observational data presents several challenges because states differ in ways that cannot always be directly measured. Factors such as culture, public health attitudes, and smoking regulations may influence cigarette consumption independently of price.
+
+This project applied panel data econometrics to account for these differences by exploiting repeated observations across states and years. By comparing multiple model specifications, the analysis identified the model that best isolated the relationship between cigarette prices and cigarette demand.
+
+# The Challenge
+
+::: {.feature-grid}
+
+::: {.feature-card}
+### Unobserved heterogeneity
+
+States differ in persistent characteristics that may influence smoking behavior but cannot easily be measured directly.
+
+:::
+
+::: {.feature-card}
+### Longitudinal data
+
+Observations were collected repeatedly across both states and years, requiring panel data techniques instead of standard regression.
+
+:::
+
+::: {.feature-card}
+### Model selection
+
+The project compared competing econometric models and formally tested which specification was most appropriate.
+
+:::
+
+::: {.feature-card}
+### Policy interpretation
+
+Results needed to provide economically meaningful interpretations of cigarette price elasticity.
+
+:::
+
+:::
+
+# Analysis Pipeline
+
+::: {.architecture-card}
+
+::: {.architecture-horizontal}
+
+::: {.architecture-step}
+
+<div class="step-number">1</div>
+
+<div class="step-icon">📥</div>
+
+### Data Collection
+
+Loaded cigarette consumption data across 46 U.S. states from 1963–1992.
+
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+
+<div class="step-number">2</div>
+
+<div class="step-icon">🧹</div>
+
+### Data Preparation
+
+Prepared panel structure and economic variables for longitudinal analysis.
+
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+
+<div class="step-number">3</div>
+
+<div class="step-icon">📈</div>
+
+### Model Estimation
+
+Estimated pooled OLS, fixed effects, and random effects models.
+
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+
+<div class="step-number">4</div>
+
+<div class="step-icon">⚖️</div>
+
+### Model Comparison
+
+Performed F-tests and Hausman tests to compare competing specifications.
+
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+
+<div class="step-number">5</div>
+
+<div class="step-icon">📊</div>
+
+### Elasticity Estimation
+
+Estimated the relationship between cigarette prices and cigarette demand.
+
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+
+<div class="step-number">6</div>
+
+<div class="step-icon">✅</div>
+
+### Interpretation
+
+Translated econometric results into policy-relevant conclusions.
+
+:::
+
+:::
+
+<p class="architecture-caption">
+Panel econometrics workflow for estimating cigarette demand elasticity.
+</p>
+
+:::
+
+# Technical Stack
+
+<ul class="skill-pills">
+
+<li class="skill-pill">R</li>
+
+<li class="skill-pill">Panel Data</li>
+
+<li class="skill-pill">Econometrics</li>
+
+<li class="skill-pill">plm</li>
+
+<li class="skill-pill">Fixed Effects</li>
+
+<li class="skill-pill">Random Effects</li>
+
+<li class="skill-pill">Hausman Test</li>
+
+<li class="skill-pill">F Test</li>
+
+<li class="skill-pill">Elasticity Estimation</li>
+
+</ul>
+
+# What I Built
+
+::: {.feature-grid}
+
+::: {.feature-card}
+
+### Panel Data Pipeline
+
+Prepared a longitudinal dataset covering multiple decades of state-level cigarette consumption.
+
+:::
+
+::: {.feature-card}
+
+### Econometric Models
+
+Estimated pooled OLS, fixed effects, and random effects models to compare alternative specifications.
+
+:::
+
+::: {.feature-card}
+
+### Model Selection Framework
+
+Applied Hausman and F-tests to determine whether unobserved state-specific effects should be explicitly modeled.
+
+:::
+
+::: {.feature-card}
+
+### Economic Interpretation
+
+Estimated cigarette price elasticity and discussed the implications for taxation and public health policy.
+
+:::
+
+:::
+
+# Key Results
+
+::: {.metric-grid}
+
+::: {.metric-card}
+
+<div class="metric-icon">🏛️</div>
+
+<div class="metric-number">46</div>
+
+U.S. states analyzed
+
+:::
+
+::: {.metric-card}
+
+<div class="metric-icon">📅</div>
+
+<div class="metric-number">30</div>
+
+Years of panel observations
+
+:::
+
+::: {.metric-card}
+
+<div class="metric-icon">📊</div>
+
+<div class="metric-number">FE</div>
+
+Fixed effects selected through Hausman testing
+
+:::
+
+:::
+
+# What I Learned
+
+This project strengthened my understanding of panel data econometrics and the importance of selecting an appropriate model specification. Rather than assuming observations are independent, panel models explicitly account for repeated measurements and unobserved heterogeneity.
+
+I also learned how statistical model selection tests such as the Hausman test provide objective evidence for choosing between competing econometric models instead of relying solely on model fit.
+
+# Research Deliverable
+
+The complete report includes the econometric methodology, statistical tests, regression results, and policy discussion.
+
+[View Source Code](https://github.com/malozano1-ux/cigarette-demand-panel){.btn .btn-primary}
+
+[View Full Report (PDF)](cigarette.pdf){.btn .btn-primary}
+
+[← Back to Projects](../projects.html){.btn .btn-outline}

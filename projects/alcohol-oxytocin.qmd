@@ -1,23 +1,247 @@
 ---
 title: "Alcohol, Music, Gender, and Oxytocin"
-subtitle: "A 3×2×2 factorial experiment on hormone response"
+subtitle: "Factorial ANOVA for Experimental Design"
 date: 2025-06-15
-categories: [Statistics, Experimental Design]
-description: "Three-way ANOVA studying how alcohol type, music genre, and gender affect blood oxytocin levels."
+categories: [Statistics, Experimental Design, ANOVA]
+description: "A 3×2×2 factorial experiment studying how alcohol type, music genre, and gender affect blood oxytocin levels."
 image: "../images/projects/acohol-oxytocin.jpeg"
 ---
 
-This project uses a **3×2×2 factorial design** to test the effects of alcohol type, music genre,
-and gender on blood oxytocin levels. We fit a three-way ANOVA and check all model assumptions.
+::: {.case-hero}
 
-- Gender explains ~99% of the variance in oxytocin response.
-- Alcohol type and music genre show no meaningful main or interaction effects.
+## Testing how alcohol, music, and gender affect oxytocin response
 
-<iframe src="alcohol.pdf" width="100%" height="700px" style="border:none;">
-Your browser does not support embedded PDFs.  
-Please use the link above to download the file.
-</iframe>
+I analyzed a 3×2×2 factorial experiment to evaluate whether alcohol type, music genre, gender, or their interactions influenced blood oxytocin levels. The project focused on experimental design, three-way ANOVA, assumption checking, and interpretation of interaction effects.
 
-[Download poster (PDF)](alcohol.pdf)
+[View Source Code](https://github.com/malozano1-ux/oxytocin-anova){.btn .btn-primary}
+[View Poster](alcohol.pdf){.btn .btn-primary}
+[← Back to Projects](../projects.html){.btn .btn-outline}
 
-[← Back to Projects](../projects.html){.btn .btn-outline-primary}
+:::
+
+::: {.case-summary}
+
+::: {.summary-item}
+**Role**  
+Statistical Analyst
+:::
+
+::: {.summary-item}
+**Domain**  
+Experimental Design
+:::
+
+::: {.summary-item}
+**Stack**  
+R · ANOVA · Diagnostics
+:::
+
+::: {.summary-item}
+**Design**  
+3×2×2 Factorial Experiment
+:::
+
+:::
+
+# Project Snapshot
+
+::: {.snapshot-grid}
+
+::: {.snapshot-card}
+### Question
+Do alcohol type, music genre, and gender influence oxytocin levels individually or through interaction effects?
+:::
+
+::: {.snapshot-card}
+### Approach
+Fit a three-way ANOVA model and evaluated main effects, two-way interactions, three-way interactions, and model assumptions.
+:::
+
+::: {.snapshot-card}
+### Finding
+Gender explained nearly all variation in oxytocin response, while alcohol type and music genre showed no meaningful main or interaction effects.
+:::
+
+:::
+
+# Overview
+
+Oxytocin is often associated with social bonding and emotional response, making it an interesting outcome for studying how external stimuli may affect hormone levels.
+
+This project tested whether alcohol type, music genre, and gender were associated with differences in oxytocin response using a controlled factorial experiment. The main goal was not only to test individual factor effects, but also to determine whether combinations of factors produced interaction effects.
+
+# The Challenge
+
+::: {.feature-grid}
+
+::: {.feature-card}
+### Multiple experimental factors
+The study included three predictors: alcohol type, music genre, and gender, creating a full 3×2×2 factorial design.
+:::
+
+::: {.feature-card}
+### Interaction effects
+The analysis needed to test whether the effect of one factor depended on the level of another factor.
+:::
+
+::: {.feature-card}
+### Model assumptions
+ANOVA requires checking assumptions such as normality, constant variance, and independent errors.
+:::
+
+::: {.feature-card}
+### Clear interpretation
+The final results needed to explain statistical significance in practical terms, not just report p-values.
+:::
+
+:::
+
+# Analysis Pipeline
+
+::: {.architecture-card}
+
+::: {.architecture-horizontal}
+
+::: {.architecture-step}
+<div class="step-number">1</div>
+<div class="step-icon">🧪</div>
+
+### Experimental Design
+Defined a 3×2×2 factorial structure with alcohol type, music genre, and gender.
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+<div class="step-number">2</div>
+<div class="step-icon">📊</div>
+
+### Data Exploration
+Summarized oxytocin levels across factor combinations.
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+<div class="step-number">3</div>
+<div class="step-icon">📈</div>
+
+### Three-Way ANOVA
+Estimated main effects, two-way interactions, and the three-way interaction.
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+<div class="step-number">4</div>
+<div class="step-icon">🧾</div>
+
+### Assumption Checks
+Evaluated residual normality, variance stability, and diagnostic plots.
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+<div class="step-number">5</div>
+<div class="step-icon">🔍</div>
+
+### Effect Interpretation
+Compared effect sizes and statistical significance across factors.
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+<div class="step-number">6</div>
+<div class="step-icon">✅</div>
+
+### Conclusion
+Translated ANOVA results into clear experimental findings.
+:::
+
+:::
+
+<p class="architecture-caption">
+End-to-end statistical workflow for a factorial experimental design.
+</p>
+
+:::
+
+# Technical Stack
+
+<ul class="skill-pills">
+<li class="skill-pill">R</li>
+<li class="skill-pill">ANOVA</li>
+<li class="skill-pill">Factorial Design</li>
+<li class="skill-pill">Three-Way ANOVA</li>
+<li class="skill-pill">Interaction Effects</li>
+<li class="skill-pill">Residual Diagnostics</li>
+<li class="skill-pill">Hypothesis Testing</li>
+<li class="skill-pill">Data Visualization</li>
+<li class="skill-pill">Statistical Inference</li>
+</ul>
+
+# What I Built
+
+::: {.feature-grid}
+
+::: {.feature-card}
+### Factorial Design Analysis
+Structured the experiment as a 3×2×2 factorial design to test main effects and interaction effects simultaneously.
+:::
+
+::: {.feature-card}
+### Three-Way ANOVA Model
+Fit an ANOVA model to estimate the influence of alcohol type, music genre, gender, and their interactions on oxytocin levels.
+:::
+
+::: {.feature-card}
+### Assumption Diagnostics
+Checked model assumptions using residual analysis and diagnostic plots to validate the reliability of the ANOVA results.
+:::
+
+::: {.feature-card}
+### Results Interpretation
+Translated statistical output into a clear explanation of which factors meaningfully affected oxytocin response.
+:::
+
+:::
+
+# Key Results
+
+::: {.metric-grid}
+
+::: {.metric-card}
+<div class="metric-icon">🧬</div>
+<div class="metric-number">~99%</div>
+Variance explained by gender
+:::
+
+::: {.metric-card}
+<div class="metric-icon">🧪</div>
+<div class="metric-number">3×2×2</div>
+Full factorial experimental design
+:::
+
+::: {.metric-card}
+<div class="metric-icon">📊</div>
+<div class="metric-number">ANOVA</div>
+Main effects and interactions tested
+:::
+
+:::
+
+# What I Learned
+
+This project strengthened my understanding of how factorial experiments are analyzed and interpreted. The most important takeaway was that interaction effects are central to experimental design because they reveal whether one factor changes the effect of another.
+
+I also learned the importance of validating model assumptions before interpreting statistical results. Even when an ANOVA table produces significant p-values, residual diagnostics and practical interpretation are essential for drawing reliable conclusions.
+
+# Research Deliverable
+
+The full research poster includes the experimental setup, ANOVA results, diagnostic checks, and final interpretation.
+
+[View Source Code](https://github.com/malozano1-ux/oxytocin-anova){.btn .btn-primary}
+[View Poster (PDF)](alcohol.pdf){.btn .btn-primary}
+[← Back to Projects](../projects.html){.btn .btn-outline}

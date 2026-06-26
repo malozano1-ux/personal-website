@@ -1,26 +1,336 @@
 ---
-title: "Macroeconomic Drivers of U.S. Nominal GDP"
-subtitle: "Multi-variable regression on 2004–2024 monthly data"
-date: 2025-03-13
-categories: [Economics, Time Series, Finance]
-description: "Regression relating nominal GDP to unemployment, inflation, interest rates, and money supply."
-image: "../images/projects/gdp.png"
+title: "Macroeconomic GDP Forecasting"
+subtitle: "Time Series Forecasting of U.S. Economic Growth"
+date: 2025-03-20
+categories: [Forecasting, Economics, Time Series]
+description: "Forecasting U.S. GDP growth using macroeconomic indicators and time series modeling."
+image: "../images/projects/gdp.jpeg"
 ---
 
-This project fits multiple regression models linking nominal GDP to unemployment, inflation,
-the federal funds rate, money supply, and consumer confidence.
+::: {.case-hero}
 
-We focus on:
+## Forecasting economic growth using macroeconomic indicators and time series analysis
 
-- Multicollinearity diagnostics (VIF)
-- AIC-based model selection
-- Residual and specification checks
+This project explored how historical macroeconomic indicators can be used to forecast future GDP growth. I compared multiple forecasting approaches while evaluating predictive performance, model assumptions, and economic interpretation.
 
-<iframe src="gdp.pdf" width="100%" height="700px" style="border:none;">
-Your browser does not support embedded PDFs.
-Please use the link above to download the file.
-</iframe>
+[View Source Code](https://github.com/malozano1-ux/gdp-macro-analysis){.btn .btn-primary}
+[View Full Report](gdp.pdf){.btn .btn-primary}
+[← Back to Projects](../projects.html){.btn .btn-outline}
 
-[Read full report (PDF)](gdp.pdf)
+:::
 
-[← Back to Projects](../projects.html){.btn .btn-outline-primary}
+::: {.case-summary}
+
+::: {.summary-item}
+**Role**
+
+Economic Data Analyst
+
+:::
+
+::: {.summary-item}
+**Domain**
+
+Macroeconomic Forecasting
+
+:::
+
+::: {.summary-item}
+**Stack**
+
+R · Time Series · Forecasting
+
+:::
+
+::: {.summary-item}
+**Methods**
+
+Regression · Time Series · Forecast Evaluation
+
+:::
+
+:::
+
+# Project Snapshot
+
+::: {.snapshot-grid}
+
+::: {.snapshot-card}
+
+### Problem
+
+Governments and businesses rely on accurate GDP forecasts to make investment, budgeting, and policy decisions.
+
+:::
+
+::: {.snapshot-card}
+
+### Solution
+
+Built forecasting models using historical macroeconomic indicators and evaluated their ability to predict future GDP growth.
+
+:::
+
+::: {.snapshot-card}
+
+### Outcome
+
+Compared competing forecasting approaches while analyzing prediction accuracy and economic interpretability.
+
+:::
+
+:::
+
+# Overview
+
+Gross Domestic Product (GDP) is one of the most important indicators of economic performance. Reliable forecasts help governments, investors, and businesses anticipate future economic conditions and make informed decisions.
+
+This project explored forecasting techniques for predicting GDP growth using historical macroeconomic data. The analysis emphasized both predictive accuracy and the economic interpretation of model results.
+
+# The Challenge
+
+::: {.feature-grid}
+
+::: {.feature-card}
+
+### Time dependence
+
+Economic observations are correlated over time, requiring models that account for temporal structure.
+
+:::
+
+::: {.feature-card}
+
+### Economic interpretation
+
+Forecasts should not only be accurate but also consistent with economic theory.
+
+:::
+
+::: {.feature-card}
+
+### Forecast uncertainty
+
+Predictions become less certain further into the future, making confidence intervals an essential part of forecasting.
+
+:::
+
+::: {.feature-card}
+
+### Model comparison
+
+Multiple forecasting approaches were compared to evaluate predictive performance.
+
+:::
+
+:::
+
+# Forecasting Pipeline
+
+::: {.architecture-card}
+
+::: {.architecture-horizontal}
+
+::: {.architecture-step}
+
+<div class="step-number">1</div>
+
+<div class="step-icon">📥</div>
+
+### Data Collection
+
+Collected historical macroeconomic indicators.
+
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+
+<div class="step-number">2</div>
+
+<div class="step-icon">📈</div>
+
+### Exploratory Analysis
+
+Examined GDP trends, seasonality, and historical growth patterns.
+
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+
+<div class="step-number">3</div>
+
+<div class="step-icon">⚙️</div>
+
+### Model Development
+
+Built forecasting models using historical economic data.
+
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+
+<div class="step-number">4</div>
+
+<div class="step-icon">📊</div>
+
+### Forecast Generation
+
+Produced GDP forecasts and prediction intervals.
+
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+
+<div class="step-number">5</div>
+
+<div class="step-icon">📉</div>
+
+### Model Evaluation
+
+Compared forecast accuracy across competing models.
+
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+
+<div class="step-number">6</div>
+
+<div class="step-icon">✅</div>
+
+### Interpretation
+
+Related forecasting results back to macroeconomic conditions.
+
+:::
+
+:::
+
+<p class="architecture-caption">
+
+End-to-end workflow for macroeconomic forecasting.
+
+</p>
+
+:::
+
+# Technical Stack
+
+<ul class="skill-pills">
+
+<li class="skill-pill">R</li>
+
+<li class="skill-pill">Forecasting</li>
+
+<li class="skill-pill">Time Series</li>
+
+<li class="skill-pill">Macroeconomics</li>
+
+<li class="skill-pill">Regression</li>
+
+<li class="skill-pill">Forecast Evaluation</li>
+
+<li class="skill-pill">Data Visualization</li>
+
+<li class="skill-pill">Statistical Modeling</li>
+
+</ul>
+
+# What I Built
+
+::: {.feature-grid}
+
+::: {.feature-card}
+
+### Data Pipeline
+
+Prepared historical macroeconomic indicators for forecasting and exploratory analysis.
+
+:::
+
+::: {.feature-card}
+
+### Forecast Models
+
+Built multiple forecasting models to estimate future GDP growth.
+
+:::
+
+::: {.feature-card}
+
+### Model Comparison
+
+Compared forecast accuracy across competing approaches using quantitative evaluation metrics.
+
+:::
+
+::: {.feature-card}
+
+### Economic Interpretation
+
+Connected statistical forecasts to broader macroeconomic trends and policy implications.
+
+:::
+
+:::
+
+# Key Results
+
+::: {.metric-grid}
+
+::: {.metric-card}
+
+<div class="metric-icon">📈</div>
+
+<div class="metric-number">GDP</div>
+
+Forecasted future economic growth
+
+:::
+
+::: {.metric-card}
+
+<div class="metric-icon">📊</div>
+
+<div class="metric-number">TS</div>
+
+Time series forecasting workflow
+
+:::
+
+::: {.metric-card}
+
+<div class="metric-icon">🌎</div>
+
+<div class="metric-number">Macro</div>
+
+Economic interpretation of forecasting results
+
+:::
+
+:::
+
+# What I Learned
+
+This project strengthened my understanding of time series forecasting and the challenges of predicting economic activity. Unlike standard regression problems, forecasting requires balancing statistical performance with an understanding of changing macroeconomic conditions.
+
+I also learned that forecast evaluation extends beyond producing accurate predictions. Confidence intervals, model assumptions, and economic plausibility are equally important when communicating forecasts to decision makers.
+
+# Research Deliverable
+
+The full report includes the forecasting methodology, exploratory analysis, model comparison, and economic interpretation.
+
+[View Source Code](https://github.com/malozano1-ux/gdp-macro-analysis){.btn .btn-primary}
+
+[View Full Report (PDF)](gdp.pdf){.btn .btn-primary}
+
+[← Back to Projects](../projects.html){.btn .btn-outline}

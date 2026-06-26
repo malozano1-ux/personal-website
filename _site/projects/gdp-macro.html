@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-03-13">
-<meta name="description" content="Regression relating nominal GDP to unemployment, inflation, interest rates, and money supply.">
+<meta name="dcterms.date" content="2025-03-20">
+<meta name="description" content="Forecasting U.S. GDP growth using macroeconomic indicators and time series modeling.">
 
-<title>Macroeconomic Drivers of U.S. Nominal GDP</title>
+<title>Macroeconomic GDP Forecasting</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -131,18 +131,18 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Macroeconomic Drivers of U.S. Nominal GDP</h1>
-<p class="subtitle lead">Multi-variable regression on 2004–2024 monthly data</p>
+<h1 class="title">Macroeconomic GDP Forecasting</h1>
+<p class="subtitle lead">Time Series Forecasting of U.S. Economic Growth</p>
   <div class="quarto-categories">
+    <div class="quarto-category">Forecasting</div>
     <div class="quarto-category">Economics</div>
     <div class="quarto-category">Time Series</div>
-    <div class="quarto-category">Finance</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Regression relating nominal GDP to unemployment, inflation, interest rates, and money supply.
+    Forecasting U.S. GDP growth using macroeconomic indicators and time series modeling.
   </div>
 </div>
 
@@ -153,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 13, 2025</p>
+      <p class="date">March 20, 2025</p>
     </div>
   </div>
   
@@ -165,20 +165,265 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This project fits multiple regression models linking nominal GDP to unemployment, inflation, the federal funds rate, money supply, and consumer confidence.</p>
-<p>We focus on:</p>
-<ul>
-<li>Multicollinearity diagnostics (VIF)</li>
-<li>AIC-based model selection</li>
-<li>Residual and specification checks</li>
+<section id="forecasting-economic-growth-using-macroeconomic-indicators-and-time-series-analysis" class="level2 case-hero">
+<h2 class="anchored" data-anchor-id="forecasting-economic-growth-using-macroeconomic-indicators-and-time-series-analysis">Forecasting economic growth using macroeconomic indicators and time series analysis</h2>
+<p>This project explored how historical macroeconomic indicators can be used to forecast future GDP growth. I compared multiple forecasting approaches while evaluating predictive performance, model assumptions, and economic interpretation.</p>
+<p><a href="https://github.com/malozano1-ux/gdp-macro-analysis" class="btn btn-primary">View Source Code</a> <a href="gdp.pdf" class="btn btn-primary">View Full Report</a> <a href="../projects.html" class="btn btn-outline">← Back to Projects</a></p>
+</section>
+<div class="case-summary">
+<div class="summary-item">
+<p><strong>Role</strong></p>
+<p>Economic Data Analyst</p>
+</div>
+<div class="summary-item">
+<p><strong>Domain</strong></p>
+<p>Macroeconomic Forecasting</p>
+</div>
+<div class="summary-item">
+<p><strong>Stack</strong></p>
+<p>R · Time Series · Forecasting</p>
+</div>
+<div class="summary-item">
+<p><strong>Methods</strong></p>
+<p>Regression · Time Series · Forecast Evaluation</p>
+</div>
+</div>
+<section id="project-snapshot" class="level1">
+<h1>Project Snapshot</h1>
+<div class="snapshot-grid">
+<section id="problem" class="level3 snapshot-card">
+<h3 class="anchored" data-anchor-id="problem">Problem</h3>
+<p>Governments and businesses rely on accurate GDP forecasts to make investment, budgeting, and policy decisions.</p>
+</section>
+<section id="solution" class="level3 snapshot-card">
+<h3 class="anchored" data-anchor-id="solution">Solution</h3>
+<p>Built forecasting models using historical macroeconomic indicators and evaluated their ability to predict future GDP growth.</p>
+</section>
+<section id="outcome" class="level3 snapshot-card">
+<h3 class="anchored" data-anchor-id="outcome">Outcome</h3>
+<p>Compared competing forecasting approaches while analyzing prediction accuracy and economic interpretability.</p>
+</section>
+</div>
+</section>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Gross Domestic Product (GDP) is one of the most important indicators of economic performance. Reliable forecasts help governments, investors, and businesses anticipate future economic conditions and make informed decisions.</p>
+<p>This project explored forecasting techniques for predicting GDP growth using historical macroeconomic data. The analysis emphasized both predictive accuracy and the economic interpretation of model results.</p>
+</section>
+<section id="the-challenge" class="level1">
+<h1>The Challenge</h1>
+<div class="feature-grid">
+<section id="time-dependence" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="time-dependence">Time dependence</h3>
+<p>Economic observations are correlated over time, requiring models that account for temporal structure.</p>
+</section>
+<section id="economic-interpretation" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="economic-interpretation">Economic interpretation</h3>
+<p>Forecasts should not only be accurate but also consistent with economic theory.</p>
+</section>
+<section id="forecast-uncertainty" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="forecast-uncertainty">Forecast uncertainty</h3>
+<p>Predictions become less certain further into the future, making confidence intervals an essential part of forecasting.</p>
+</section>
+<section id="model-comparison" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="model-comparison">Model comparison</h3>
+<p>Multiple forecasting approaches were compared to evaluate predictive performance.</p>
+</section>
+</div>
+</section>
+<section id="forecasting-pipeline" class="level1">
+<h1>Forecasting Pipeline</h1>
+<div class="architecture-card">
+<div class="architecture-horizontal">
+<div class="architecture-step">
+<div class="step-number">
+1
+</div>
+<div class="step-icon">
+📥
+</div>
+<section id="data-collection" class="level3">
+<h3 class="anchored" data-anchor-id="data-collection">Data Collection</h3>
+<p>Collected historical macroeconomic indicators.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+2
+</div>
+<div class="step-icon">
+📈
+</div>
+<section id="exploratory-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="exploratory-analysis">Exploratory Analysis</h3>
+<p>Examined GDP trends, seasonality, and historical growth patterns.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+3
+</div>
+<div class="step-icon">
+⚙️
+</div>
+<section id="model-development" class="level3">
+<h3 class="anchored" data-anchor-id="model-development">Model Development</h3>
+<p>Built forecasting models using historical economic data.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+4
+</div>
+<div class="step-icon">
+📊
+</div>
+<section id="forecast-generation" class="level3">
+<h3 class="anchored" data-anchor-id="forecast-generation">Forecast Generation</h3>
+<p>Produced GDP forecasts and prediction intervals.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+5
+</div>
+<div class="step-icon">
+📉
+</div>
+<section id="model-evaluation" class="level3">
+<h3 class="anchored" data-anchor-id="model-evaluation">Model Evaluation</h3>
+<p>Compared forecast accuracy across competing models.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+6
+</div>
+<div class="step-icon">
+✅
+</div>
+<section id="interpretation" class="level3">
+<h3 class="anchored" data-anchor-id="interpretation">Interpretation</h3>
+<p>Related forecasting results back to macroeconomic conditions.</p>
+</section>
+</div>
+</div>
+<p class="architecture-caption">
+</p><p>End-to-end workflow for macroeconomic forecasting.</p>
+<p></p>
+</div>
+</section>
+<section id="technical-stack" class="level1">
+<h1>Technical Stack</h1>
+<ul class="skill-pills">
+<li class="skill-pill">
+R
+</li>
+<li class="skill-pill">
+Forecasting
+</li>
+<li class="skill-pill">
+Time Series
+</li>
+<li class="skill-pill">
+Macroeconomics
+</li>
+<li class="skill-pill">
+Regression
+</li>
+<li class="skill-pill">
+Forecast Evaluation
+</li>
+<li class="skill-pill">
+Data Visualization
+</li>
+<li class="skill-pill">
+Statistical Modeling
+</li>
 </ul>
-<iframe src="gdp.pdf" width="100%" height="700px" style="border:none;">
-Your browser does not support embedded PDFs. Please use the link above to download the file.
-</iframe>
-<p><a href="gdp.pdf">Read full report (PDF)</a></p>
-<p><a href="../projects.html" class="btn btn-outline-primary">← Back to Projects</a></p>
+</section>
+<section id="what-i-built" class="level1">
+<h1>What I Built</h1>
+<div class="feature-grid">
+<section id="data-pipeline" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="data-pipeline">Data Pipeline</h3>
+<p>Prepared historical macroeconomic indicators for forecasting and exploratory analysis.</p>
+</section>
+<section id="forecast-models" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="forecast-models">Forecast Models</h3>
+<p>Built multiple forecasting models to estimate future GDP growth.</p>
+</section>
+<section id="model-comparison-1" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="model-comparison-1">Model Comparison</h3>
+<p>Compared forecast accuracy across competing approaches using quantitative evaluation metrics.</p>
+</section>
+<section id="economic-interpretation-1" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="economic-interpretation-1">Economic Interpretation</h3>
+<p>Connected statistical forecasts to broader macroeconomic trends and policy implications.</p>
+</section>
+</div>
+</section>
+<section id="key-results" class="level1">
+<h1>Key Results</h1>
+<div class="metric-grid">
+<div class="metric-card">
+<div class="metric-icon">
+📈
+</div>
+<div class="metric-number">
+GDP
+</div>
+<p>Forecasted future economic growth</p>
+</div>
+<div class="metric-card">
+<div class="metric-icon">
+📊
+</div>
+<div class="metric-number">
+TS
+</div>
+<p>Time series forecasting workflow</p>
+</div>
+<div class="metric-card">
+<div class="metric-icon">
+🌎
+</div>
+<div class="metric-number">
+Macro
+</div>
+<p>Economic interpretation of forecasting results</p>
+</div>
+</div>
+</section>
+<section id="what-i-learned" class="level1">
+<h1>What I Learned</h1>
+<p>This project strengthened my understanding of time series forecasting and the challenges of predicting economic activity. Unlike standard regression problems, forecasting requires balancing statistical performance with an understanding of changing macroeconomic conditions.</p>
+<p>I also learned that forecast evaluation extends beyond producing accurate predictions. Confidence intervals, model assumptions, and economic plausibility are equally important when communicating forecasts to decision makers.</p>
+</section>
+<section id="research-deliverable" class="level1">
+<h1>Research Deliverable</h1>
+<p>The full report includes the forecasting methodology, exploratory analysis, model comparison, and economic interpretation.</p>
+<p><a href="https://github.com/malozano1-ux/gdp-macro-analysis" class="btn btn-primary">View Source Code</a></p>
+<p><a href="gdp.pdf" class="btn btn-primary">View Full Report (PDF)</a></p>
+<p><a href="../projects.html" class="btn btn-outline">← Back to Projects</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

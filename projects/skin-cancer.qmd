@@ -12,6 +12,7 @@ image: "../images/projects/skin-cancer.jpeg"
 
 This project explored how demographic, clinical, and behavioral factors can be combined to estimate skin cancer risk. I compared regularized logistic regression models and evaluated their ability to balance predictive performance with clinical interpretability.
 
+[View Source Code](https://github.com/malozano1-ux/skin-cancer-prediction){.btn .btn-primary}
 [View Full Report](skin_cancer_report.pdf){.btn .btn-primary}
 [← Back to Projects](../projects.html){.btn .btn-outline}
 
@@ -329,4 +330,8 @@ I also gained experience evaluating machine learning models beyond simple accura
 
 The complete technical report, including methodology, statistical analysis, and model evaluation, is available below.
 
+[View Source Code](https://github.com/malozano1-ux/skin-cancer-prediction){.btn .btn-primary}
+
 [View Full Report (PDF)](skin_cancer_report.pdf){.btn .btn-primary}
+
+[← Back to Projects](../projects.html){.btn .btn-outline}

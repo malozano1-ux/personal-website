@@ -1,24 +1,255 @@
 ---
-title: "CAPM vs Fama–French 3-Factor Model"
-subtitle: "Explaining stock returns with factor models"
-date: 2024-03-16
-categories: [Statistics, Finance, Asset Pricing]
-description: "Comparison of CAPM and Fama–French 3-factor model for a set of equities."
+title: "CAPM vs. Fama–French Three-Factor Model"
+subtitle: "Comparing Asset Pricing Models for Equity Returns"
+date: 2025-06-08
+categories: [Finance, Statistics, Econometrics]
+description: "Comparing CAPM and the Fama–French Three-Factor Model to explain stock returns."
 image: "../images/projects/capm-ff3.jpeg"
 ---
 
-We compare how well **CAPM** and the **Fama–French 3-factor model** explain excess returns of a
-set of equities relative to a market index.
+::: {.case-hero}
 
-- Estimate factor loadings and risk premia
-- Compare model fit and residual patterns
-- Discuss which model better captures cross-sectional return differences
+## Comparing asset pricing models to explain stock returns
 
-<iframe src="CAPM_FF3.pdf" width="100%" height="700px" style="border:none;">
-Your browser does not support embedded PDFs.
-Please use the link above to download the file.
-</iframe>
+This project evaluated two foundational financial models—the Capital Asset Pricing Model (CAPM) and the Fama–French Three-Factor Model—to determine which better explains equity returns. The analysis focused on estimating factor exposures, comparing model fit, and interpreting the economic significance of each factor.
 
-[Read full report (PDF)](CAPM_FF3.pdf)
+[View Source Code](https://github.com/malozano1-ux/CAPM-FF3){.btn .btn-primary}
+[View Full Report](CAPM_FF3.pdf){.btn .btn-primary}
+[← Back to Projects](../projects.html){.btn .btn-outline}
 
-[← Back to Projects](../projects.html){.btn .btn-outline-primary}
+:::
+
+::: {.case-summary}
+
+::: {.summary-item}
+**Role**  
+Financial Data Analyst
+:::
+
+::: {.summary-item}
+**Domain**  
+Quantitative Finance
+:::
+
+::: {.summary-item}
+**Stack**  
+R · Linear Regression
+:::
+
+::: {.summary-item}
+**Methods**  
+CAPM · Fama–French · Factor Modeling
+:::
+
+:::
+
+# Project Snapshot
+
+::: {.snapshot-grid}
+
+::: {.snapshot-card}
+### Question
+
+Does the Fama–French Three-Factor Model explain stock returns better than CAPM?
+
+:::
+
+::: {.snapshot-card}
+### Approach
+
+Estimated both models using historical market data and compared explanatory power, residual behavior, and factor significance.
+
+:::
+
+::: {.snapshot-card}
+### Finding
+
+The Fama–French model captured additional variation in stock returns through size and value factors, providing a better overall fit than CAPM.
+
+:::
+
+:::
+
+# Overview
+
+Asset pricing models attempt to explain why different stocks generate different expected returns. While CAPM attributes returns primarily to market risk, the Fama–French Three-Factor Model extends this framework by incorporating company size and value characteristics.
+
+This project compared both models using historical financial data to evaluate whether the additional factors meaningfully improved model performance and interpretation.
+
+# The Challenge
+
+::: {.feature-grid}
+
+::: {.feature-card}
+### Financial market variability
+Stock returns are influenced by multiple sources of systematic risk that may not be captured by a single-factor model.
+:::
+
+::: {.feature-card}
+### Model comparison
+The project required comparing two competing statistical models using both quantitative metrics and economic interpretation.
+:::
+
+::: {.feature-card}
+### Factor estimation
+Regression coefficients were interpreted as measures of exposure to market, size, and value risk factors.
+:::
+
+::: {.feature-card}
+### Model diagnostics
+Residual analysis and goodness-of-fit metrics were used to evaluate model quality.
+:::
+
+:::
+
+# Analysis Pipeline
+
+::: {.architecture-card}
+
+::: {.architecture-horizontal}
+
+::: {.architecture-step}
+<div class="step-number">1</div>
+<div class="step-icon">📥</div>
+
+### Financial Data
+Collected historical stock returns and factor data.
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+<div class="step-number">2</div>
+<div class="step-icon">📊</div>
+
+### Data Preparation
+Computed excess returns and aligned market factor observations.
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+<div class="step-number">3</div>
+<div class="step-icon">📈</div>
+
+### CAPM
+Estimated the single-factor market model using linear regression.
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+<div class="step-number">4</div>
+<div class="step-icon">📉</div>
+
+### Fama–French Model
+Estimated the three-factor regression including market, size, and value factors.
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+<div class="step-number">5</div>
+<div class="step-icon">⚖️</div>
+
+### Model Comparison
+Compared explanatory power, residuals, and statistical significance.
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+<div class="step-number">6</div>
+<div class="step-icon">✅</div>
+
+### Interpretation
+Evaluated which model better explained observed stock returns.
+:::
+
+:::
+
+<p class="architecture-caption">
+Regression workflow for comparing competing asset pricing models.
+</p>
+
+:::
+
+# Technical Stack
+
+<ul class="skill-pills">
+<li class="skill-pill">R</li>
+<li class="skill-pill">Linear Regression</li>
+<li class="skill-pill">CAPM</li>
+<li class="skill-pill">Fama–French</li>
+<li class="skill-pill">Financial Modeling</li>
+<li class="skill-pill">Regression Diagnostics</li>
+<li class="skill-pill">Statistical Inference</li>
+<li class="skill-pill">Data Visualization</li>
+<li class="skill-pill">Quantitative Finance</li>
+</ul>
+
+# What I Built
+
+::: {.feature-grid}
+
+::: {.feature-card}
+### CAPM Regression
+Estimated market beta and evaluated the relationship between market risk and excess stock returns.
+:::
+
+::: {.feature-card}
+### Three-Factor Model
+Extended the analysis by incorporating size (SMB) and value (HML) factors to explain additional return variation.
+:::
+
+::: {.feature-card}
+### Model Evaluation
+Compared model fit using regression diagnostics, residual analysis, and statistical significance tests.
+:::
+
+::: {.feature-card}
+### Financial Interpretation
+Connected regression coefficients to economic intuition and discussed how additional factors influence expected returns.
+:::
+
+:::
+
+# Key Results
+
+::: {.metric-grid}
+
+::: {.metric-card}
+<div class="metric-icon">📈</div>
+<div class="metric-number">2</div>
+Asset pricing models compared
+:::
+
+::: {.metric-card}
+<div class="metric-icon">📊</div>
+<div class="metric-number">3</div>
+Systematic risk factors analyzed
+:::
+
+::: {.metric-card}
+<div class="metric-icon">📉</div>
+<div class="metric-number">OLS</div>
+Linear regression framework used for estimation
+:::
+
+:::
+
+# What I Learned
+
+This project strengthened my understanding of factor-based regression models and how statistical modeling can be used to explain financial market behavior. Comparing CAPM and the Fama–French model demonstrated how incorporating additional explanatory variables can improve predictive performance and economic interpretation.
+
+It also reinforced the importance of evaluating models using both statistical evidence and domain knowledge. A model with better fit should also produce results that align with established financial theory.
+
+# Research Deliverable
+
+The complete report includes the regression methodology, coefficient estimates, diagnostic analysis, and model comparison.
+
+[View Source Code](https://github.com/malozano1-ux/CAPM-FF3){.btn .btn-primary}
+
+[View Full Report (PDF)](CAPM_FF3.pdf){.btn .btn-primary}
+
+[← Back to Projects](../projects.html){.btn .btn-outline}

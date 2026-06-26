@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-03-16">
-<meta name="description" content="Comparison of CAPM and Fama–French 3-factor model for a set of equities.">
+<meta name="dcterms.date" content="2025-06-08">
+<meta name="description" content="Comparing CAPM and the Fama–French Three-Factor Model to explain stock returns.">
 
-<title>CAPM vs Fama–French 3-Factor Model</title>
+<title>CAPM vs.&nbsp;Fama–French Three-Factor Model</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -131,18 +131,18 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">CAPM vs Fama–French 3-Factor Model</h1>
-<p class="subtitle lead">Explaining stock returns with factor models</p>
+<h1 class="title">CAPM vs.&nbsp;Fama–French Three-Factor Model</h1>
+<p class="subtitle lead">Comparing Asset Pricing Models for Equity Returns</p>
   <div class="quarto-categories">
-    <div class="quarto-category">Statistics</div>
     <div class="quarto-category">Finance</div>
-    <div class="quarto-category">Asset Pricing</div>
+    <div class="quarto-category">Statistics</div>
+    <div class="quarto-category">Econometrics</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Comparison of CAPM and Fama–French 3-factor model for a set of equities.
+    Comparing CAPM and the Fama–French Three-Factor Model to explain stock returns.
   </div>
 </div>
 
@@ -153,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 16, 2024</p>
+      <p class="date">June 8, 2025</p>
     </div>
   </div>
   
@@ -165,19 +165,268 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>We compare how well <strong>CAPM</strong> and the <strong>Fama–French 3-factor model</strong> explain excess returns of a set of equities relative to a market index.</p>
-<ul>
-<li>Estimate factor loadings and risk premia</li>
-<li>Compare model fit and residual patterns</li>
-<li>Discuss which model better captures cross-sectional return differences</li>
+<section id="comparing-asset-pricing-models-to-explain-stock-returns" class="level2 case-hero">
+<h2 class="anchored" data-anchor-id="comparing-asset-pricing-models-to-explain-stock-returns">Comparing asset pricing models to explain stock returns</h2>
+<p>This project evaluated two foundational financial models—the Capital Asset Pricing Model (CAPM) and the Fama–French Three-Factor Model—to determine which better explains equity returns. The analysis focused on estimating factor exposures, comparing model fit, and interpreting the economic significance of each factor.</p>
+<p><a href="https://github.com/malozano1-ux/CAPM-FF3" class="btn btn-primary">View Source Code</a> <a href="CAPM_FF3.pdf" class="btn btn-primary">View Full Report</a> <a href="../projects.html" class="btn btn-outline">← Back to Projects</a></p>
+</section>
+<div class="case-summary">
+<div class="summary-item">
+<p><strong>Role</strong><br>
+Financial Data Analyst</p>
+</div>
+<div class="summary-item">
+<p><strong>Domain</strong><br>
+Quantitative Finance</p>
+</div>
+<div class="summary-item">
+<p><strong>Stack</strong><br>
+R · Linear Regression</p>
+</div>
+<div class="summary-item">
+<p><strong>Methods</strong><br>
+CAPM · Fama–French · Factor Modeling</p>
+</div>
+</div>
+<section id="project-snapshot" class="level1">
+<h1>Project Snapshot</h1>
+<div class="snapshot-grid">
+<section id="question" class="level3 snapshot-card">
+<h3 class="anchored" data-anchor-id="question">Question</h3>
+<p>Does the Fama–French Three-Factor Model explain stock returns better than CAPM?</p>
+</section>
+<section id="approach" class="level3 snapshot-card">
+<h3 class="anchored" data-anchor-id="approach">Approach</h3>
+<p>Estimated both models using historical market data and compared explanatory power, residual behavior, and factor significance.</p>
+</section>
+<section id="finding" class="level3 snapshot-card">
+<h3 class="anchored" data-anchor-id="finding">Finding</h3>
+<p>The Fama–French model captured additional variation in stock returns through size and value factors, providing a better overall fit than CAPM.</p>
+</section>
+</div>
+</section>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Asset pricing models attempt to explain why different stocks generate different expected returns. While CAPM attributes returns primarily to market risk, the Fama–French Three-Factor Model extends this framework by incorporating company size and value characteristics.</p>
+<p>This project compared both models using historical financial data to evaluate whether the additional factors meaningfully improved model performance and interpretation.</p>
+</section>
+<section id="the-challenge" class="level1">
+<h1>The Challenge</h1>
+<div class="feature-grid">
+<section id="financial-market-variability" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="financial-market-variability">Financial market variability</h3>
+<p>Stock returns are influenced by multiple sources of systematic risk that may not be captured by a single-factor model.</p>
+</section>
+<section id="model-comparison" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="model-comparison">Model comparison</h3>
+<p>The project required comparing two competing statistical models using both quantitative metrics and economic interpretation.</p>
+</section>
+<section id="factor-estimation" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="factor-estimation">Factor estimation</h3>
+<p>Regression coefficients were interpreted as measures of exposure to market, size, and value risk factors.</p>
+</section>
+<section id="model-diagnostics" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="model-diagnostics">Model diagnostics</h3>
+<p>Residual analysis and goodness-of-fit metrics were used to evaluate model quality.</p>
+</section>
+</div>
+</section>
+<section id="analysis-pipeline" class="level1">
+<h1>Analysis Pipeline</h1>
+<div class="architecture-card">
+<div class="architecture-horizontal">
+<div class="architecture-step">
+<div class="step-number">
+1
+</div>
+<div class="step-icon">
+📥
+</div>
+<section id="financial-data" class="level3">
+<h3 class="anchored" data-anchor-id="financial-data">Financial Data</h3>
+<p>Collected historical stock returns and factor data.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+2
+</div>
+<div class="step-icon">
+📊
+</div>
+<section id="data-preparation" class="level3">
+<h3 class="anchored" data-anchor-id="data-preparation">Data Preparation</h3>
+<p>Computed excess returns and aligned market factor observations.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+3
+</div>
+<div class="step-icon">
+📈
+</div>
+<section id="capm" class="level3">
+<h3 class="anchored" data-anchor-id="capm">CAPM</h3>
+<p>Estimated the single-factor market model using linear regression.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+4
+</div>
+<div class="step-icon">
+📉
+</div>
+<section id="famafrench-model" class="level3">
+<h3 class="anchored" data-anchor-id="famafrench-model">Fama–French Model</h3>
+<p>Estimated the three-factor regression including market, size, and value factors.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+5
+</div>
+<div class="step-icon">
+⚖️
+</div>
+<section id="model-comparison-1" class="level3">
+<h3 class="anchored" data-anchor-id="model-comparison-1">Model Comparison</h3>
+<p>Compared explanatory power, residuals, and statistical significance.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+6
+</div>
+<div class="step-icon">
+✅
+</div>
+<section id="interpretation" class="level3">
+<h3 class="anchored" data-anchor-id="interpretation">Interpretation</h3>
+<p>Evaluated which model better explained observed stock returns.</p>
+</section>
+</div>
+</div>
+<p class="architecture-caption">
+Regression workflow for comparing competing asset pricing models.
+</p>
+</div>
+</section>
+<section id="technical-stack" class="level1">
+<h1>Technical Stack</h1>
+<ul class="skill-pills">
+<li class="skill-pill">
+R
+</li>
+<li class="skill-pill">
+Linear Regression
+</li>
+<li class="skill-pill">
+CAPM
+</li>
+<li class="skill-pill">
+Fama–French
+</li>
+<li class="skill-pill">
+Financial Modeling
+</li>
+<li class="skill-pill">
+Regression Diagnostics
+</li>
+<li class="skill-pill">
+Statistical Inference
+</li>
+<li class="skill-pill">
+Data Visualization
+</li>
+<li class="skill-pill">
+Quantitative Finance
+</li>
 </ul>
-<iframe src="CAPM_FF3.pdf" width="100%" height="700px" style="border:none;">
-Your browser does not support embedded PDFs. Please use the link above to download the file.
-</iframe>
-<p><a href="CAPM_FF3.pdf">Read full report (PDF)</a></p>
-<p><a href="../projects.html" class="btn btn-outline-primary">← Back to Projects</a></p>
+</section>
+<section id="what-i-built" class="level1">
+<h1>What I Built</h1>
+<div class="feature-grid">
+<section id="capm-regression" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="capm-regression">CAPM Regression</h3>
+<p>Estimated market beta and evaluated the relationship between market risk and excess stock returns.</p>
+</section>
+<section id="three-factor-model" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="three-factor-model">Three-Factor Model</h3>
+<p>Extended the analysis by incorporating size (SMB) and value (HML) factors to explain additional return variation.</p>
+</section>
+<section id="model-evaluation" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="model-evaluation">Model Evaluation</h3>
+<p>Compared model fit using regression diagnostics, residual analysis, and statistical significance tests.</p>
+</section>
+<section id="financial-interpretation" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="financial-interpretation">Financial Interpretation</h3>
+<p>Connected regression coefficients to economic intuition and discussed how additional factors influence expected returns.</p>
+</section>
+</div>
+</section>
+<section id="key-results" class="level1">
+<h1>Key Results</h1>
+<div class="metric-grid">
+<div class="metric-card">
+<div class="metric-icon">
+📈
+</div>
+<div class="metric-number">
+2
+</div>
+<p>Asset pricing models compared</p>
+</div>
+<div class="metric-card">
+<div class="metric-icon">
+📊
+</div>
+<div class="metric-number">
+3
+</div>
+<p>Systematic risk factors analyzed</p>
+</div>
+<div class="metric-card">
+<div class="metric-icon">
+📉
+</div>
+<div class="metric-number">
+OLS
+</div>
+<p>Linear regression framework used for estimation</p>
+</div>
+</div>
+</section>
+<section id="what-i-learned" class="level1">
+<h1>What I Learned</h1>
+<p>This project strengthened my understanding of factor-based regression models and how statistical modeling can be used to explain financial market behavior. Comparing CAPM and the Fama–French model demonstrated how incorporating additional explanatory variables can improve predictive performance and economic interpretation.</p>
+<p>It also reinforced the importance of evaluating models using both statistical evidence and domain knowledge. A model with better fit should also produce results that align with established financial theory.</p>
+</section>
+<section id="research-deliverable" class="level1">
+<h1>Research Deliverable</h1>
+<p>The complete report includes the regression methodology, coefficient estimates, diagnostic analysis, and model comparison.</p>
+<p><a href="https://github.com/malozano1-ux/CAPM-FF3" class="btn btn-primary">View Source Code</a></p>
+<p><a href="CAPM_FF3.pdf" class="btn btn-primary">View Full Report (PDF)</a></p>
+<p><a href="../projects.html" class="btn btn-outline">← Back to Projects</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2025-06-05">
-<meta name="description" content="Panel-data regression on 46 U.S. states from 1963–1992 to estimate price elasticity of cigarette demand.">
+<meta name="description" content="Panel data analysis of cigarette demand across 46 U.S. states using fixed and random effects models.">
 
 <title>Panel Analysis of U.S. Cigarette Consumption</title>
 <style>
@@ -132,16 +132,17 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Panel Analysis of U.S. Cigarette Consumption</h1>
-<p class="subtitle lead">Fixed vs random effects using state-level panel data</p>
+<p class="subtitle lead">Estimating Price Elasticity with Fixed Effects Models</p>
   <div class="quarto-categories">
     <div class="quarto-category">Econometrics</div>
     <div class="quarto-category">Panel Data</div>
+    <div class="quarto-category">Statistics</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Panel-data regression on 46 U.S. states from 1963–1992 to estimate price elasticity of cigarette demand.
+    Panel data analysis of cigarette demand across 46 U.S. states using fixed and random effects models.
   </div>
 </div>
 
@@ -164,21 +165,268 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Using the <strong>Cigar</strong> dataset, this project models per-capita cigarette sales across 46 states from 1963–1992.</p>
-<p>We compare:</p>
-<ul>
-<li>Pooled OLS</li>
-<li>Fixed effects</li>
-<li>Random effects</li>
+<section id="estimating-how-cigarette-prices-influence-consumption-using-panel-data-econometrics" class="level2 case-hero">
+<h2 class="anchored" data-anchor-id="estimating-how-cigarette-prices-influence-consumption-using-panel-data-econometrics">Estimating how cigarette prices influence consumption using panel data econometrics</h2>
+<p>Using a panel dataset covering 46 U.S. states between 1963 and 1992, I estimated cigarette demand while accounting for unobserved state-level differences. The project compared pooled OLS, fixed effects, and random effects models to identify the most appropriate specification for estimating price elasticity.</p>
+<p><a href="https://github.com/malozano1-ux/cigarette-demand-panel" class="btn btn-primary">View Source Code</a> <a href="cigarette.pdf" class="btn btn-primary">View Full Report</a> <a href="../projects.html" class="btn btn-outline">← Back to Projects</a></p>
+</section>
+<div class="case-summary">
+<div class="summary-item">
+<p><strong>Role</strong><br>
+Econometrics Analyst</p>
+</div>
+<div class="summary-item">
+<p><strong>Domain</strong><br>
+Public Policy · Economics</p>
+</div>
+<div class="summary-item">
+<p><strong>Stack</strong><br>
+R · plm · Econometrics</p>
+</div>
+<div class="summary-item">
+<p><strong>Methods</strong><br>
+Panel Data · Fixed Effects · Hausman Test</p>
+</div>
+</div>
+<section id="project-snapshot" class="level1">
+<h1>Project Snapshot</h1>
+<div class="snapshot-grid">
+<section id="question" class="level3 snapshot-card">
+<h3 class="anchored" data-anchor-id="question">Question</h3>
+<p>How sensitive is cigarette consumption to changes in cigarette prices?</p>
+</section>
+<section id="approach" class="level3 snapshot-card">
+<h3 class="anchored" data-anchor-id="approach">Approach</h3>
+<p>Compared pooled OLS, fixed effects, and random effects panel models before selecting the appropriate specification through formal statistical testing.</p>
+</section>
+<section id="finding" class="level3 snapshot-card">
+<h3 class="anchored" data-anchor-id="finding">Finding</h3>
+<p>Statistical tests supported the fixed effects model, suggesting that controlling for unobserved state-specific characteristics produced more reliable estimates of price elasticity.</p>
+</section>
+</div>
+</section>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Estimating demand elasticity using observational data presents several challenges because states differ in ways that cannot always be directly measured. Factors such as culture, public health attitudes, and smoking regulations may influence cigarette consumption independently of price.</p>
+<p>This project applied panel data econometrics to account for these differences by exploiting repeated observations across states and years. By comparing multiple model specifications, the analysis identified the model that best isolated the relationship between cigarette prices and cigarette demand.</p>
+</section>
+<section id="the-challenge" class="level1">
+<h1>The Challenge</h1>
+<div class="feature-grid">
+<section id="unobserved-heterogeneity" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="unobserved-heterogeneity">Unobserved heterogeneity</h3>
+<p>States differ in persistent characteristics that may influence smoking behavior but cannot easily be measured directly.</p>
+</section>
+<section id="longitudinal-data" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="longitudinal-data">Longitudinal data</h3>
+<p>Observations were collected repeatedly across both states and years, requiring panel data techniques instead of standard regression.</p>
+</section>
+<section id="model-selection" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="model-selection">Model selection</h3>
+<p>The project compared competing econometric models and formally tested which specification was most appropriate.</p>
+</section>
+<section id="policy-interpretation" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="policy-interpretation">Policy interpretation</h3>
+<p>Results needed to provide economically meaningful interpretations of cigarette price elasticity.</p>
+</section>
+</div>
+</section>
+<section id="analysis-pipeline" class="level1">
+<h1>Analysis Pipeline</h1>
+<div class="architecture-card">
+<div class="architecture-horizontal">
+<div class="architecture-step">
+<div class="step-number">
+1
+</div>
+<div class="step-icon">
+📥
+</div>
+<section id="data-collection" class="level3">
+<h3 class="anchored" data-anchor-id="data-collection">Data Collection</h3>
+<p>Loaded cigarette consumption data across 46 U.S. states from 1963–1992.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+2
+</div>
+<div class="step-icon">
+🧹
+</div>
+<section id="data-preparation" class="level3">
+<h3 class="anchored" data-anchor-id="data-preparation">Data Preparation</h3>
+<p>Prepared panel structure and economic variables for longitudinal analysis.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+3
+</div>
+<div class="step-icon">
+📈
+</div>
+<section id="model-estimation" class="level3">
+<h3 class="anchored" data-anchor-id="model-estimation">Model Estimation</h3>
+<p>Estimated pooled OLS, fixed effects, and random effects models.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+4
+</div>
+<div class="step-icon">
+⚖️
+</div>
+<section id="model-comparison" class="level3">
+<h3 class="anchored" data-anchor-id="model-comparison">Model Comparison</h3>
+<p>Performed F-tests and Hausman tests to compare competing specifications.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+5
+</div>
+<div class="step-icon">
+📊
+</div>
+<section id="elasticity-estimation" class="level3">
+<h3 class="anchored" data-anchor-id="elasticity-estimation">Elasticity Estimation</h3>
+<p>Estimated the relationship between cigarette prices and cigarette demand.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+6
+</div>
+<div class="step-icon">
+✅
+</div>
+<section id="interpretation" class="level3">
+<h3 class="anchored" data-anchor-id="interpretation">Interpretation</h3>
+<p>Translated econometric results into policy-relevant conclusions.</p>
+</section>
+</div>
+</div>
+<p class="architecture-caption">
+Panel econometrics workflow for estimating cigarette demand elasticity.
+</p>
+</div>
+</section>
+<section id="technical-stack" class="level1">
+<h1>Technical Stack</h1>
+<ul class="skill-pills">
+<li class="skill-pill">
+R
+</li>
+<li class="skill-pill">
+Panel Data
+</li>
+<li class="skill-pill">
+Econometrics
+</li>
+<li class="skill-pill">
+plm
+</li>
+<li class="skill-pill">
+Fixed Effects
+</li>
+<li class="skill-pill">
+Random Effects
+</li>
+<li class="skill-pill">
+Hausman Test
+</li>
+<li class="skill-pill">
+F Test
+</li>
+<li class="skill-pill">
+Elasticity Estimation
+</li>
 </ul>
-<p>The Hausman test and F-tests support the <strong>fixed effects model</strong>, which we use to estimate price elasticity and discuss taxation policy implications.</p>
-<iframe src="cigarette.pdf" width="100%" height="700px" style="border:none;">
-Your browser does not support embedded PDFs. Please use the link above to download the file.
-</iframe>
-<p><a href="cigarette.pdf">Read full report (PDF)</a></p>
-<p><a href="../projects.html" class="btn btn-outline-primary">← Back to Projects</a></p>
+</section>
+<section id="what-i-built" class="level1">
+<h1>What I Built</h1>
+<div class="feature-grid">
+<section id="panel-data-pipeline" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="panel-data-pipeline">Panel Data Pipeline</h3>
+<p>Prepared a longitudinal dataset covering multiple decades of state-level cigarette consumption.</p>
+</section>
+<section id="econometric-models" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="econometric-models">Econometric Models</h3>
+<p>Estimated pooled OLS, fixed effects, and random effects models to compare alternative specifications.</p>
+</section>
+<section id="model-selection-framework" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="model-selection-framework">Model Selection Framework</h3>
+<p>Applied Hausman and F-tests to determine whether unobserved state-specific effects should be explicitly modeled.</p>
+</section>
+<section id="economic-interpretation" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="economic-interpretation">Economic Interpretation</h3>
+<p>Estimated cigarette price elasticity and discussed the implications for taxation and public health policy.</p>
+</section>
+</div>
+</section>
+<section id="key-results" class="level1">
+<h1>Key Results</h1>
+<div class="metric-grid">
+<div class="metric-card">
+<div class="metric-icon">
+🏛️
+</div>
+<div class="metric-number">
+46
+</div>
+<p>U.S. states analyzed</p>
+</div>
+<div class="metric-card">
+<div class="metric-icon">
+📅
+</div>
+<div class="metric-number">
+30
+</div>
+<p>Years of panel observations</p>
+</div>
+<div class="metric-card">
+<div class="metric-icon">
+📊
+</div>
+<div class="metric-number">
+FE
+</div>
+<p>Fixed effects selected through Hausman testing</p>
+</div>
+</div>
+</section>
+<section id="what-i-learned" class="level1">
+<h1>What I Learned</h1>
+<p>This project strengthened my understanding of panel data econometrics and the importance of selecting an appropriate model specification. Rather than assuming observations are independent, panel models explicitly account for repeated measurements and unobserved heterogeneity.</p>
+<p>I also learned how statistical model selection tests such as the Hausman test provide objective evidence for choosing between competing econometric models instead of relying solely on model fit.</p>
+</section>
+<section id="research-deliverable" class="level1">
+<h1>Research Deliverable</h1>
+<p>The complete report includes the econometric methodology, statistical tests, regression results, and policy discussion.</p>
+<p><a href="https://github.com/malozano1-ux/cigarette-demand-panel" class="btn btn-primary">View Source Code</a></p>
+<p><a href="cigarette.pdf" class="btn btn-primary">View Full Report (PDF)</a></p>
+<p><a href="../projects.html" class="btn btn-outline">← Back to Projects</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

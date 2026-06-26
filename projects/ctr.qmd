@@ -1,21 +1,248 @@
 ---
 title: "Click-Through Rate (CTR) Prediction"
-subtitle: "Modeling ad click behavior with machine learning"
+subtitle: "Machine Learning for Digital Advertising"
 date: 2025-12-12
 categories: [Statistics, Machine Learning, Marketing, AI]
-description: "Building models to predict ad click-through using rich behavioral data."
+description: "Building models to predict ad click-through using behavioral data and class imbalance strategies."
 image: "../images/projects/ctr.jpeg"
 ---
 
-Modeling user click-through behavior using combined advertising and news-feed interaction data.
-Current work includes feature engineering, regularization, and gradient-boosting models with a
-focus on recall and F1 for imbalanced data.
+::: {.case-hero}
 
-<iframe src="ctr_report.pdf" width="100%" height="700px" style="border:none;">
-Your browser does not support embedded PDFs.  
-Please use the link above to download the file.
-</iframe>
+## Predicting ad click-through behavior from large-scale user interaction data
 
-[Download poster (PDF)](ctr_report.pdf)
+I built machine learning models to predict whether a user would click on an advertisement using behavioral and contextual features from millions of ad interactions. The project focused on feature engineering, model comparison, and improving performance on an imbalanced classification problem.
 
-[← Back to Projects](../projects.html){.btn .btn-outline-primary}
+[View Source Code](https://github.com/malozano1-ux/ctr-prediction){.btn .btn-primary}
+[View Full Report](ctr_report.pdf){.btn .btn-primary}
+[← Back to Projects](../projects.html){.btn .btn-outline}
+
+:::
+
+::: {.case-summary}
+
+::: {.summary-item}
+**Role**  
+Machine Learning Researcher
+:::
+
+::: {.summary-item}
+**Domain**  
+Digital Advertising · Marketing Analytics
+:::
+
+::: {.summary-item}
+**Stack**  
+Python · CatBoost · Logistic Regression
+:::
+
+::: {.summary-item}
+**Methods**  
+Classification · Imbalanced Learning
+:::
+
+:::
+
+# Project Snapshot
+
+::: {.snapshot-grid}
+
+::: {.snapshot-card}
+### Problem
+Most users do not click on ads, which creates a highly imbalanced classification problem where accuracy alone can be misleading.
+:::
+
+::: {.snapshot-card}
+### Solution
+I engineered behavioral features and compared logistic regression with gradient-boosted models to improve click prediction.
+:::
+
+::: {.snapshot-card}
+### Outcome
+Improved ROC-AUC from 0.71 to 0.81 using feature engineering and class imbalance strategies.
+:::
+
+:::
+
+# Overview
+
+Click-through rate prediction is a core problem in digital advertising because even small improvements in prediction quality can improve ad targeting, budget allocation, and campaign performance.
+
+This project used large-scale advertising interaction data to predict whether an impression would result in a click. Because click events were rare, the main challenge was not just building a classifier, but building one that could learn meaningful signals from an imbalanced dataset.
+
+# The Challenge
+
+::: {.feature-grid}
+
+::: {.feature-card}
+### Class imbalance
+Click events were much less common than non-click events, making standard accuracy a poor measure of model quality.
+:::
+
+::: {.feature-card}
+### Large-scale data
+The dataset contained millions of ad interactions, requiring efficient preprocessing and modeling workflows.
+:::
+
+::: {.feature-card}
+### Feature engineering
+Raw interaction data needed to be transformed into useful behavioral and contextual predictors.
+:::
+
+::: {.feature-card}
+### Model evaluation
+The project required metrics such as ROC-AUC, recall, precision, and F1 rather than relying only on accuracy.
+:::
+
+:::
+
+# Modeling Pipeline
+
+::: {.architecture-card}
+
+::: {.architecture-horizontal}
+
+::: {.architecture-step}
+<div class="step-number">1</div>
+<div class="step-icon">📥</div>
+
+### Data Ingestion
+Loaded large-scale advertising interaction data.
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+<div class="step-number">2</div>
+<div class="step-icon">🧹</div>
+
+### Preprocessing
+Cleaned variables, handled missing values, and prepared categorical features.
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+<div class="step-number">3</div>
+<div class="step-icon">🧩</div>
+
+### Feature Engineering
+Created behavioral and contextual predictors from user interaction patterns.
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+<div class="step-number">4</div>
+<div class="step-icon">⚖️</div>
+
+### Imbalance Strategy
+Applied class imbalance techniques to improve rare-click prediction.
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+<div class="step-number">5</div>
+<div class="step-icon">🤖</div>
+
+### Model Training
+Compared logistic regression and CatBoost classification models.
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+<div class="step-number">6</div>
+<div class="step-icon">📊</div>
+
+### Evaluation
+Evaluated models using ROC-AUC, recall, precision, and F1.
+:::
+
+:::
+
+<p class="architecture-caption">
+End-to-end classification workflow for predicting rare ad click events.
+</p>
+
+:::
+
+# Technical Stack
+
+<ul class="skill-pills">
+<li class="skill-pill">Python</li>
+<li class="skill-pill">Pandas</li>
+<li class="skill-pill">Scikit-learn</li>
+<li class="skill-pill">CatBoost</li>
+<li class="skill-pill">Logistic Regression</li>
+<li class="skill-pill">Feature Engineering</li>
+<li class="skill-pill">Classification</li>
+<li class="skill-pill">Imbalanced Data</li>
+<li class="skill-pill">ROC-AUC</li>
+<li class="skill-pill">F1 Score</li>
+</ul>
+
+# What I Built
+
+::: {.feature-grid}
+
+::: {.feature-card}
+### Feature Engineering Pipeline
+Created behavioral predictors from ad interaction data to capture patterns related to user engagement and click likelihood.
+:::
+
+::: {.feature-card}
+### Baseline Model
+Built a logistic regression model to establish an interpretable benchmark for click prediction.
+:::
+
+::: {.feature-card}
+### Gradient-Boosted Model
+Trained a CatBoost classifier to better capture nonlinear relationships and categorical feature interactions.
+:::
+
+::: {.feature-card}
+### Evaluation Framework
+Compared models using metrics appropriate for imbalanced classification, including ROC-AUC, recall, precision, and F1.
+:::
+
+:::
+
+# Key Results
+
+::: {.metric-grid}
+
+::: {.metric-card}
+<div class="metric-icon">📈</div>
+<div class="metric-number">0.81</div>
+Final ROC-AUC after feature engineering and imbalance handling
+:::
+
+::: {.metric-card}
+<div class="metric-icon">⬆️</div>
+<div class="metric-number">+14%</div>
+ROC-AUC improvement from 0.71 to 0.81
+:::
+
+::: {.metric-card}
+<div class="metric-icon">📊</div>
+<div class="metric-number">6M+</div>
+Ad interactions modeled
+:::
+
+:::
+
+# What I Learned
+
+This project taught me that model performance in imbalanced classification depends heavily on how the problem is framed. A model can appear accurate while failing to identify the minority class, so metrics like recall, F1, and ROC-AUC are essential for evaluating real performance.
+
+I also learned how much feature engineering matters in advertising prediction. CatBoost improved performance because it could capture nonlinear relationships and categorical interactions that simpler models missed.
+
+# Full Technical Report
+
+The complete report includes the modeling workflow, feature engineering process, class imbalance strategy, and model evaluation results.
+
+[View Source Code](https://github.com/malozano1-ux/ctr-prediction){.btn .btn-primary}
+[View Full Report (PDF)](ctr_report.pdf){.btn .btn-primary}
+[← Back to Projects](../projects.html){.btn .btn-outline}

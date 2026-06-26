@@ -7,9 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2025-12-12">
-<meta name="description" content="Exploring how state political alignment relates to UFO sighting frequency and narrative characteristics.">
 
-<title>UFO Sightings and Political Alignment in the U.S.</title>
+<title>UFO Sightings &amp; Political Alignment</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -131,20 +130,15 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">UFO Sightings and Political Alignment in the U.S.</h1>
-<p class="subtitle lead">What UFO sightings really mean</p>
+<h1 class="title">UFO Sightings &amp; Political Alignment</h1>
+<p class="subtitle lead">Statistical Analysis of U.S. UFO Reports</p>
   <div class="quarto-categories">
     <div class="quarto-category">Statistics</div>
-    <div class="quarto-category">Politics</div>
-    <div class="quarto-category">Hypothesis Testing</div>
+    <div class="quarto-category">Machine Learning</div>
+    <div class="quarto-category">Data Analysis</div>
   </div>
   </div>
 
-<div>
-  <div class="description">
-    Exploring how state political alignment relates to UFO sighting frequency and narrative characteristics.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -165,29 +159,268 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This project analyzes UFO sighting records from the National UFO Reporting Center to study whether <strong>state political alignment</strong> is associated with differences in sighting frequency.</p>
-<p>Early results show:</p>
-<ul>
-<li>Democratic-leaning states tend to report <strong>higher average sightings</strong>.<br>
+<section id="do-political-differences-influence-reported-ufo-sightings" class="level2 case-hero">
+<h2 class="anchored" data-anchor-id="do-political-differences-influence-reported-ufo-sightings">Do political differences influence reported UFO sightings?</h2>
+<p>Using over 100,000 public UFO reports, I investigated whether political alignment is associated with differences in reported sightings, narrative characteristics, and reporting behavior across U.S. states.</p>
+<p><a href="https://github.com/malozano1-ux/ufo-political-alignment" class="btn btn-primary">View Source Code</a> <a href="ufo_report.pdf" class="btn btn-primary">View Research Report</a> <a href="ufo-poster.pdf" class="btn btn-outline">View Research Poster</a> <a href="../projects.html" class="btn btn-outline">← Back to Projects</a></p>
+</section>
+<div class="case-summary">
+<div class="summary-item">
+<p><strong>Role</strong></p>
+<p>Statistical Researcher</p>
+</div>
+<div class="summary-item">
+<p><strong>Domain</strong></p>
+<p>Public Data Analytics</p>
+</div>
+<div class="summary-item">
+<p><strong>Stack</strong></p>
+<p>R · Tidyverse · NLP</p>
+</div>
+<div class="summary-item">
+<p><strong>Methods</strong></p>
+<p>Hypothesis Testing · Regression · Text Mining</p>
+</div>
+</div>
+<section id="project-snapshot" class="level1">
+<h1>Project Snapshot</h1>
+<div class="snapshot-grid">
+<section id="question" class="level3 snapshot-card">
+<h3 class="anchored" data-anchor-id="question">Question</h3>
+<p>Do Democratic and Republican states differ in UFO reporting behavior?</p>
+</section>
+<section id="approach" class="level3 snapshot-card">
+<h3 class="anchored" data-anchor-id="approach">Approach</h3>
+<p>Combined statistical hypothesis testing, regression modeling, and text analysis on national UFO sighting records.</p>
+</section>
+<section id="findings" class="level3 snapshot-card">
+<h3 class="anchored" data-anchor-id="findings">Findings</h3>
+<p>Political alignment was associated with reporting frequency, while narrative characteristics remained remarkably similar.</p>
+</section>
+</div>
+</section>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Thousands of UFO sightings are reported across the United States every year. While these reports are often studied individually, much less attention has been given to broader geographic and political patterns.</p>
+<p>This project investigates whether political alignment is associated with differences in UFO reporting frequency, reported object characteristics, and witness narratives using publicly available data from the National UFO Reporting Center.</p>
+</section>
+<section id="research-questions" class="level1">
+<h1>Research Questions</h1>
+<div class="feature-grid">
+<section id="reporting-frequency" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="reporting-frequency">Reporting Frequency</h3>
+<p>Do Democratic and Republican states report different numbers of UFO sightings?</p>
+</section>
+<section id="statistical-significance" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="statistical-significance">Statistical Significance</h3>
+<p>Are observed differences statistically significant or likely due to chance?</p>
+</section>
+<section id="narrative-analysis" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="narrative-analysis">Narrative Analysis</h3>
+<p>Do witnesses describe sightings differently depending on political alignment?</p>
+</section>
+<section id="predictive-modeling" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="predictive-modeling">Predictive Modeling</h3>
+<p>Can political alignment explain variation in reported sightings after accounting for statistical uncertainty?</p>
+</section>
+</div>
+</section>
+<section id="analysis-pipeline" class="level1">
+<h1>Analysis Pipeline</h1>
+<div class="architecture-card">
+<div class="architecture-horizontal">
+<div class="architecture-step">
+<div class="step-number">
+1
+</div>
+<div class="step-icon">
+🛸
+</div>
+<section id="data-collection" class="level3">
+<h3 class="anchored" data-anchor-id="data-collection">Data Collection</h3>
+<p>Imported national UFO sighting records.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+2
+</div>
+<div class="step-icon">
+🧹
+</div>
+<section id="data-cleaning" class="level3">
+<h3 class="anchored" data-anchor-id="data-cleaning">Data Cleaning</h3>
+<p>Prepared state-level observations and standardized variables.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+3
+</div>
+<div class="step-icon">
+📊
+</div>
+<section id="statistical-testing" class="level3">
+<h3 class="anchored" data-anchor-id="statistical-testing">Statistical Testing</h3>
+<p>Performed Mann–Whitney and Chi-square hypothesis tests.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+4
+</div>
+<div class="step-icon">
+📈
+</div>
+<section id="regression" class="level3">
+<h3 class="anchored" data-anchor-id="regression">Regression</h3>
+<p>Fit Poisson regression models to estimate reporting differences.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+5
+</div>
+<div class="step-icon">
+💬
+</div>
+<section id="text-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="text-analysis">Text Analysis</h3>
+<p>Compared narrative descriptions across political groups.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+6
+</div>
+<div class="step-icon">
+✅
+</div>
+<section id="interpretation" class="level3">
+<h3 class="anchored" data-anchor-id="interpretation">Interpretation</h3>
+<p>Summarized statistical evidence and practical implications.</p>
+</section>
+</div>
+</div>
+<p class="architecture-caption">
+</p><p>End-to-end statistical workflow combining inference, modeling, and NLP.</p>
+<p></p>
+</div>
+</section>
+<section id="technical-stack" class="level1">
+<h1>Technical Stack</h1>
+<ul class="skill-pills">
+<li class="skill-pill">
+R
 </li>
-<li>Mann–Whitney, chi-square, and Poisson regression all support this pattern.<br>
+<li class="skill-pill">
+Tidyverse
 </li>
-<li>Narrative descriptions and sighting characteristics (shape, duration) appear <strong>similar</strong> across political groups.</li>
+<li class="skill-pill">
+Hypothesis Testing
+</li>
+<li class="skill-pill">
+Poisson Regression
+</li>
+<li class="skill-pill">
+Mann–Whitney Test
+</li>
+<li class="skill-pill">
+Chi-Square Test
+</li>
+<li class="skill-pill">
+Natural Language Processing
+</li>
+<li class="skill-pill">
+Data Visualization
+</li>
+<li class="skill-pill">
+Statistical Inference
+</li>
 </ul>
-<p>Upcoming work includes adjusting for population, incorporating additional state-level covariates, and expanding the text analysis of witness narratives.</p>
-<iframe src="ufo-poster.pdf" width="100%" height="700px" style="border:none;">
-Your browser does not support embedded PDFs.<br />
-Please use the link above to download the file.
-</iframe>
-<p><a href="ufo-poster.pdf">Download poster (PDF)</a></p>
-<iframe src="ufo_report.pdf" width="100%" height="700px" style="border:none;">
-Your browser does not support embedded PDFs.<br />
-Please use the link above to download the file.
-</iframe>
-<p><a href="ufo_report.pdf">Download poster (PDF)</a></p>
-<p><a href="../projects.html" class="btn btn-outline-primary">← Back to Projects</a></p>
+</section>
+<section id="what-i-built" class="level1">
+<h1>What I Built</h1>
+<div class="feature-grid">
+<section id="data-pipeline" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="data-pipeline">Data Pipeline</h3>
+<p>Prepared and cleaned a nationwide UFO reporting dataset for statistical analysis.</p>
+</section>
+<section id="statistical-analysis" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="statistical-analysis">Statistical Analysis</h3>
+<p>Applied multiple hypothesis tests to evaluate differences between political groups.</p>
+</section>
+<section id="predictive-modeling-1" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="predictive-modeling-1">Predictive Modeling</h3>
+<p>Built Poisson regression models to quantify the relationship between political alignment and reporting frequency.</p>
+</section>
+<section id="narrative-exploration" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="narrative-exploration">Narrative Exploration</h3>
+<p>Analyzed witness descriptions using natural language processing techniques to compare reporting patterns.</p>
+</section>
+</div>
+</section>
+<section id="key-findings" class="level1">
+<h1>Key Findings</h1>
+<div class="metric-grid">
+<div class="metric-card">
+<div class="metric-icon">
+🛸
+</div>
+<div class="metric-number">
+100k+
+</div>
+<p>UFO reports analyzed</p>
+</div>
+<div class="metric-card">
+<div class="metric-icon">
+📊
+</div>
+<div class="metric-number">
+3
+</div>
+<p>Independent statistical methods agreed on reporting differences</p>
+</div>
+<div class="metric-card">
+<div class="metric-icon">
+💬
+</div>
+<div class="metric-number">
+NLP
+</div>
+<p>Narrative descriptions were broadly similar across political groups</p>
+</div>
+</div>
+</section>
+<section id="what-i-learned" class="level1">
+<h1>What I Learned</h1>
+<p>This project strengthened my experience applying statistical inference to large observational datasets. Rather than relying on a single statistical test, I combined nonparametric testing, generalized linear models, and exploratory text analysis to evaluate the same research question from multiple perspectives.</p>
+<p>It also reinforced the importance of distinguishing statistical significance from practical significance. Even when differences exist in reporting frequency, interpretation requires careful consideration of potential confounding factors such as population size, reporting culture, and geographic variation.</p>
+</section>
+<section id="research-deliverables" class="level1">
+<h1>Research Deliverables</h1>
+<p>The complete statistical report and research poster are available below.</p>
+<p><a href="https://github.com/malozano1-ux/ufo-political-alignment" class="btn btn-primary">View Source Code</a></p>
+<p><a href="ufo_report.pdf" class="btn btn-primary">Research Report (PDF)</a></p>
+<p><a href="ufo-poster.pdf" class="btn btn-outline">Research Poster (PDF)</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

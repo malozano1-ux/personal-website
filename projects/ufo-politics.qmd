@@ -1,36 +1,338 @@
 ---
-title: "UFO Sightings and Political Alignment in the U.S."
-subtitle: "What UFO sightings really mean"
+title: "UFO Sightings & Political Alignment"
+subtitle: "Statistical Analysis of U.S. UFO Reports"
 date: 2025-12-12
-categories: [Statistics, Politics, Hypothesis Testing]
-description: "Exploring how state political alignment relates to UFO sighting frequency and narrative characteristics."
+categories: [Statistics, Machine Learning, Data Analysis]
 image: "../images/projects/ufo.jpeg"
 ---
 
-This project analyzes UFO sighting records from the National UFO Reporting Center to study whether **state political alignment** is associated with differences in sighting frequency.
+::: {.case-hero}
 
-Early results show:
+## Do political differences influence reported UFO sightings?
 
-- Democratic-leaning states tend to report **higher average sightings**.  
-- Mann–Whitney, chi-square, and Poisson regression all support this pattern.  
-- Narrative descriptions and sighting characteristics (shape, duration) appear **similar** across political groups.
+Using over 100,000 public UFO reports, I investigated whether political alignment is associated with differences in reported sightings, narrative characteristics, and reporting behavior across U.S. states.
 
-Upcoming work includes adjusting for population, incorporating additional state-level covariates, and expanding the text analysis of witness narratives.
+[View Source Code](https://github.com/malozano1-ux/ufo-political-alignment){.btn .btn-primary}
+[View Research Report](ufo_report.pdf){.btn .btn-primary}
+[View Research Poster](ufo-poster.pdf){.btn .btn-outline}
+[← Back to Projects](../projects.html){.btn .btn-outline}
 
-<iframe src="ufo-poster.pdf" width="100%" height="700px" style="border:none;">
-Your browser does not support embedded PDFs.  
-Please use the link above to download the file.
-</iframe>
+:::
 
-[Download poster (PDF)](ufo-poster.pdf)
+::: {.case-summary}
 
+::: {.summary-item}
+**Role**
 
-<iframe src="ufo_report.pdf" width="100%" height="700px" style="border:none;">
-Your browser does not support embedded PDFs.  
-Please use the link above to download the file.
-</iframe>
+Statistical Researcher
 
-[Download poster (PDF)](ufo_report.pdf)
+:::
 
+::: {.summary-item}
+**Domain**
 
-[← Back to Projects](../projects.html){.btn .btn-outline-primary}
+Public Data Analytics
+
+:::
+
+::: {.summary-item}
+**Stack**
+
+R · Tidyverse · NLP
+
+:::
+
+::: {.summary-item}
+**Methods**
+
+Hypothesis Testing · Regression · Text Mining
+
+:::
+
+:::
+
+# Project Snapshot
+
+::: {.snapshot-grid}
+
+::: {.snapshot-card}
+
+### Question
+
+Do Democratic and Republican states differ in UFO reporting behavior?
+
+:::
+
+::: {.snapshot-card}
+
+### Approach
+
+Combined statistical hypothesis testing, regression modeling, and text analysis on national UFO sighting records.
+
+:::
+
+::: {.snapshot-card}
+
+### Findings
+
+Political alignment was associated with reporting frequency, while narrative characteristics remained remarkably similar.
+
+:::
+
+:::
+
+# Overview
+
+Thousands of UFO sightings are reported across the United States every year. While these reports are often studied individually, much less attention has been given to broader geographic and political patterns.
+
+This project investigates whether political alignment is associated with differences in UFO reporting frequency, reported object characteristics, and witness narratives using publicly available data from the National UFO Reporting Center.
+
+# Research Questions
+
+::: {.feature-grid}
+
+::: {.feature-card}
+
+### Reporting Frequency
+
+Do Democratic and Republican states report different numbers of UFO sightings?
+
+:::
+
+::: {.feature-card}
+
+### Statistical Significance
+
+Are observed differences statistically significant or likely due to chance?
+
+:::
+
+::: {.feature-card}
+
+### Narrative Analysis
+
+Do witnesses describe sightings differently depending on political alignment?
+
+:::
+
+::: {.feature-card}
+
+### Predictive Modeling
+
+Can political alignment explain variation in reported sightings after accounting for statistical uncertainty?
+
+:::
+
+:::
+
+# Analysis Pipeline
+
+::: {.architecture-card}
+
+::: {.architecture-horizontal}
+
+::: {.architecture-step}
+
+<div class="step-number">1</div>
+
+<div class="step-icon">🛸</div>
+
+### Data Collection
+
+Imported national UFO sighting records.
+
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+
+<div class="step-number">2</div>
+
+<div class="step-icon">🧹</div>
+
+### Data Cleaning
+
+Prepared state-level observations and standardized variables.
+
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+
+<div class="step-number">3</div>
+
+<div class="step-icon">📊</div>
+
+### Statistical Testing
+
+Performed Mann–Whitney and Chi-square hypothesis tests.
+
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+
+<div class="step-number">4</div>
+
+<div class="step-icon">📈</div>
+
+### Regression
+
+Fit Poisson regression models to estimate reporting differences.
+
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+
+<div class="step-number">5</div>
+
+<div class="step-icon">💬</div>
+
+### Text Analysis
+
+Compared narrative descriptions across political groups.
+
+:::
+
+<div class="flow-arrow-horizontal">↓</div>
+
+::: {.architecture-step}
+
+<div class="step-number">6</div>
+
+<div class="step-icon">✅</div>
+
+### Interpretation
+
+Summarized statistical evidence and practical implications.
+
+:::
+
+:::
+
+<p class="architecture-caption">
+
+End-to-end statistical workflow combining inference, modeling, and NLP.
+
+</p>
+
+:::
+
+# Technical Stack
+
+<ul class="skill-pills">
+
+<li class="skill-pill">R</li>
+
+<li class="skill-pill">Tidyverse</li>
+
+<li class="skill-pill">Hypothesis Testing</li>
+
+<li class="skill-pill">Poisson Regression</li>
+
+<li class="skill-pill">Mann–Whitney Test</li>
+
+<li class="skill-pill">Chi-Square Test</li>
+
+<li class="skill-pill">Natural Language Processing</li>
+
+<li class="skill-pill">Data Visualization</li>
+
+<li class="skill-pill">Statistical Inference</li>
+
+</ul>
+
+# What I Built
+
+::: {.feature-grid}
+
+::: {.feature-card}
+
+### Data Pipeline
+
+Prepared and cleaned a nationwide UFO reporting dataset for statistical analysis.
+
+:::
+
+::: {.feature-card}
+
+### Statistical Analysis
+
+Applied multiple hypothesis tests to evaluate differences between political groups.
+
+:::
+
+::: {.feature-card}
+
+### Predictive Modeling
+
+Built Poisson regression models to quantify the relationship between political alignment and reporting frequency.
+
+:::
+
+::: {.feature-card}
+
+### Narrative Exploration
+
+Analyzed witness descriptions using natural language processing techniques to compare reporting patterns.
+
+:::
+
+:::
+
+# Key Findings
+
+::: {.metric-grid}
+
+::: {.metric-card}
+
+<div class="metric-icon">🛸</div>
+
+<div class="metric-number">100k+</div>
+
+UFO reports analyzed
+
+:::
+
+::: {.metric-card}
+
+<div class="metric-icon">📊</div>
+
+<div class="metric-number">3</div>
+
+Independent statistical methods agreed on reporting differences
+
+:::
+
+::: {.metric-card}
+
+<div class="metric-icon">💬</div>
+
+<div class="metric-number">NLP</div>
+
+Narrative descriptions were broadly similar across political groups
+
+:::
+
+:::
+
+# What I Learned
+
+This project strengthened my experience applying statistical inference to large observational datasets. Rather than relying on a single statistical test, I combined nonparametric testing, generalized linear models, and exploratory text analysis to evaluate the same research question from multiple perspectives.
+
+It also reinforced the importance of distinguishing statistical significance from practical significance. Even when differences exist in reporting frequency, interpretation requires careful consideration of potential confounding factors such as population size, reporting culture, and geographic variation.
+
+# Research Deliverables
+
+The complete statistical report and research poster are available below.
+
+[View Source Code](https://github.com/malozano1-ux/ufo-political-alignment){.btn .btn-primary}
+
+[Research Report (PDF)](ufo_report.pdf){.btn .btn-primary}
+
+[Research Poster (PDF)](ufo-poster.pdf){.btn .btn-outline}
