@@ -3,8 +3,7 @@ title: "Alcohol, Music, Gender, and Oxytocin"
 subtitle: "Factorial ANOVA for Experimental Design"
 date: 2025-06-15
 categories: [Statistics, Experimental Design, ANOVA]
-description: "A 3×2×2 factorial experiment studying how alcohol type, music genre, and gender affect blood oxytocin levels."
-image: "../images/projects/acohol-oxytocin.jpeg"
+description: "Factorial ANOVA studying alcohol, music, and oxytocin."
 ---
 
 ::: {.case-hero}

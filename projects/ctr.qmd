@@ -3,8 +3,7 @@ title: "Click-Through Rate (CTR) Prediction"
 subtitle: "Machine Learning for Digital Advertising"
 date: 2025-12-12
 categories: [Statistics, Machine Learning, Marketing, AI]
-description: "Building models to predict ad click-through using behavioral data and class imbalance strategies."
-image: "../images/projects/ctr.jpeg"
+description: "Machine learning model for click-through rate prediction."
 ---
 
 ::: {.case-hero}

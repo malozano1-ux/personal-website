@@ -3,8 +3,7 @@ title: "CAPM vs. Fama–French Three-Factor Model"
 subtitle: "Comparing Asset Pricing Models for Equity Returns"
 date: 2025-06-08
 categories: [Finance, Statistics, Econometrics]
-description: "Comparing CAPM and the Fama–French Three-Factor Model to explain stock returns."
-image: "../images/projects/capm-ff3.jpeg"
+description: "CAPM and Fama–French comparison for stock returns."
 ---
 
 ::: {.case-hero}

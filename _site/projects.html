@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
       searchColumns: ["listing-title","listing-description","listing-categories"],
     };
@@ -215,17 +215,29 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="featured-case-studies">Featured Case Studies</h2>
 <div class="project-grid">
 <div class="project-card featured-card">
-<p><span class="project-type industry">Industry Project</span></p>
+<p><span class="project-type industry">Built for Industry</span></p>
 <section id="ai-investment-education-assistant" class="level3">
 <h3 class="anchored" data-anchor-id="ai-investment-education-assistant">AI Investment Education Assistant</h3>
 <div class="project-tech">
 Python · Gemini · FAISS · FastAPI
 </div>
-<p>Reduced onboarding response time by <strong>2 days</strong> using a RAG assistant with vector search and compliance guardrails.</p>
+<p>Built a RAG assistant for financial education with vector search and compliance guardrails.</p>
+<div class="mini-metrics">
+<div class="mini-metric">
+<p><strong>2 days</strong><br>
+Faster onboarding</p>
+</div>
+<div class="mini-metric">
+<p><strong>RAG</strong><br>
+Vector search</p>
+</div>
+</div>
 <div class="difficulty-row">
 <p><span>Difficulty</span> <span class="difficulty advanced">Advanced</span></p>
 </div>
-<p><a href="projects/ai-chatbot.html" class="card-link">Read case study →</a></p>
+<div class="card-actions">
+<p><a href="https://github.com/malozano1-ux/investment-rag-chatbot" class="card-button">GitHub ↗</a> <a href="projects/ai-chatbot.html" class="card-link">Case Study →</a></p>
+</div>
 </section>
 </div>
 <div class="project-card featured-card">
@@ -233,13 +245,25 @@ Python · Gemini · FAISS · FastAPI
 <section id="click-through-rate-prediction" class="level3">
 <h3 class="anchored" data-anchor-id="click-through-rate-prediction">Click-Through Rate Prediction</h3>
 <div class="project-tech">
-Python · CatBoost · Imbalanced Classification
+Python · CatBoost · Classification
 </div>
-<p>Modeled <strong>6M+ ad interactions</strong> and improved ROC-AUC from <strong>0.71 to 0.81</strong>.</p>
+<p>Predicted ad click-through using behavioral features and class imbalance strategies.</p>
+<div class="mini-metrics">
+<div class="mini-metric">
+<p><strong>0.81</strong><br>
+ROC-AUC</p>
+</div>
+<div class="mini-metric">
+<p><strong>6M+</strong><br>
+Interactions</p>
+</div>
+</div>
 <div class="difficulty-row">
 <p><span>Difficulty</span> <span class="difficulty advanced">Advanced</span></p>
 </div>
-<p><a href="projects/ctr.html" class="card-link">Read case study →</a></p>
+<div class="card-actions">
+<p><a href="YOUR_CTR_REPO_LINK" class="card-button">GitHub ↗</a> <a href="projects/ctr.html" class="card-link">Case Study →</a></p>
+</div>
 </section>
 </div>
 <div class="project-card featured-card">
@@ -249,11 +273,23 @@ Python · CatBoost · Imbalanced Classification
 <div class="project-tech">
 R · glmnet · LASSO · Ridge
 </div>
-<p>Built interpretable risk classification models using regularized logistic regression and cross-validation.</p>
+<p>Built interpretable clinical risk models using regularized logistic regression.</p>
+<div class="mini-metrics">
+<div class="mini-metric">
+<p><strong>2</strong><br>
+Models compared</p>
+</div>
+<div class="mini-metric">
+<p><strong>CV</strong><br>
+Model selection</p>
+</div>
+</div>
 <div class="difficulty-row">
 <p><span>Difficulty</span> <span class="difficulty intermediate">Intermediate</span></p>
 </div>
-<p><a href="projects/skin-cancer.html" class="card-link">Read case study →</a></p>
+<div class="card-actions">
+<p><a href="YOUR_SKIN_CANCER_REPO_LINK" class="card-button">GitHub ↗</a> <a href="projects/skin-cancer.html" class="card-link">Case Study →</a></p>
+</div>
 </section>
 </div>
 </div>
@@ -284,12 +320,9 @@ R · glmnet · LASSO · Ridge
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="QUklMkNOTFAlMkNGaW5UZWNo" data-listing-date-sort="1777532400000" data-listing-file-modified-sort="1782444875306" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="644">
+<div class="g-col-1" data-index="0" data-categories="QUklMkNOTFAlMkNGaW5UZWNo" data-listing-date-sort="1777532400000" data-listing-file-modified-sort="1782446600251" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="644">
 <a href="./projects/ai-chatbot.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./images/projects/ai-chatbot.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 AI Investment Education Assistant
@@ -304,17 +337,14 @@ AI Investment Education Assistant
 
 </div>
 <div class="card-text listing-description delink">
-<p>AI assistant built with RAG, vector search, and Gemini to answer investment education questions while preventing hallucinations and personalized financial advice.</p>
+<p>RAG assistant for investment education with Gemini and vector search.</p>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="TWFjaGluZSUyMExlYXJuaW5nJTJDSGVhbHRoY2FyZSUyQ0NsYXNzaWZpY2F0aW9u" data-listing-date-sort="1765958400000" data-listing-file-modified-sort="1782444048929" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="511">
+<div class="g-col-1" data-index="1" data-categories="TWFjaGluZSUyMExlYXJuaW5nJTJDSGVhbHRoY2FyZSUyQ0NsYXNzaWZpY2F0aW9u" data-listing-date-sort="1765958400000" data-listing-file-modified-sort="1782446622928" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="511">
 <a href="./projects/skin-cancer.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./images/projects/skin-cancer.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Skin Cancer Risk Prediction
@@ -329,17 +359,14 @@ Skin Cancer Risk Prediction
 
 </div>
 <div class="card-text listing-description delink">
-This project explored how demographic, clinical, and behavioral factors can be combined to estimate skin cancer risk. I compared regularized logistic regression models and…
+<p>Interpretable machine learning for clinical skin cancer prediction.</p>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="U3RhdGlzdGljcyUyQ01hY2hpbmUlMjBMZWFybmluZyUyQ0RhdGElMjBBbmFseXNpcw==" data-listing-date-sort="1765526400000" data-listing-file-modified-sort="1782444086323" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="494">
+<div class="g-col-1" data-index="2" data-categories="U3RhdGlzdGljcyUyQ01hY2hpbmUlMjBMZWFybmluZyUyQ0RhdGElMjBBbmFseXNpcw==" data-listing-date-sort="1765526400000" data-listing-file-modified-sort="1782446637112" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="494">
 <a href="./projects/ufo-politics.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./images/projects/ufo.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 UFO Sightings &amp; Political Alignment
@@ -354,17 +381,14 @@ UFO Sightings &amp; Political Alignment
 
 </div>
 <div class="card-text listing-description delink">
-Using over 100,000 public UFO reports, I investigated whether political alignment is associated with differences in reported sightings, narrative characteristics, and…
+<p>NLP and statistical analysis of 100K+ public UFO reports.</p>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="U3RhdGlzdGljcyUyQ01hY2hpbmUlMjBMZWFybmluZyUyQ01hcmtldGluZyUyQ0FJ" data-listing-date-sort="1765526400000" data-listing-file-modified-sort="1782443940908" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="573">
+<div class="g-col-1" data-index="3" data-categories="U3RhdGlzdGljcyUyQ01hY2hpbmUlMjBMZWFybmluZyUyQ01hcmtldGluZyUyQ0FJ" data-listing-date-sort="1765526400000" data-listing-file-modified-sort="1782446648426" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="573">
 <a href="./projects/ctr.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./images/projects/ctr.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Click-Through Rate (CTR) Prediction
@@ -381,17 +405,14 @@ Click-Through Rate (CTR) Prediction
 
 </div>
 <div class="card-text listing-description delink">
-<p>Building models to predict ad click-through using behavioral data and class imbalance strategies.</p>
+<p>Machine learning model for click-through rate prediction.</p>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="U3RhdGlzdGljcyUyQ0V4cGVyaW1lbnRhbCUyMERlc2lnbiUyQ0FOT1ZB" data-listing-date-sort="1749970800000" data-listing-file-modified-sort="1782443859779" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="574">
+<div class="g-col-1" data-index="4" data-categories="U3RhdGlzdGljcyUyQ0V4cGVyaW1lbnRhbCUyMERlc2lnbiUyQ0FOT1ZB" data-listing-date-sort="1749970800000" data-listing-file-modified-sort="1782446660305" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="574">
 <a href="./projects/alcohol-oxytocin.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./images/projects/acohol-oxytocin.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Alcohol, Music, Gender, and Oxytocin
@@ -406,17 +427,14 @@ Alcohol, Music, Gender, and Oxytocin
 
 </div>
 <div class="card-text listing-description delink">
-<p>A 3×2×2 factorial experiment studying how alcohol type, music genre, and gender affect blood oxytocin levels.</p>
+<p>Factorial ANOVA studying alcohol, music, and oxytocin.</p>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="RmluYW5jZSUyQ1N0YXRpc3RpY3MlMkNFY29ub21ldHJpY3M=" data-listing-date-sort="1749366000000" data-listing-file-modified-sort="1782443797313" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="550">
+<div class="g-col-1" data-index="5" data-categories="RmluYW5jZSUyQ1N0YXRpc3RpY3MlMkNFY29ub21ldHJpY3M=" data-listing-date-sort="1749366000000" data-listing-file-modified-sort="1782446678208" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="550">
 <a href="./projects/capm-ff3.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./images/projects/capm-ff3.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 CAPM vs.&nbsp;Fama–French Three-Factor Model
@@ -431,17 +449,14 @@ CAPM vs.&nbsp;Fama–French Three-Factor Model
 
 </div>
 <div class="card-text listing-description delink">
-<p>Comparing CAPM and the Fama–French Three-Factor Model to explain stock returns.</p>
+<p>CAPM and Fama–French comparison for stock returns.</p>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="RWNvbm9tZXRyaWNzJTJDUGFuZWwlMjBEYXRhJTJDU3RhdGlzdGljcw==" data-listing-date-sort="1749106800000" data-listing-file-modified-sort="1782443908194" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="571">
+<div class="g-col-1" data-index="6" data-categories="RWNvbm9tZXRyaWNzJTJDUGFuZWwlMjBEYXRhJTJDU3RhdGlzdGljcw==" data-listing-date-sort="1749106800000" data-listing-file-modified-sort="1782446691069" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="571">
 <a href="./projects/cigarettes-panel.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./images/projects/cigarette.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Panel Analysis of U.S. Cigarette Consumption
@@ -456,17 +471,14 @@ Panel Analysis of U.S. Cigarette Consumption
 
 </div>
 <div class="card-text listing-description delink">
-<p>Panel data analysis of cigarette demand across 46 U.S. states using fixed and random effects models.</p>
+<p>Panel regression modeling of U.S. cigarette demand.</p>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="Rm9yZWNhc3RpbmclMkNFY29ub21pY3MlMkNUaW1lJTIwU2VyaWVz" data-listing-date-sort="1742454000000" data-listing-file-modified-sort="1782443994855" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="470">
+<div class="g-col-1" data-index="7" data-categories="Rm9yZWNhc3RpbmclMkNFY29ub21pY3MlMkNUaW1lJTIwU2VyaWVz" data-listing-date-sort="1742454000000" data-listing-file-modified-sort="1782446702531" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="470">
 <a href="./projects/gdp-macro.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./images/projects/gdp.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Macroeconomic GDP Forecasting
@@ -481,7 +493,7 @@ Macroeconomic GDP Forecasting
 
 </div>
 <div class="card-text listing-description delink">
-<p>Forecasting U.S. GDP growth using macroeconomic indicators and time series modeling.</p>
+<p>Macroeconomic forecasting using regression and time-series methods.</p>
 </div>
 </div>
 </div></a>

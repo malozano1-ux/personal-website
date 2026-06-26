@@ -3,7 +3,7 @@ title: "UFO Sightings & Political Alignment"
 subtitle: "Statistical Analysis of U.S. UFO Reports"
 date: 2025-12-12
 categories: [Statistics, Machine Learning, Data Analysis]
-image: "../images/projects/ufo.jpeg"
+description: "NLP and statistical analysis of 100K+ public UFO reports."
 ---
 
 ::: {.case-hero}

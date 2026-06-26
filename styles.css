@@ -380,16 +380,13 @@ main.content {
 }
 
 /* Full portfolio listing cards without images */
-.quarto-listing-category {
-  font-size: 0.95rem;
-}
-
 .quarto-grid-item {
   border-radius: 16px !important;
   overflow: hidden;
   box-shadow: 0 8px 24px rgba(0,0,0,0.04);
-  padding: 1.15rem !important;
-  min-height: 260px;
+  padding: 1.25rem !important;
+  min-height: 220px;
+  max-height: 300px;
 }
 
 .quarto-grid-item:hover {
@@ -406,13 +403,28 @@ main.content {
 
 .quarto-grid-item .card-title {
   font-weight: 800;
-  font-size: 1.25rem;
-  line-height: 1.2;
+  font-size: 1.2rem;
+  line-height: 1.18;
+  margin-bottom: 0.45rem;
 }
 
 .quarto-grid-item .card-text {
-  font-size: 0.95rem;
-  color: #374151;
+  font-size: 0.88rem;
+  line-height: 1.45;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.quarto-grid-item .listing-categories {
+  margin: 0.35rem 0 0.75rem 0;
+}
+
+.quarto-grid-item .listing-category {
+  font-size: 0.68rem;
+  padding: 0.2rem 0.45rem;
 }
 
 /* Case study pages */

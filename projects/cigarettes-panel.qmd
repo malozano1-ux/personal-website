@@ -3,8 +3,7 @@ title: "Panel Analysis of U.S. Cigarette Consumption"
 subtitle: "Estimating Price Elasticity with Fixed Effects Models"
 date: 2025-06-05
 categories: [Econometrics, Panel Data, Statistics]
-description: "Panel data analysis of cigarette demand across 46 U.S. states using fixed and random effects models."
-image: "../images/projects/cigarette.jpeg"
+description: "Panel regression modeling of U.S. cigarette demand."
 ---
 
 ::: {.case-hero}

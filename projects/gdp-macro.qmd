@@ -3,8 +3,7 @@ title: "Macroeconomic GDP Forecasting"
 subtitle: "Time Series Forecasting of U.S. Economic Growth"
 date: 2025-03-20
 categories: [Forecasting, Economics, Time Series]
-description: "Forecasting U.S. GDP growth using macroeconomic indicators and time series modeling."
-image: "../images/projects/gdp.jpeg"
+description: "Macroeconomic forecasting using regression and time-series methods."
 ---
 
 ::: {.case-hero}
