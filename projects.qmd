@@ -7,6 +7,7 @@ listing:
   grid-columns: 3
   grid-item-border: true
   sort-ui: [date, title]
+  fields: [title, description, categories]
   filter-ui: [title, description, categories]
   categories: true
 ---
