@@ -4,8 +4,6 @@ title: "Resume"
 
 ::: {.resume-hero}
 
-# Resume
-
 Recent UCLA **Statistics & Data Science** and **Economics** graduate with experience building machine learning models, AI assistants, forecasting pipelines, dashboards, and applied statistical analyses.
 
 I’m interested in roles across **Data Science**, **Machine Learning**, **Business Intelligence**, **Analytics Engineering**, and **Applied AI**.

@@ -717,3 +717,128 @@ main.content {
     font-size: 2.3rem;
   }
 }
+
+/* Contact page */
+.contact-hero{
+    max-width:800px;
+    margin-bottom:3rem;
+}
+
+.contact-hero h1{
+    font-size:3rem;
+    font-weight:800;
+    margin-bottom:.75rem;
+}
+
+.contact-hero p{
+    font-size:1.08rem;
+}
+
+.contact-grid{
+
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:1.25rem;
+
+    margin:2rem 0 3rem;
+
+}
+
+.contact-card{
+
+    border:1px solid #e5e7eb;
+    border-radius:18px;
+
+    padding:1.5rem;
+
+    background:white;
+
+    transition:.2s;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.04);
+
+}
+
+.contact-card:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.08);
+
+}
+
+.contact-card h3{
+
+    margin-top:0;
+    margin-bottom:.75rem;
+
+}
+
+.contact-card a{
+
+    word-break:break-word;
+    font-weight:600;
+
+}
+
+.interest-pills{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:.75rem;
+
+    margin:1.5rem 0 3rem;
+
+}
+
+.interest-pills span{
+
+    background:#eff6ff;
+
+    color:#2563eb;
+
+    padding:.55rem 1rem;
+
+    border-radius:999px;
+
+    font-weight:700;
+
+}
+
+.availability-box{
+
+    background:#f8fafc;
+
+    border-left:5px solid #2563eb;
+
+    padding:2rem;
+
+    border-radius:16px;
+
+    margin-top:2rem;
+
+}
+
+.availability-box h3{
+
+    margin-top:0;
+
+}
+
+.availability-box ul{
+
+    margin-top:.75rem;
+
+}
+
+@media(max-width:800px){
+
+.contact-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}

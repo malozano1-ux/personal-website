@@ -44,9 +44,9 @@
   {
     "objectID": "contact.html",
     "href": "contact.html",
-    "title": "Contact Information",
+    "title": "Contact",
     "section": "",
-    "text": "Feel free to reach out for collaboration, questions, or opportunities.\n\n📍 Based in Los Angeles, CA\n\n📧 Email: malozano1@g.ucla.edu\n\n💼 LinkedIn: linkedin.com/in/manuela-lozano-395670299\n🧪 GitHub: github.com/malozano1-ux\n\nHome"
+    "text": "I’m always interested in discussing Data Science, Machine Learning, Analytics, and Applied AI opportunities.\nWhether you’re hiring, collaborating on a research project, or simply want to connect, I’d be happy to hear from you."
   },
   {
     "objectID": "projects/alcohol-oxytocin.html",
@@ -320,5 +320,26 @@
     "title": "Resume",
     "section": "Resume PDF",
     "text": "Resume PDF"
+  },
+  {
+    "objectID": "contact.html#contact",
+    "href": "contact.html#contact",
+    "title": "Contact",
+    "section": "Contact",
+    "text": "Contact\n\n\n📧 Email\nmalozano1@g.ucla.edu\n\n\n💼 LinkedIn\nhttps://linkedin.com/in/manuela-lozano-395670299\n\n\n💻 GitHub\nhttps://github.com/malozano1-ux\n\n\n📄 Resume\nDownload Resume"
+  },
+  {
+    "objectID": "contact.html#current-interests",
+    "href": "contact.html#current-interests",
+    "title": "Contact",
+    "section": "Current Interests",
+    "text": "Current Interests\n\nMachine Learning\nApplied AI\nData Science\nAnalytics Engineering\nBusiness Intelligence\nStatistical Modeling\nForecasting\nLLMs & RAG Systems\n\n\n🚀 Currently Open to Opportunities\nI’m actively looking for full-time roles beginning in 2026 in:\n\nData Science\nMachine Learning\nBusiness Intelligence\nAnalytics Engineering\nApplied AI\n\nI typically respond to emails within 24 hours."
+  },
+  {
+    "objectID": "contact.html#information",
+    "href": "contact.html#information",
+    "title": "Contact",
+    "section": "Information",
+    "text": "Information\n\n\n📧 Email\nEmail Me →\n\n\n💼 LinkedIn\nVisit my LinkedIn →\n\n\n💻 GitHub\nView my GitHub →\n\n\n📄 Resume\nDownload Resume"
   }
 ]

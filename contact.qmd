@@ -1,12 +1,81 @@
 ---
-title: "Contact Information"
+title: "Contact"
 ---
 
-Feel free to reach out for collaboration, questions, or opportunities.
+::: {.contact-hero}
 
-- 📍 Based in Los Angeles, CA  
-- 📧 Email: [malozano1@g.ucla.edu](mailto:malozano1@g.ucla.edu)  
-- 💼 LinkedIn: [linkedin.com/in/manuela-lozano-395670299](https://www.linkedin.com/in/manuela-lozano-395670299/)
-- 🧪 GitHub: [github.com/malozano1-ux](https://github.com/malozano1-ux)
+# Let's Work Together
 
-[Home](index.qmd)
+I'm always interested in discussing **Data Science, Machine Learning, Analytics, and Applied AI** opportunities.
+
+Whether you're hiring, collaborating on a research project, or simply want to connect, I'd be happy to hear from you.
+
+:::
+
+## Information
+
+::: {.contact-grid}
+
+::: {.contact-card}
+### 📧 Email
+
+[Email Me →](mailto:malozano1@g.ucla.edu)
+:::
+
+::: {.contact-card}
+### 💼 LinkedIn
+
+[Visit my LinkedIn →](https://www.linkedin.com/in/manuela-lozano-395670299)
+:::
+
+::: {.contact-card}
+### 💻 GitHub
+
+[View my GitHub →](https://github.com/malozano1-ux)
+:::
+
+::: {.contact-card}
+### 📄 Resume
+
+[Download Resume](Manuela%20Lozano%20CV.pdf)
+:::
+
+:::
+
+## Current Interests
+
+::: {.interest-pills}
+
+<span>Machine Learning</span>
+
+<span>Applied AI</span>
+
+<span>Data Science</span>
+
+<span>Analytics Engineering</span>
+
+<span>Business Intelligence</span>
+
+<span>Statistical Modeling</span>
+
+<span>Forecasting</span>
+
+<span>LLMs & RAG Systems</span>
+
+:::
+
+::: {.availability-box}
+
+### 🚀 Currently Open to Opportunities
+
+I'm actively looking for **full-time roles** beginning in **2026** in:
+
+- Data Science
+- Machine Learning
+- Business Intelligence
+- Analytics Engineering
+- Applied AI
+
+I typically respond to emails within **24 hours**.
+
+:::
