@@ -659,3 +659,61 @@ main.content {
     align-items: flex-start;
   }
 }
+
+/* Resume page */
+.resume-hero {
+  margin-bottom: 2.5rem;
+}
+
+.resume-hero h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+}
+
+.resume-hero p {
+  font-size: 1.08rem;
+  max-width: 850px;
+}
+
+.resume-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1.25rem;
+}
+
+.resume-facts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0 2.5rem 0;
+}
+
+.resume-fact {
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 1.15rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+}
+
+.resume-fact h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+}
+
+.resume-fact p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 800px) {
+  .resume-facts {
+    grid-template-columns: 1fr;
+  }
+
+  .resume-hero h1 {
+    font-size: 2.3rem;
+  }
+}

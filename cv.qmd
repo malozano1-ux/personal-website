@@ -1,19 +1,63 @@
 ---
 title: "Resume"
-format:
-  html:
-    toc: false
 ---
 
-You can view or download my Resume here:
+::: {.resume-hero}
 
-[Download Resume (PDF)](cv.pdf)
+# Resume
 
-<iframe src="cv.pdf" width="100%" height="700px" style="border:none;">
-Your browser does not support embedded PDFs.  
-Please use the link above to download the CV.
+Recent UCLA **Statistics & Data Science** and **Economics** graduate with experience building machine learning models, AI assistants, forecasting pipelines, dashboards, and applied statistical analyses.
+
+I’m interested in roles across **Data Science**, **Machine Learning**, **Business Intelligence**, **Analytics Engineering**, and **Applied AI**.
+
+::: {.resume-actions}
+[Download Resume](Manuela%20Lozano%20CV.pdf){.btn .btn-primary}
+[GitHub](https://github.com/malozano1-ux){.btn .btn-outline}
+[LinkedIn](https://www.linkedin.com/in/manuela-lozano-395670299/){.btn .btn-outline}
+:::
+
+:::
+
+## Quick Facts
+
+::: {.resume-facts}
+
+::: {.resume-fact}
+### Education
+UCLA  
+Statistics & Data Science  
+Economics
+:::
+
+::: {.resume-fact}
+### Experience
+AWS  
+Insights Wealth Management  
+UCLA Records Management
+:::
+
+::: {.resume-fact}
+### Focus Areas
+Machine Learning  
+Applied AI  
+Business Intelligence
+:::
+
+::: {.resume-fact}
+### Technical Skills
+Python  
+SQL  
+R  
+Tableau · AWS
+:::
+
+:::
+
+## Resume PDF
+
+<iframe
+  src="Manuela%20Lozano%20CV.pdf"
+  width="100%"
+  height="1200"
+  style="border: none; border-radius: 16px; box-shadow: 0 12px 30px rgba(0,0,0,.08);">
 </iframe>
-
-[Take a look at some of my projects →](projects.qmd)
-
-[Home →](index.qmd)

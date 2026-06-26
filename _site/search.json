@@ -4,7 +4,7 @@
     "href": "cv.html",
     "title": "Resume",
     "section": "",
-    "text": "You can view or download my Resume here:\nDownload Resume (PDF)\n\nYour browser does not support embedded PDFs.&lt;br /&gt;\nPlease use the link above to download the CV.\n\nTake a look at some of my projects →\nHome →"
+    "text": "Recent UCLA Statistics & Data Science and Economics graduate with experience building machine learning models, AI assistants, forecasting pipelines, dashboards, and applied statistical analyses.\nI’m interested in roles across Data Science, Machine Learning, Business Intelligence, Analytics Engineering, and Applied AI.\n\nDownload Resume GitHub LinkedIn"
   },
   {
     "objectID": "index.html",
@@ -306,5 +306,19 @@
     "title": "CAPM vs. Fama–French Three-Factor Model",
     "section": "",
     "text": "This project evaluated two foundational financial models—the Capital Asset Pricing Model (CAPM) and the Fama–French Three-Factor Model—to determine which better explains equity returns. The analysis focused on estimating factor exposures, comparing model fit, and interpreting the economic significance of each factor.\nView Source Code View Full Report ← Back to Projects"
+  },
+  {
+    "objectID": "cv.html#quick-facts",
+    "href": "cv.html#quick-facts",
+    "title": "Resume",
+    "section": "Quick Facts",
+    "text": "Quick Facts\n\n\nEducation\nUCLA\nStatistics & Data Science\nEconomics\n\n\nExperience\nAWS\nInsights Wealth Management\nUCLA Records Management\n\n\nFocus Areas\nMachine Learning\nApplied AI\nBusiness Intelligence\n\n\nTechnical Skills\nPython\nSQL\nR\nTableau · AWS"
+  },
+  {
+    "objectID": "cv.html#resume-pdf",
+    "href": "cv.html#resume-pdf",
+    "title": "Resume",
+    "section": "Resume PDF",
+    "text": "Resume PDF"
   }
 ]
