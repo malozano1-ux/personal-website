@@ -207,7 +207,7 @@
     "href": "projects.html#featured-case-studies",
     "title": "Projects",
     "section": "Featured Case Studies",
-    "text": "Featured Case Studies\n\n\nAI Investment Education Assistant\nLLMs RAG Python FinTech\nAI-powered investment assistant using retrieval-augmented generation and vector search for client onboarding and financial education.\nRead case study →\n\n\nClick-Through Rate Prediction\nPython CatBoost Machine Learning Imbalanced Data\nModeled 6M+ advertising interactions and improved ROC-AUC from 0.71 to 0.81.\nRead case study →\n\n\nUFO Political Alignment Analysis\nNLP Poisson Regression Statistics\nAnalyzed 140K+ UFO reports using NLP and statistical modeling to study geographic and political reporting patterns.\nRead case study →"
+    "text": "Featured Case Studies\n\n\nIndustry Project\n\nAI Investment Education Assistant\n\nPython · Gemini · FAISS · FastAPI\n\nReduced onboarding response time by 2 days using a RAG assistant with vector search and compliance guardrails.\n\nDifficulty Advanced\n\nRead case study →\n\n\n\nMachine Learning\n\nClick-Through Rate Prediction\n\nPython · CatBoost · Imbalanced Classification\n\nModeled 6M+ ad interactions and improved ROC-AUC from 0.71 to 0.81.\n\nDifficulty Advanced\n\nRead case study →\n\n\n\nResearch Project\n\nSkin Cancer Risk Prediction\n\nR · glmnet · LASSO · Ridge\n\nBuilt interpretable risk classification models using regularized logistic regression and cross-validation.\n\nDifficulty Intermediate\n\nRead case study →"
   },
   {
     "objectID": "projects.html#full-project-portfolio",

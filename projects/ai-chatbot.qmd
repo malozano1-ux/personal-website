@@ -3,6 +3,7 @@ title: "AI Investment Education Assistant"
 subtitle: "Retrieval-Augmented Generation (RAG) for Financial Education"
 date: 2026-04-30
 categories: [AI, NLP, FinTech]
+description: "AI assistant built with RAG, vector search, and Gemini to answer investment education questions while preventing hallucinations and personalized financial advice."
 image: "../images/projects/ai-chatbot.jpeg"
 ---
 

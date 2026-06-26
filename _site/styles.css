@@ -133,18 +133,103 @@ main.content {
 .project-card {
   border: 1px solid #e5e7eb;
   border-radius: 18px;
-  padding: 1.4rem;
+  padding: 1.45rem;
   background: white;
   box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card:hover {
   transform: translateY(-4px);
   transition: 0.2s ease;
+  box-shadow: 0 14px 32px rgba(0,0,0,0.08);
 }
 
 .project-card h3 {
-  margin-top: 0;
+  margin-top: 0.9rem;
+  margin-bottom: 0.65rem;
+  font-size: 1.45rem;
+  line-height: 1.18;
+}
+
+.featured-card {
+  min-height: 340px;
+}
+
+.project-tech {
+  color: #2563eb;
+  font-weight: 800;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.card-link {
+  margin-top: auto;
+  font-weight: 800;
+}
+
+/* Project type badges */
+.project-type {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  border-radius: 999px;
+  padding: 0.35em 0.7em;
+  font-size: 0.75rem;
+  font-weight: 800;
+  margin-bottom: 0.25rem;
+}
+
+.project-type.industry {
+  background: #e6f4ea;
+  color: #1a7f37;
+  border: 1px solid #b7dfbf;
+}
+
+.project-type.ml {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+}
+
+.project-type.research {
+  background: #f5f3ff;
+  color: #6d28d9;
+  border: 1px solid #ddd6fe;
+}
+
+/* Difficulty indicators */
+.difficulty-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin: 1.1rem 0 1rem 0;
+  padding-top: 0.85rem;
+  border-top: 1px solid #e5e7eb;
+  color: #6b7280;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.difficulty {
+  border-radius: 999px;
+  padding: 0.3em 0.7em;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.difficulty.advanced {
+  background: #fff7ed;
+  color: #c2410c;
+  border: 1px solid #fed7aa;
+}
+
+.difficulty.intermediate {
+  background: #f0fdf4;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
 }
 
 /* Metrics */
@@ -249,10 +334,6 @@ main.content {
 .projects-hero p {
   font-size: 1.08rem;
   max-width: 850px;
-}
-
-.featured-card {
-  min-height: 300px;
 }
 
 .quarto-listing-category {

@@ -25,41 +25,54 @@ I use these projects to show how I think through messy data problems: defining t
 ::: {.project-grid}
 
 ::: {.project-card .featured-card}
+<span class="project-type industry">Industry Project</span>
+
 ### AI Investment Education Assistant
 
-<span class="badge">LLMs</span>
-<span class="badge">RAG</span>
-<span class="badge">Python</span>
-<span class="badge">FinTech</span>
+<div class="project-tech">Python · Gemini · FAISS · FastAPI</div>
 
-AI-powered investment assistant using retrieval-augmented generation and vector search for client onboarding and financial education.
+Reduced onboarding response time by **2 days** using a RAG assistant with vector search and compliance guardrails.
 
-[Read case study →](projects/ai-chatbot.qmd)
+<div class="difficulty-row">
+<span>Difficulty</span>
+<span class="difficulty advanced">Advanced</span>
+</div>
+
+[Read case study →](projects/ai-chatbot.html){.card-link}
 :::
 
 ::: {.project-card .featured-card}
+<span class="project-type ml">Machine Learning</span>
+
 ### Click-Through Rate Prediction
 
-<span class="badge">Python</span>
-<span class="badge">CatBoost</span>
-<span class="badge">Machine Learning</span>
-<span class="badge">Imbalanced Data</span>
+<div class="project-tech">Python · CatBoost · Imbalanced Classification</div>
 
-Modeled 6M+ advertising interactions and improved ROC-AUC from 0.71 to 0.81.
+Modeled **6M+ ad interactions** and improved ROC-AUC from **0.71 to 0.81**.
 
-[Read case study →](projects/ctr.qmd)
+<div class="difficulty-row">
+<span>Difficulty</span>
+<span class="difficulty advanced">Advanced</span>
+</div>
+
+[Read case study →](projects/ctr.html){.card-link}
 :::
 
 ::: {.project-card .featured-card}
-### UFO Political Alignment Analysis
+<span class="project-type research">Research Project</span>
 
-<span class="badge">NLP</span>
-<span class="badge">Poisson Regression</span>
-<span class="badge">Statistics</span>
+### Skin Cancer Risk Prediction
 
-Analyzed 140K+ UFO reports using NLP and statistical modeling to study geographic and political reporting patterns.
+<div class="project-tech">R · glmnet · LASSO · Ridge</div>
 
-[Read case study →](projects/ufo-politics.qmd)
+Built interpretable risk classification models using regularized logistic regression and cross-validation.
+
+<div class="difficulty-row">
+<span>Difficulty</span>
+<span class="difficulty intermediate">Intermediate</span>
+</div>
+
+[Read case study →](projects/skin-cancer.html){.card-link}
 :::
 
 :::
