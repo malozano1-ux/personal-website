@@ -14,14 +14,14 @@ toc: false
 
 ## Data Scientist • AI Engineer • Business Intelligence
 
-I build machine learning models, analytics pipelines, and AI-powered tools that turn complex data into measurable business impact.
+I enjoy building data products that combine statistical rigor with practical business impact, from forecasting pipelines to AI-powered applications.
 
 I'm a UCLA graduate in **Statistics & Data Science** and **Economics**, a former **Business Intelligence Engineer Intern at AWS**, and an incoming **M.S. Statistics student at the University of Washington**.
 
 [View Projects](projects.qmd){.btn .btn-primary}
 [Resume](cv.qmd){.btn .btn-outline}
 [GitHub](https://github.com/malozano1-ux){.btn .btn-outline}
-[LinkedIn](https://www.linkedin.com/in/manuela-lozano-395670299/){.btn .btn-outline}
+[Contact](contact.qmd){.btn .btn-outline}
 
 :::
 :::
