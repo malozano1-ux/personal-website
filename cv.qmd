@@ -43,21 +43,10 @@ Business Intelligence
 
 ::: {.resume-fact}
 ### Technical Skills
-
-Programming
-Python · SQL · AWS
-
-Machine Learning
-scikit-learn · CatBoost · XGBoost
-
-Visualization
-Tableau · QuickSight
-
-Cloud 
-AWS
-
-AI
-Gemini · FAISS · RAG · FastAPI
+Python
+SQL
+R
+Tableau · AWS
 :::
 
 :::
