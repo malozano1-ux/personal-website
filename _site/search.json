@@ -25,7 +25,7 @@
     "href": "projects/skin-cancer.html",
     "title": "Skin Cancer Risk Prediction",
     "section": "",
-    "text": "Building predictive models using demographic, clinical, and behavioral variables to estimate skin cancer risk. The project explores logistic regression with LASSO and ridge penalties, feature selection, cross-validation, and calibration checks.\n\nYour browser does not support embedded PDFs.&lt;br /&gt;\nPlease use the link above to download the file.\n\nDownload poster (PDF)\n← Back to Projects"
+    "text": "This project explored how demographic, clinical, and behavioral factors can be combined to estimate skin cancer risk. I compared regularized logistic regression models and evaluated their ability to balance predictive performance with clinical interpretability.\nView Full Report ← Back to Projects"
   },
   {
     "objectID": "projects/ufo-politics.html",
@@ -243,5 +243,19 @@
     "title": "AI Investment Education Assistant",
     "section": "",
     "text": "I designed and built a retrieval-augmented generation (RAG) assistant for an investment platform that answered educational questions using grounded source material and compliance guardrails.\nView Source Code ← Back to Projects"
+  },
+  {
+    "objectID": "projects/skin-cancer.html#predicting-skin-cancer-risk-using-interpretable-machine-learning-models",
+    "href": "projects/skin-cancer.html#predicting-skin-cancer-risk-using-interpretable-machine-learning-models",
+    "title": "Skin Cancer Risk Prediction",
+    "section": "",
+    "text": "This project explored how demographic, clinical, and behavioral factors can be combined to estimate skin cancer risk. I compared regularized logistic regression models and evaluated their ability to balance predictive performance with clinical interpretability.\nView Full Report ← Back to Projects"
+  },
+  {
+    "objectID": "projects/skin-cancer.html#full-technical-report",
+    "href": "projects/skin-cancer.html#full-technical-report",
+    "title": "Skin Cancer Risk Prediction",
+    "section": "Full Technical Report",
+    "text": "Full Technical Report\nThe complete technical report, including methodology, statistical analysis, and model evaluation, is available below.\nView Full Report (PDF)"
   }
 ]

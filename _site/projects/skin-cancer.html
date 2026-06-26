@@ -7,7 +7,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2025-12-17">
-<meta name="description" content="Predictive modeling of skin cancer risk using clinical and lifestyle data.">
 
 <title>Skin Cancer Risk Prediction</title>
 <style>
@@ -132,20 +131,14 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Skin Cancer Risk Prediction</h1>
-<p class="subtitle lead">Clinical, behavioral, and environmental predictors</p>
+<p class="subtitle lead">Machine Learning for Clinical Risk Classification</p>
   <div class="quarto-categories">
-    <div class="quarto-category">Statistics</div>
-    <div class="quarto-category">Data Mining</div>
-    <div class="quarto-category">Health Analytics</div>
+    <div class="quarto-category">Machine Learning</div>
+    <div class="quarto-category">Healthcare</div>
     <div class="quarto-category">Classification</div>
   </div>
   </div>
 
-<div>
-  <div class="description">
-    Predictive modeling of skin cancer risk using clinical and lifestyle data.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -166,15 +159,267 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Building predictive models using demographic, clinical, and behavioral variables to estimate skin cancer risk. The project explores logistic regression with LASSO and ridge penalties, feature selection, cross-validation, and calibration checks.</p>
-<iframe src="skin_cancer_report.pdf" width="100%" height="700px" style="border:none;">
-Your browser does not support embedded PDFs.<br />
-Please use the link above to download the file.
-</iframe>
-<p><a href="skin_cancer_report.pdf">Download poster (PDF)</a></p>
-<p><a href="../projects.html" class="btn btn-outline-primary">← Back to Projects</a></p>
+<section id="predicting-skin-cancer-risk-using-interpretable-machine-learning-models" class="level2 case-hero">
+<h2 class="anchored" data-anchor-id="predicting-skin-cancer-risk-using-interpretable-machine-learning-models">Predicting skin cancer risk using interpretable machine learning models</h2>
+<p>This project explored how demographic, clinical, and behavioral factors can be combined to estimate skin cancer risk. I compared regularized logistic regression models and evaluated their ability to balance predictive performance with clinical interpretability.</p>
+<p><a href="skin_cancer_report.pdf" class="btn btn-primary">View Full Report</a> <a href="../projects.html" class="btn btn-outline">← Back to Projects</a></p>
+</section>
+<div class="case-summary">
+<div class="summary-item">
+<p><strong>Role</strong></p>
+<p>Machine Learning Researcher</p>
+</div>
+<div class="summary-item">
+<p><strong>Domain</strong></p>
+<p>Healthcare Analytics</p>
+</div>
+<div class="summary-item">
+<p><strong>Stack</strong></p>
+<p>R · glmnet · Logistic Regression</p>
+</div>
+<div class="summary-item">
+<p><strong>Techniques</strong></p>
+<p>LASSO · Ridge · Cross Validation</p>
+</div>
+</div>
+<section id="project-snapshot" class="level1">
+<h1>Project Snapshot</h1>
+<div class="snapshot-grid">
+<section id="problem" class="level3 snapshot-card">
+<h3 class="anchored" data-anchor-id="problem">Problem</h3>
+<p>Early identification of individuals at higher risk for skin cancer can improve screening strategies and preventative care.</p>
+</section>
+<section id="solution" class="level3 snapshot-card">
+<h3 class="anchored" data-anchor-id="solution">Solution</h3>
+<p>Built and evaluated regularized logistic regression models to identify important predictors while reducing overfitting.</p>
+</section>
+<section id="outcome" class="level3 snapshot-card">
+<h3 class="anchored" data-anchor-id="outcome">Outcome</h3>
+<p>Compared LASSO and Ridge models using cross-validation, feature selection, calibration analysis, and predictive performance metrics.</p>
+</section>
+</div>
+</section>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Skin cancer is one of the most common forms of cancer worldwide, yet many of its strongest risk factors are already available through demographic, lifestyle, and clinical information.</p>
+<p>The goal of this project was to build interpretable predictive models capable of estimating an individual’s likelihood of developing skin cancer while understanding which variables contributed most strongly to prediction.</p>
+</section>
+<section id="the-challenge" class="level1">
+<h1>The Challenge</h1>
+<div class="feature-grid">
+<section id="high-dimensional-predictors" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="high-dimensional-predictors">High-dimensional predictors</h3>
+<p>Clinical datasets often contain many correlated variables that can lead to unstable models.</p>
+</section>
+<section id="preventing-overfitting" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="preventing-overfitting">Preventing overfitting</h3>
+<p>The model needed to generalize well to unseen patients rather than memorizing the training data.</p>
+</section>
+<section id="model-interpretability" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="model-interpretability">Model interpretability</h3>
+<p>Healthcare applications require models that clinicians can understand and trust.</p>
+</section>
+<section id="performance-evaluation" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="performance-evaluation">Performance evaluation</h3>
+<p>Beyond prediction accuracy, calibration and feature stability were important for evaluating model quality.</p>
+</section>
+</div>
+</section>
+<section id="modeling-pipeline" class="level1">
+<h1>Modeling Pipeline</h1>
+<p>The project followed a structured supervised learning workflow from data preparation through model evaluation.</p>
+<div class="architecture-card">
+<div class="architecture-horizontal">
+<div class="architecture-step">
+<div class="step-number">
+1
+</div>
+<div class="step-icon">
+📊
+</div>
+<section id="data-preparation" class="level3">
+<h3 class="anchored" data-anchor-id="data-preparation">Data Preparation</h3>
+<p>Cleaned demographic, behavioral, and clinical variables.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+2
+</div>
+<div class="step-icon">
+🧹
+</div>
+<section id="feature-engineering" class="level3">
+<h3 class="anchored" data-anchor-id="feature-engineering">Feature Engineering</h3>
+<p>Processed predictors and standardized variables.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+3
+</div>
+<div class="step-icon">
+📈
+</div>
+<section id="model-training" class="level3">
+<h3 class="anchored" data-anchor-id="model-training">Model Training</h3>
+<p>Fit logistic regression with LASSO and Ridge regularization.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+4
+</div>
+<div class="step-icon">
+🔄
+</div>
+<section id="cross-validation" class="level3">
+<h3 class="anchored" data-anchor-id="cross-validation">Cross Validation</h3>
+<p>Selected optimal regularization parameters.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+5
+</div>
+<div class="step-icon">
+📉
+</div>
+<section id="model-evaluation" class="level3">
+<h3 class="anchored" data-anchor-id="model-evaluation">Model Evaluation</h3>
+<p>Compared predictive performance and calibration.</p>
+</section>
+</div>
+<div class="flow-arrow-horizontal">
+↓
+</div>
+<div class="architecture-step">
+<div class="step-number">
+6
+</div>
+<div class="step-icon">
+✅
+</div>
+<section id="interpretation" class="level3">
+<h3 class="anchored" data-anchor-id="interpretation">Interpretation</h3>
+<p>Identified the most influential predictors and assessed clinical usefulness.</p>
+</section>
+</div>
+</div>
+<p class="architecture-caption">
+End-to-end machine learning workflow for clinical risk prediction.
+</p>
+</div>
+</section>
+<section id="technical-stack" class="level1">
+<h1>Technical Stack</h1>
+<ul class="skill-pills">
+<li class="skill-pill">
+R
+</li>
+<li class="skill-pill">
+glmnet
+</li>
+<li class="skill-pill">
+Logistic Regression
+</li>
+<li class="skill-pill">
+LASSO
+</li>
+<li class="skill-pill">
+Ridge Regression
+</li>
+<li class="skill-pill">
+Cross Validation
+</li>
+<li class="skill-pill">
+ROC Analysis
+</li>
+<li class="skill-pill">
+Calibration
+</li>
+<li class="skill-pill">
+Feature Selection
+</li>
+</ul>
+</section>
+<section id="what-i-built" class="level1">
+<h1>What I Built</h1>
+<div class="feature-grid">
+<section id="predictive-models" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="predictive-models">Predictive Models</h3>
+<p>Built multiple regularized logistic regression models to predict skin cancer risk while balancing model complexity and interpretability.</p>
+</section>
+<section id="hyperparameter-optimization" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="hyperparameter-optimization">Hyperparameter Optimization</h3>
+<p>Used cross-validation to identify optimal penalty parameters for both LASSO and Ridge regression.</p>
+</section>
+<section id="model-comparison" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="model-comparison">Model Comparison</h3>
+<p>Compared predictive performance, calibration, and feature selection across competing models.</p>
+</section>
+<section id="clinical-interpretation" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="clinical-interpretation">Clinical Interpretation</h3>
+<p>Analyzed selected variables to better understand which patient characteristics contributed most strongly to predicted risk.</p>
+</section>
+</div>
+</section>
+<section id="key-results" class="level1">
+<h1>Key Results</h1>
+<div class="metric-grid">
+<div class="metric-card">
+<div class="metric-icon">
+🩺
+</div>
+<div class="metric-number">
+2
+</div>
+<p>Regularized models compared</p>
+</div>
+<div class="metric-card">
+<div class="metric-icon">
+📊
+</div>
+<div class="metric-number">
+CV
+</div>
+<p>Cross-validation used for model selection</p>
+</div>
+<div class="metric-card">
+<div class="metric-icon">
+📈
+</div>
+<div class="metric-number">
+ML
+</div>
+<p>Interpretable classification framework</p>
+</div>
+</div>
+</section>
+<section id="what-i-learned" class="level1">
+<h1>What I Learned</h1>
+<p>This project reinforced that predictive performance alone is not enough in healthcare applications. Regularization techniques such as LASSO and Ridge help improve generalization while producing models that remain interpretable for clinical decision making.</p>
+<p>I also gained experience evaluating machine learning models beyond simple accuracy by incorporating cross-validation, calibration, and feature selection into the modeling process.</p>
+<section id="full-technical-report" class="level2">
+<h2 class="anchored" data-anchor-id="full-technical-report">Full Technical Report</h2>
+<p>The complete technical report, including methodology, statistical analysis, and model evaluation, is available below.</p>
+<p><a href="skin_cancer_report.pdf" class="btn btn-primary">View Full Report (PDF)</a></p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
