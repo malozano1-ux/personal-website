@@ -6,7 +6,6 @@ listing:
   sort: "date desc"
   grid-columns: 3
   grid-item-border: true
-  fields: [image, title, description, categories]
   sort-ui: [date, title]
   filter-ui: [title, description, categories]
   categories: true
@@ -25,20 +24,35 @@ I use these projects to show how I think through messy data problems: defining t
 ::: {.project-grid}
 
 ::: {.project-card .featured-card}
-<span class="project-type industry">Industry Project</span>
+<span class="project-type industry">Built for Industry</span>
 
 ### AI Investment Education Assistant
 
 <div class="project-tech">Python · Gemini · FAISS · FastAPI</div>
 
-Reduced onboarding response time by **2 days** using a RAG assistant with vector search and compliance guardrails.
+Built a RAG assistant for financial education with vector search and compliance guardrails.
+
+::: {.mini-metrics}
+::: {.mini-metric}
+**2 days**  
+Faster onboarding
+:::
+
+::: {.mini-metric}
+**RAG**  
+Vector search
+:::
+:::
 
 <div class="difficulty-row">
 <span>Difficulty</span>
 <span class="difficulty advanced">Advanced</span>
 </div>
 
-[Read case study →](projects/ai-chatbot.html){.card-link}
+<div class="card-actions">
+[GitHub ↗](https://github.com/malozano1-ux/investment-rag-chatbot){.card-button}
+[Case Study →](projects/ai-chatbot.html){.card-link}
+</div>
 :::
 
 ::: {.project-card .featured-card}
@@ -46,16 +60,31 @@ Reduced onboarding response time by **2 days** using a RAG assistant with vector
 
 ### Click-Through Rate Prediction
 
-<div class="project-tech">Python · CatBoost · Imbalanced Classification</div>
+<div class="project-tech">Python · CatBoost · Classification</div>
 
-Modeled **6M+ ad interactions** and improved ROC-AUC from **0.71 to 0.81**.
+Predicted ad click-through using behavioral features and class imbalance strategies.
+
+::: {.mini-metrics}
+::: {.mini-metric}
+**0.81**  
+ROC-AUC
+:::
+
+::: {.mini-metric}
+**6M+**  
+Interactions
+:::
+:::
 
 <div class="difficulty-row">
 <span>Difficulty</span>
 <span class="difficulty advanced">Advanced</span>
 </div>
 
-[Read case study →](projects/ctr.html){.card-link}
+<div class="card-actions">
+[GitHub ↗](YOUR_CTR_REPO_LINK){.card-button}
+[Case Study →](projects/ctr.html){.card-link}
+</div>
 :::
 
 ::: {.project-card .featured-card}
@@ -65,14 +94,29 @@ Modeled **6M+ ad interactions** and improved ROC-AUC from **0.71 to 0.81**.
 
 <div class="project-tech">R · glmnet · LASSO · Ridge</div>
 
-Built interpretable risk classification models using regularized logistic regression and cross-validation.
+Built interpretable clinical risk models using regularized logistic regression.
+
+::: {.mini-metrics}
+::: {.mini-metric}
+**2**  
+Models compared
+:::
+
+::: {.mini-metric}
+**CV**  
+Model selection
+:::
+:::
 
 <div class="difficulty-row">
 <span>Difficulty</span>
 <span class="difficulty intermediate">Intermediate</span>
 </div>
 
-[Read case study →](projects/skin-cancer.html){.card-link}
+<div class="card-actions">
+[GitHub ↗](YOUR_SKIN_CANCER_REPO_LINK){.card-button}
+[Case Study →](projects/skin-cancer.html){.card-link}
+</div>
 :::
 
 :::

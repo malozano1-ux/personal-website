@@ -154,7 +154,7 @@ main.content {
 }
 
 .featured-card {
-  min-height: 340px;
+  min-height: 430px;
 }
 
 .project-tech {
@@ -199,13 +199,35 @@ main.content {
   border: 1px solid #ddd6fe;
 }
 
+/* Mini metrics inside featured cards */
+.mini-metrics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  margin: 1.1rem 0;
+}
+
+.mini-metric {
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 0.8rem;
+  font-size: 0.85rem;
+}
+
+.mini-metric strong {
+  display: block;
+  font-size: 1.15rem;
+  color: #111827;
+}
+
 /* Difficulty indicators */
 .difficulty-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 0.75rem;
-  margin: 1.1rem 0 1rem 0;
+  margin: auto 0 1rem 0;
   padding-top: 0.85rem;
   border-top: 1px solid #e5e7eb;
   color: #6b7280;
@@ -230,6 +252,27 @@ main.content {
   background: #f0fdf4;
   color: #15803d;
   border: 1px solid #bbf7d0;
+}
+
+/* Card action links */
+.card-actions {
+  display: flex;
+  gap: 0.65rem;
+  align-items: center;
+}
+
+.card-button,
+.card-link {
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.card-button {
+  color: #111827 !important;
+}
+
+.card-link {
+  color: #2563eb !important;
 }
 
 /* Metrics */
@@ -336,6 +379,7 @@ main.content {
   max-width: 850px;
 }
 
+/* Full portfolio listing cards without images */
 .quarto-listing-category {
   font-size: 0.95rem;
 }
@@ -344,16 +388,31 @@ main.content {
   border-radius: 16px !important;
   overflow: hidden;
   box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+  padding: 1.15rem !important;
+  min-height: 260px;
 }
 
 .quarto-grid-item:hover {
   transform: translateY(-4px);
   transition: 0.2s ease;
+  box-shadow: 0 14px 32px rgba(0,0,0,0.08);
 }
 
-.quarto-grid-item img {
-  height: 180px;
-  object-fit: cover;
+.quarto-grid-item img,
+.quarto-grid-item .card-img-top,
+.quarto-grid-item .thumbnail-image {
+  display: none !important;
+}
+
+.quarto-grid-item .card-title {
+  font-weight: 800;
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
+.quarto-grid-item .card-text {
+  font-size: 0.95rem;
+  color: #374151;
 }
 
 /* Case study pages */
@@ -554,6 +613,19 @@ main.content {
 
   .hero-text h2 {
     font-size: 1.3rem;
+  }
+
+  .featured-card {
+    min-height: auto;
+  }
+
+  .mini-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .card-actions {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .architecture-card {
